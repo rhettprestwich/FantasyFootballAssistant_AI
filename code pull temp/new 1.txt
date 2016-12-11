@@ -1,0 +1,38 @@
+        void destroy_train()
+        {
+            if (train_data != NULL)
+            {
+                fann_destroy_train(train_data);
+                train_data = NULL;
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                //fann_destroy_train(train_data);
+				if (train_data == NULL)
+					return;
+				if (train_data->input != NULL)
+					fann_safe_free(train_data->input[0]);
+				if (train_data->output != NULL)
+					fann_safe_free(train_data->output[0]);
+				
+				fann_safe_free(train_data->input);
+			
+				fann_safe_free(train_data->output);
+				
+				fann_safe_free(train_data);
+				
+
+                train_data = NULL;

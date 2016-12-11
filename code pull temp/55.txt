@@ -1,0 +1,112 @@
+#include "netCreator.h"
+
+void theTest();
+
+int main()
+{
+	// Set week:
+	int week = 7;	//--The latest week that stats are available
+
+	// Create NN using my personal class for convienience:
+	netCreator NC(week);
+
+
+	/*
+	//run neural network:
+	getPrediction(net, pInput, NFL);
+
+	//destroy the structures used:
+	tData.destroy_train();
+	net.destroy();
+	*/
+	return 0;
+}
+
+
+
+/*--- FUNCTIONS: ---*/
+/*------------------*/
+
+void theTest()
+{
+	//TESTING:
+	FANN::training_data tempDat;
+	const unsigned int num_data = 4; //the number of training data
+	const unsigned int num_output = 1; //number of outputs per training data
+	const unsigned int num_input = 2; //the number of inputs per training data
+
+	double **tInput = new double*[4];
+	double **output = new double*[4];
+	for (int i = 0; i < 4; ++i)
+	{
+		tInput[i] = new double[2];
+		output[i] = new double[1];
+	}
+	tInput[0][0] = 0;
+	tInput[0][1] = 0;
+	tInput[1][0] = 4;
+	tInput[1][1] = 0;
+	tInput[2][0] = 0;
+	tInput[2][1] = 4;
+	tInput[3][0] = 4;
+	tInput[3][1] = 4;
+
+	double * heyThere = tInput[0];
+	double helloAgain = heyThere[0];
+	helloAgain = tInput[1][0];
+
+	output[0][0] = 0;
+	output[1][0] = 0;
+	output[2][0] = 0;
+	output[3][0] = 15;
+
+	//create training data:
+	FANN::training_data tData;
+	tData.set_train_data(num_data, num_input, tInput, num_output, output);
+
+	const unsigned int num_layers = 3;
+	const unsigned int num_neurons_hidden = 1;
+
+	//create neural network:
+	FANN::neural_net net;
+	net.create_standard(num_layers, num_input, num_neurons_hidden, num_output);
+
+	FANN::training_algorithm_enum a = net.get_training_algorithm();
+
+	//Change parameters of NN: 
+	net.set_activation_function_output(FANN::LINEAR);
+	net.set_training_algorithm(FANN::TRAIN_INCREMENTAL);
+	net.print_parameters();
+
+	tData.save_train("test tester.txt");
+
+
+	const float desired_error = (const float) 0.00001; //the desired get_MSE or get_bit_fail, depending of which stop function is chosen by set_train_stop_function.
+	const unsigned int max_epochs = 50000000; //The maximum number of epochs the training should continue
+	const unsigned int epochs_between_reports = 10000;//The number of epochs between printing a status report to stdout.  A value of zero means no reports should be printed.
+
+	net.set_learning_rate((const float)0.00001);
+
+	//train neural network:
+	net.train_on_data(tData, max_epochs, epochs_between_reports, desired_error);
+
+	std::wofstream myfile("PredictTEST.txt");
+	if (myfile.is_open())
+	{
+		for (int i = 0; i < 4; ++i)
+		{
+			for (int j = 0; j < 2; ++j)
+				myfile << tInput[i][j] << L" ";
+			double * results = net.run(tInput[i]);
+			myfile << L" --> " << *results << std::endl;
+		}
+	}
+
+	tData.destroy_train();
+
+	net.destroy();
+
+
+
+	//END TESTING
+}

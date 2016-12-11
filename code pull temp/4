@@ -1,0 +1,401 @@
+#include "ApiData.h"
+#include <doublefann.h>
+#include <fann_cpp.h>
+#include <deque>
+
+void theTest();
+void reviewAPIData(FootballLeague & NFL);
+double **buildInput(FootballLeague);
+double **buildOutput(FootballLeague);
+void weedOutBadCases(double **& inputs, double **& outputs, unsigned int & numData);
+void getPrediction(FANN::neural_net & net, double ** pInput, FootballLeague & NFL);
+void createTrainingData(FootballLeague NFL, FANN::training_data & tData,
+	double **& pInput, unsigned int & num_data,
+	unsigned int & num_input, unsigned int & num_output);
+void createNeuralNetwork(FANN::neural_net & net,
+	FANN::training_data & tData, unsigned int & num_data,
+	unsigned int & num_input, unsigned int & num_output);
+
+int main()
+{
+	//theTest();
+	//return 0;
+
+	/*------------*/
+	/*--- API: ---*/
+	/*------------*/
+
+	//set the the week:
+	int week; //the latest week that stats are available.
+	week = 7;
+
+	//create the structure for api data:
+	FootballLeague NFL(week);
+
+	// Review data from league (optional):
+	reviewAPIData(NFL);
+
+
+	/*-----------------------*/
+	/*--- NEURAL NETWORK: ---*/
+	/*-----------------------*/
+
+	//create the training data structure:
+	unsigned int num_data; //the number of training data sets
+	unsigned int num_output; //number of outputs per training data
+	unsigned int num_input; //the number of inputs per training data
+	FANN::training_data tData; //the training data structure
+	double ** pInput; //the data to use to retrieve our predition
+	createTrainingData(NFL, tData, pInput, num_data, num_input, num_output);
+
+	//create the Neural Network:
+	FANN::neural_net net; //the neural network structure
+	createNeuralNetwork(net, tData, num_data, num_input, num_output);
+	
+	//run neural network:
+	getPrediction(net, pInput, NFL);
+
+	//destroy the structures used:
+	tData.destroy_train();
+	net.destroy();
+	
+	return 0;
+}
+
+
+
+/*--- FUNCTIONS: ---*/
+/*------------------*/
+
+void theTest()
+{
+	//TESTING:
+	FANN::training_data tempDat;
+	const unsigned int num_data = 4; //the number of training data
+	const unsigned int num_output = 1; //number of outputs per training data
+	const unsigned int num_input = 2; //the number of inputs per training data
+
+	double **tInput = new double*[4];
+	double **output = new double*[4];
+	for (int i = 0; i < 4; ++i)
+	{
+		tInput[i] = new double[2];
+		output[i] = new double[1];
+	}
+	tInput[0][0] = 0;
+	tInput[0][1] = 0;
+	tInput[1][0] = 4;
+	tInput[1][1] = 0;
+	tInput[2][0] = 0;
+	tInput[2][1] = 4;
+	tInput[3][0] = 4;
+	tInput[3][1] = 4;
+
+	double * heyThere = tInput[0];
+	double helloAgain = heyThere[0];
+	helloAgain = tInput[1][0];
+
+	output[0][0] = 0;
+	output[1][0] = 0;
+	output[2][0] = 0;
+	output[3][0] = 15;
+
+	//create training data:
+	FANN::training_data tData;
+	tData.set_train_data(num_data, num_input, tInput, num_output, output);
+
+	const unsigned int num_layers = 3;
+	const unsigned int num_neurons_hidden = 1;
+
+	//create neural network:
+	FANN::neural_net net;
+	net.create_standard(num_layers, num_input, num_neurons_hidden, num_output);
+
+	FANN::training_algorithm_enum a = net.get_training_algorithm();
+
+	//Change parameters of NN: 
+	net.set_activation_function_output(FANN::LINEAR);
+	net.set_training_algorithm(FANN::TRAIN_INCREMENTAL);
+	net.print_parameters();
+
+	tData.save_train("test tester.txt");
+
+
+	const float desired_error = (const float) 0.00001; //the desired get_MSE or get_bit_fail, depending of which stop function is chosen by set_train_stop_function.
+	const unsigned int max_epochs = 50000000; //The maximum number of epochs the training should continue
+	const unsigned int epochs_between_reports = 10000;//The number of epochs between printing a status report to stdout.  A value of zero means no reports should be printed.
+
+	net.set_learning_rate((const float)0.00001);
+
+	//train neural network:
+	net.train_on_data(tData, max_epochs, epochs_between_reports, desired_error);
+
+	std::wofstream myfile("PredictTEST.txt");
+	if (myfile.is_open())
+	{
+		for (int i = 0; i < 4; ++i)
+		{
+			for (int j = 0; j < 2; ++j)
+				myfile << tInput[i][j] << L" ";
+			double * results = net.run(tInput[i]);
+			myfile << L" --> " << *results << std::endl;
+		}
+	}
+
+	tData.destroy_train();
+
+	net.destroy();
+
+
+
+	//END TESTING
+}
+
+void reviewAPIData(FootballLeague & NFL)
+{
+	//NFL.displayLeague(L"DeAndre Washington");
+	
+	std::wofstream myfile("fullStats.txt");
+	if (myfile.is_open())
+	{
+		NFL.printLeague(myfile);
+	}
+	
+}
+
+double **buildInput(FootballLeague F)
+{
+	double ** trainingDataSets = new double*[F.league.size() * (F.latestWeek - 3)]; //the final set to be returned.
+	/*for (int i = 0; i < F.league.size(); ++i)
+		trainingDataSets[i] = new double[141];*/
+	std::deque<double> currentSet; //a queue to manage and record the offsets/overlaps. (1-4, 2-5..)
+	
+	//resize the queue to 141:
+	for (int i = 0; i < 141; ++i)
+		currentSet.push_back(-1.111119);
+
+	//store the data in the nesecary data structure:
+	int count1 = 0; //number of sets recorded.
+	for (auto E : F.league) //for each player in the league.
+	{
+		//---inputs[0] = E.first; 
+		int count2 = -1; //number of weeks processed for that player. -1 because week[0] doesnt count
+		for (auto E2 : E.second.weeklyStats) //for each week for that player.
+		{
+			int count3 = 0; //number of stats processed for that week for that player.
+			if (E.first == NULL)
+				int k = 3;
+			for (auto E3 : E2.statVal) //for each statistic for that week for that player.
+			{
+				//---inputs[count3] = E3;
+				currentSet.push_back(E3);//insert the stat into our temporary set. 
+				currentSet.pop_front(); //maintain a size of 141;
+				++count3; //another statistic has been processed.
+			}
+			++count2; //another week has been processed.
+			if (count2 >= 4) //if "inputs" has read in at least 4 weeks of data. 
+			{				
+				double * inputs = new double[141]; //a temperary array to retrieve stats.
+				//put the player id in the first slot:
+				currentSet.pop_front();
+				currentSet.push_front(E.first);
+				//store the temp set into the return array:
+				for (int j = 0; j < 141; ++j)
+				{
+					inputs[j] = currentSet[j]; //insert all of the elements in the complete set into a 
+													//temperary array b/c 2d dynamic arrays are hard.
+				}
+				trainingDataSets[count1] = new double[141];
+				trainingDataSets[count1] = inputs; //store the recorded stats
+				++count1; //another set recorded.
+			}
+		}
+	}
+	return trainingDataSets; //return the stored stats.
+}
+
+double **buildOutput(FootballLeague F)
+{
+	double ** TDSO = new double*[F.league.size() * (F.latestWeek - 3)]; //the final set to be returned. (trainingDataSetOutput)
+	//for (int i = 0; i < F.league.size(); ++i)
+
+	int count1 = 0; //numer of outputs recorded.
+	for (auto E : F.league) //for each player in the league
+	{
+		//for each week for that player starting at week 5:
+		for (int i = 5; i < E.second.weeklyStats.size(); ++i)
+		{
+			TDSO[count1] = new double[1];
+			double * tempSet = new double[1];
+			tempSet[0] = E.second.weeklyStats[i].statVal[0]; //store the weeks score (statVal[0]).
+			TDSO[count1] = tempSet; //TDSO[0] = p1(w1-4) score w5, [1] = p1(w2-5) score w6, [2] = p1(w3-6) score w7, [3] = p2(w1-4) score w5...
+			++count1;
+		}
+		
+	}
+	return TDSO;
+}
+
+void weedOutBadCases(double **& inputs, double **& outputs, unsigned int & numData)
+{
+	std::vector<double *> tempInput;
+	std::vector<double *> tempOutput;
+
+	for (int i = 0; i < numData; ++i)
+	{
+		bool keepSet = false; //we will remove any set that can't show a number
+		for (int j = 1; j < 141; ++j)//j = 1, because we dont include the player ID in our search.
+		{
+			if (inputs[i][j] > 0.0) //if it shows a number, its a keeper
+				keepSet = true;
+		}
+
+		/*
+		//TEMPORARY, TESTING limited sets:
+		if (outputs[i][0] < 1.0) //get rid of set that doesnt have a score higher than 1
+			keepSet = false;
+		if (i % 20 != 0) //use every tenth set
+			keepSet = false;
+		if (tempInput.size() >= 2) //only use two examples
+			keepSet = false;
+		*/
+
+
+
+		if (keepSet)
+		{
+			//record locations of the good data sets:
+			tempInput.push_back(inputs[i]);
+			tempOutput.push_back(outputs[i]);
+		}
+		else //only delete the actual data if it is a case we dont need:
+		{
+			delete[] inputs[i];
+			delete[] outputs[i];
+		}
+		//reset the original pointers:
+		inputs[i] = NULL;
+		outputs[i] = NULL;
+	}
+	//create new dynamic arrays for the original inputs and 
+	//outputs pointers (because it will likely be a different size):
+	inputs = new double*[tempInput.size()];
+	outputs = new double*[tempOutput.size()];
+
+	//fill the newly created arrays with pointers to the kept data sets:
+	for (int i = 0; i < tempInput.size(); ++i)
+	{
+		inputs[i] = tempInput[i];
+		outputs[i] = tempOutput[i];
+	}
+
+	//update the number of data sets:
+	numData = tempInput.size();
+}
+
+void getPrediction(FANN::neural_net & net, double ** pInput, FootballLeague & NFL)
+{ //passed by refference to improve speed
+	std::wofstream myfile("Predict.txt");
+	if (myfile.is_open())
+	{
+		myfile << L"WEEK " << NFL.latestWeek + 1 << ":" << std::endl << std::endl;
+		for (int i = 0; i < NFL.league.size(); ++i)
+		{
+			int temp1 = static_cast<int>(pInput[i][0]);
+			double * results = net.run(pInput[10]);
+			myfile << i << L"-" << NFL.league[temp1].playerName << L"--" << *results << std::endl;
+		}
+	}
+	double * results = net.run(pInput[10]);
+	std::wcout << *results << std::endl;
+
+	net.save("theNN.txt");
+}
+
+void createTrainingData(FootballLeague NFL, FANN::training_data & tData,
+	double **& pInput, unsigned int & num_data,
+	unsigned int & num_input, unsigned int & num_output)
+{
+	bool testing = false; //-----------------------------
+
+	int week = NFL.latestWeek;
+
+	//set training data value:
+	num_data = NFL.league.size()*(week - 4);
+
+	num_input = 141; //the number of inputs per training data
+	double ** input = buildInput(NFL);
+
+	num_output = 1; //number of outputs per training data
+	double ** output = buildOutput(NFL);
+
+	int theSize = NFL.league.size();
+	int numPlOutpts = week - 4;
+	int numSets = theSize * (week - 3); //the number of sets including the prediction sets
+
+	double ** tInput = new double*[theSize * (week - 4)];  //training. week - 4 because we arent counting the week we want to predict
+	pInput = new double*[theSize]; //predicting
+
+	//"input" has both the training and the prediction sets in it. This loop will seperate
+	//the two. The comments are based on an example with 7 weeks of available stat data:
+	int countT = 0; //number of inputs into tInput
+	int countP = 0; //number of inputs into pInput
+	for (int i = 0; i < numSets; ++i)
+	{
+		for (int j = 0; j < numPlOutpts; ++j) //the first 3 items go into the training sets
+		{
+			tInput[countT] = input[i];
+			++i;
+			++countT;
+		}
+		pInput[countP] = input[i]; //the last item goes into the prediction set
+		++countP;
+	}
+
+	//refine the inputs:
+	weedOutBadCases(tInput, output, num_data);
+
+	//create training data:
+	if (testing == true)
+		tData.read_train_from_file("Training Data Son 2.txt");
+	else
+		tData.set_train_data(num_data, num_input, tInput, num_output, output);
+	tData.save_train("trainDat_beforeClass.txt");
+}
+
+void createNeuralNetwork(FANN::neural_net & net,
+	FANN::training_data & tData, unsigned int & num_data,
+	unsigned int & num_input, unsigned int & num_output)
+{
+	//set neural network values:
+	const unsigned int num_layers = 3; //the total number of layers including the input and the output layer
+	const unsigned int num_neurons_hidden = 141; //number of neurons in the hidden layer
+	const float desired_error = (const float) 0.001; //the desired get_MSE or get_bit_fail, depending of which stop function is chosen by set_train_stop_function.
+	const unsigned int max_epochs = 1000; //The maximum number of epochs the training should continue
+	const unsigned int epochs_between_reports = 100;//The number of epochs between printing a status report to stdout.  A value of zero means no reports should be printed.
+
+	//create neural network:
+	unsigned int lHid[num_layers];
+	for (int i = 1; i < num_layers - 1; ++i)
+		lHid[i] = num_neurons_hidden;
+	lHid[0] = num_input;
+	lHid[num_layers - 1] = num_output;
+
+	net.create_standard_array(num_layers, lHid);
+
+	//change parameters of the network:	
+	net.set_training_algorithm(FANN::TRAIN_INCREMENTAL);
+	net.set_bit_fail_limit(2.5);
+	net.set_learning_rate((const float) .001);
+	net.set_activation_function_output(FANN::LINEAR);
+	net.randomize_weights(-.3, .3);
+
+	//print the parameters of the network:
+	net.print_parameters();
+
+	//save the training instances for looking at:
+	tData.save_train("Training Data Son 2.txt");
+
+	//train neural network:
+	net.train_on_data(tData, max_epochs, epochs_between_reports, desired_error);
+}

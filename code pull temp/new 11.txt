@@ -1,0 +1,36 @@
+
+	double ** tempIn = new double*[4];
+	double ** tempOut = new double*[1];
+
+	{double * tempWorker = new double[2];
+	tempWorker[0] = 0;
+	tempWorker[1] = 0;
+	tempIn[0] = tempWorker; }
+	{double * tempWorker = new double[2];
+	tempWorker[0] = 0;
+	tempWorker[1] = 1;
+	tempIn[1] = tempWorker; }
+	{double * tempWorker = new double[2];
+	tempWorker[0] = 1;
+	tempWorker[1] = 0;
+	tempIn[2] = tempWorker; }
+	{double * tempWorker = new double[2];
+	tempWorker[0] = 1;
+	tempWorker[1] = 1;
+	tempIn[3] = tempWorker; }
+
+	{double * tempWorker = new double[1];
+	tempWorker[0] = 0;
+	tempOut[0] = tempWorker; }
+	{double * tempWorker = new double[1];
+	tempWorker[0] = 0;
+	tempOut[1] = tempWorker; }
+	{double * tempWorker = new double[1];
+	tempWorker[0] = 0;
+	tempOut[2] = tempWorker; }
+	{double * tempWorker = new double[1];
+	tempWorker[0] = 1;
+	tempOut[3] = tempWorker; }
+
+	delete tempIn;
+	delete tempOut;

@@ -1,0 +1,10 @@
+				if (train_data->input != NULL)
+					fann_safe_free(train_data->input[0]);
+				if (train_data->output != NULL)
+					fann_safe_free(train_data->output[0]);
+
+				fann_safe_free(train_data->input);
+
+				fann_safe_free(train_data->output);
+
+				fann_safe_free(train_data);

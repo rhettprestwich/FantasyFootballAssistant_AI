@@ -1,0 +1,83 @@
+	//TESTING:
+	FANN::training_data tempDat;
+	unsigned int n1 = 4; //the number of training data
+	unsigned int n2 = 2; //the number of inputs per training data
+
+	unsigned int n3 = 1; //number of outputs per training data
+
+	double ** tempIn = new double*[4];
+	double ** tempOut = new double*[4];
+
+	{double * tempWorker = new double[2];
+	tempWorker[0] = 0;
+	tempWorker[1] = 0;
+	tempIn[0] = tempWorker; }
+	{double * tempWorker = new double[2];
+	tempWorker[0] = 0;
+	tempWorker[1] = 1;
+	tempIn[1] = tempWorker; }
+	{double * tempWorker = new double[2];
+	tempWorker[0] = 1;
+	tempWorker[1] = 0;
+	tempIn[2] = tempWorker; }
+	{double * tempWorker = new double[2];
+	tempWorker[0] = 1;
+	tempWorker[1] = 1;
+	tempIn[3] = tempWorker; }
+
+	{double * tempWorker = new double[1];
+	tempWorker[0] = 0;
+	tempOut[0] = tempWorker; }
+	{double * tempWorker = new double[1];
+	tempWorker[0] = 0;
+	tempOut[1] = tempWorker; }
+	{double * tempWorker = new double[1];
+	tempWorker[0] = 0;
+	tempOut[2] = tempWorker; }
+	{double * tempWorker = new double[1];
+	tempWorker[0] = 1;
+	tempOut[3] = tempWorker; }
+
+	double **tempIn2 = new double*[4];
+	double **tempOut2 = new double*[4];
+	for (int i = 0; i < 4; ++i)
+	{
+		tempIn2[i] = new double[2];
+		tempOut2[i] = new double[1];
+	}
+	tempIn2[0][0] = 0;
+	tempIn2[0][1] = 0;
+	tempIn2[1][0] = 1;
+	tempIn2[1][1] = 0;
+	tempIn2[2][0] = 0;
+	tempIn2[2][1] = 1;
+	tempIn2[3][0] = 1;
+	tempIn2[3][1] = 1;
+	
+	double * heyThere = tempIn2[0];
+	double helloAgain = heyThere[0];
+	helloAgain = tempIn2[1][0];
+
+	tempOut2[0][0] = 0;
+	tempOut2[1][0] = 0;
+	tempOut2[2][0] = 0;
+	tempOut2[3][0] = 1;
+
+	tempDat.set_train_data(n1, n2, tempIn2, n3, tempOut2);
+
+
+
+
+	tempDat.destroy_train();
+
+
+
+	//END TESTING
+	
+	
+	//ANOTHER TEST:
+	
+	
+	
+	
+	//END THE OTHER TEST

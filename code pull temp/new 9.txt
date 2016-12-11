@@ -1,0 +1,33 @@
+fann_type **buildInput(FootballLeague F)
+{
+	//---fann_type * inputs = new fann_type[35]; //a temperary array to retrieve stats.
+	fann_type ** trainingDataSets = new fann_type*[F.league.size()]; //the final set to be returned.
+	std::queue<fann_type> currentSet; //a queue to manage and record the offsets/overlaps. (1-4, 2-5..)
+
+	int count1 = 0; //number of players recorded.
+	for (auto E : F.league) //for each player in the league.
+	{
+		inputs[0] = E.first; 
+		int count2 = 0; //number of weeks processed for that player.
+		for (auto E2 : E.second.weeklyStats) //for each week for that player.
+		{
+			//---int count3 = 0; //number of stats processed for that week for that player.
+			for (auto E3 : E2.statVal) //for each statistic for that week for that player.
+			{
+				//---inputs[count3] = E3;
+				currentSet.push(E3);//insert the stat into our temporary set. 
+				//---++count3; //another statistic has been processed.
+			}
+			++count2; //another week has been processed.
+			if (count2 >= 3) //if "inputs" has read in 4 new weeks of data.
+			{
+				trainingDataSets[count1] = inputs; //store those inputs.
+				++count1; //another set recorded.
+				for (int i = 1; i < 4; ++i) //record the three offesets from that set
+				{
+					fann_type *
+				}
+			}
+		}
+	}
+	return trainingDataSets; //return the stored stats.

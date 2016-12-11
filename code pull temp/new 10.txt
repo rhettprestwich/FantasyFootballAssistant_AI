@@ -1,0 +1,155 @@
+#include "ApiData.h"
+#include <doublefann.h>
+#include <fann_cpp.h>
+#include <deque>
+
+fann_type **buildInput(FootballLeague);
+fann_type **buildOutput(FootballLeague);
+
+int main()
+{
+	//---the API:
+	//get latest week:
+	int week;
+	week = 1;
+	/*std::cout << "What is the Latest Week NFL Stats are Available? ";
+	std::cin >> week;*/
+
+	//create the structure for api data:
+	FootballLeague NFL(week);
+
+
+
+	//---the neural network:
+	//training data value:
+	unsigned int num_data = NFL.league.size();
+	unsigned int num_input = 35 * 4;
+	fann_type ** input = buildInput(NFL);
+	unsigned int num_output = 1;
+	fann_type ** output = buildOutput(NFL);
+
+	//neural network values:
+	const unsigned int num_layers = 3;
+	const unsigned int num_neurons_hidden = 3;
+	const float desired_error = (const float) 0.001;
+	const unsigned int max_epochs = 500000;
+	const unsigned int epochs_between_reports = 1000;
+
+	double * statArray = new double[5];
+	double ** playerArray = new double*[10];
+	
+	for (int j = 0; j < 10; ++j)
+	{
+		for (int i = 0; i < 5; ++i)
+		{
+			statArray[i] = i + 0.15;
+		}
+		playerArray[j] = statArray;
+	}
+	
+	fann_type ** inputTemp = playerArray;
+
+	int ssdf = 32;
+
+	/*-----
+	//create training data:
+	FANN::training_data tData;
+	tData.set_train_data(num_data, num_input, input, num_output, output);
+
+	//create neural network:
+	FANN::neural_net net;
+	net.create_standard(3, 2, 3, 1);
+
+	//train neural network:
+
+
+	-----*/
+	
+	/*
+	NFL.displayLeague(L"LeSean McCoy");
+
+	std::wofstream myfile("fullStats.txt");
+	if (myfile.is_open())
+	{
+		NFL.printLeague(myfile);
+	}
+	*/
+	
+	//std::wcout << L"Calling IterateJSONValue..." << std::endl;
+	//IterateJSONValue();
+	return 0;
+}
+
+
+//ToDo: handle each instance where there isnt a stat. ie when that player didn't get that stat that week. 
+//maybe: if(E3.isNull) current set.push(0.0).
+
+fann_type **buildInput(FootballLeague F)
+{
+	fann_type * inputs = new fann_type[140]; //a temperary array to retrieve stats.
+	fann_type ** trainingDataSets = new fann_type*[F.league.size()]; //the final set to be returned.
+	for (int i = 0; i < F.league.size(); ++i)
+		trainingDataSets[i] = new fann_type[140];
+	std::deque<fann_type> currentSet; //a queue to manage and record the offsets/overlaps. (1-4, 2-5..)
+	
+	//resize the queue to 140:
+	for (int i = 0; i < 140; ++i)
+		currentSet.push_back(-1.111119);
+
+	//store the data in the nesecary data structure:
+	int count1 = 0; //number of players recorded.
+	for (auto E : F.league) //for each player in the league.
+	{
+		//---inputs[0] = E.first; 
+		int count2 = 0; //number of weeks processed for that player.
+		for (auto E2 : E.second.weeklyStats) //for each week for that player.
+		{
+			//---int count3 = 0; //number of stats processed for that week for that player.
+			if (E.first == NULL)
+				int k = 3;
+			currentSet.push_back(E.first);//insert the player id before the other statistics.
+			currentSet.pop_front(); //maintain a size of 140;
+			for (auto E3 : E2.statVal) //for each statistic for that week for that player.
+			{
+				//---inputs[count3] = E3;
+				currentSet.push_back(E3);//insert the stat into our temporary set. 
+				currentSet.pop_front(); //maintain a size of 140;
+				//---++count3; //another statistic has been processed.
+			}
+			++count2; //another week has been processed.
+			if (count2 >= 4) //if "inputs" has read in at least 4 weeks of data. 
+			{				//It is count2 >= 4, instead fo count2 >= 3 because we don't store a weekly set on week 0. 
+				//store the temp set into the return array:
+				for (int j = 0; j < 140; ++j)
+				{
+					inputs[j] = currentSet[j]; //insert all of the elements in the complete set into a 
+													//temperary array b/c 2d dynamic arrays are hard.
+				}
+				trainingDataSets[count1] = inputs; //store the recorded stats
+				++count1; //another set recorded.
+			}
+		}
+	}
+	return trainingDataSets; //return the stored stats.
+}
+
+
+fann_type **buildOutput(FootballLeague F)
+{
+	fann_type ** TDSO = new fann_type*[F.league.size()]; //the final set to be returned. (trainingDataSetOutput)
+	for (int i = 0; i < F.league.size(); ++i)
+		TDSO[i] = new fann_type[6];
+	fann_type * tempSet = new fann_type[1];
+
+	int count1 = 0; //numer of outputs recorded.
+	for (auto E : F.league) //for each player in the league
+	{
+		//for each week for that player starting at week 5:
+		for (int i = 5; i < E.second.weeklyStats.size(); ++i)
+		{
+			tempSet[0] = E.second.weeklyStats[i].statVal[0]; //store the weeks score (statVal[0]).
+			TDSO[i - 5] = tempSet; //TDSO[0] = p1(w1-4) score w5, [1] = p1(w2-5) score w6, [2] = p1(w3-6) score w7, [3] = p2(w1-4) score w5...
+		}
+	}
+	return TDSO;
+}
