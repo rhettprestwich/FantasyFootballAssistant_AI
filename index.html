@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Fantasyfootballassistant ai by rhettprestwich</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Fantasyfootballassistant ai</h1>
+      <h2 class="project-tagline">An implementation of a neural network to predict NFL player performance</h2>
+      <a href="https://github.com/rhettprestwich/FantasyFootballAssistant_AI" class="btn">View on GitHub</a>
+      <a href="https://github.com/rhettprestwich/FantasyFootballAssistant_AI/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/rhettprestwich/FantasyFootballAssistant_AI/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="introduction" class="anchor" href="#introduction" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Introduction</h1>
+
+<p>To be successful at fantasy football, you must have luck, a good amount of free time, or an uncanny ability to notice patterns within vast amounts of data. I don’t have any of those. This project is an attempt to redeem my current fantasy football team, and save time and frustration in my participation in future leagues. To do this, I use a neural network.</p>
+
+<h1>
+<a id="problem-description" class="anchor" href="#problem-description" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Problem Description</h1>
+
+<p>I am fairly new to the fantasy football scene. Football has always been an interest of mine, but it wasn’t until last year that I started participating in fantasy football leagues. The first thing I noticed upon joining my first league, is there are a great number of statistics for each player. These statistics range from the obvious (number of passing completions) to the obscure (number of blocked kicks that resulted in touchdowns). The objective is to use these statistics to decide who you should add or drop from your fantasy team. The goal is to build a team of players that will outperform the players in the opposing team in the upcoming games. The players are assigned “fantasy points” as a measure of their performance each week. </p>
+
+<h3></h3>
+
+<p>Deciding which statistics to base my team management decisions on is no simple task. I often feel like I am not utilizing my full decision making potential when I just focus on a few of the stats. Neural networks can be the solution to this. They are not only great for noticing statistical patterns, they can also process a lot of data very quickly. I have created a program that pulls NFL statistics from an API and implemented a neural network that can process that data to predict player performance. </p>
+
+<h1>
+<a id="method" class="anchor" href="#method" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Method</h1>
+
+<p>The first challenge when implementing the neural network, is how do you organize the data to optimize training? Fig 1 shows a simple breakdown of the statistics.
+<img src="FantasyFootballAssistant_AI/Breakdown.jpg" alt="Fig 1. Breakdown of NFL player statistic organization"></p>
+
+<h3></h3>
+
+<p>The data is added upon weekly. In order to create a consistent neural network, it would be beneficial to include as many training sets as possible. To accomplish this, I organized the data into training sets as shown in Fig 2.
+<img src="FantasyFootballAssistant_AI/Organization.jpg" alt="Fig 2. Organization of data sets for training neural network"></p>
+
+<h3></h3>
+
+<p>Each training set consisted of four weeks of a players statistics for input, and the amount of fantasy points that player earned during the week following for output. This arrangement makes the relationship between the input and output nodes one that is based in time relativity. It trains the network to predict the fantasy points a player will get, based on that players statistics from the last four weeks. This model works well for this problem as a players performance is typically patterned after their recent experience. </p>
+
+<h3></h3>
+
+<p>The output of the data was altered slightly in order to simplify the problem and help the neural network converge. Each output is a Boolean value stating whether the player would earn more that 15 fantasy points in the upcoming week. This alteration allowed the neural network to converge easily, and was not much of a concession as our goal has been to predict which players will do well in the following week.  </p>
+
+<h1>
+<a id="results" class="anchor" href="#results" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Results</h1>
+
+<p>The results of the neural network were tested with a 25-fold cross-validation technique. The results varied depending on the number of training sets it was given. Fig 3 shows the results of the validation tests with respect to how many weeks of data it was given. 
+<img src="FantasyFootballAssistant_AI/Chart.jpg" alt="Fig 3. Neural network accuracy vs weeks given"></p>
+
+<h3></h3>
+
+<p>Since the data organization model requires 5 weeks of data per training set, the network is useful for predicting player points from weeks 6 through the end of the regular season. As you can see in Fig 3. the network saw a big increase in accuracy between the first and second groups. The accuracy does not improve much beyond that, although it does continue to get more precise, as the range of accuracies throughout the cross-validations trend down.</p>
+
+<h1>
+<a id="conclusion" class="anchor" href="#conclusion" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Conclusion</h1>
+
+<p>The neural network performs well in fantasy football predicting capacity, granted it is given enough training sets. The model of the training sets are of importance as well. With this particular training set model, an increase in training sets did not improve the accuracy much, beyond the first group. But, that increase did have a significant improvement on the network’s precision. </p>
+
+<h1>
+<a id="resources" class="anchor" href="#resources" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Resources</h1>
+
+<pre><code>[1] FANN (Fast Artificial Neural Network Library), C++ neural network library - http://leenissen.dk/fann/wp/
+[2] C++ Rest SDK, C++ API JSON retrieval – Microsoft
+</code></pre>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/rhettprestwich/FantasyFootballAssistant_AI">Fantasyfootballassistant ai</a> is maintained by <a href="https://github.com/rhettprestwich">rhettprestwich</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
