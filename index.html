@@ -27,9 +27,7 @@
 <h1>
 <a id="problem-description" class="anchor" href="#problem-description" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Problem Description</h1>
 
-<p>I am fairly new to the fantasy football scene. Football has always been an interest of mine, but it wasn’t until last year that I started participating in fantasy football leagues. The first thing I noticed upon joining my first league, is there are a great number of statistics for each player. These statistics range from the obvious (number of passing completions) to the obscure (number of blocked kicks that resulted in touchdowns). The objective is to use these statistics to decide who you should add or drop from your fantasy team. The goal is to build a team of players that will outperform the players in the opposing team in the upcoming games. The players are assigned “fantasy points” as a measure of their performance each week. </p>
-
-<h3></h3>
+<p>I am fairly new to the fantasy football scene. Football has always been an interest of mine, but it wasn’t until last year that I started participating in fantasy football leagues. The first thing I noticed upon joining my first league, is there are a great number of statistics for each player. These statistics range from the obvious (number of passing completions) to the obscure (number of blocked kicks that resulted in touchdowns). The objective is to use these statistics to decide who you should add or drop from your fantasy team. The goal is to build a team of players that will outperform the players in the opposing team in the upcoming games. The players are assigned “fantasy points” as a measure of their performance each week.  </p>
 
 <p>Deciding which statistics to base my team management decisions on is no simple task. I often feel like I am not utilizing my full decision making potential when I just focus on a few of the stats. Neural networks can be the solution to this. They are not only great for noticing statistical patterns, they can also process a lot of data very quickly. I have created a program that pulls NFL statistics from an API and implemented a neural network that can process that data to predict player performance. </p>
 
@@ -39,8 +37,9 @@
 <p>The first challenge when implementing the neural network, is how do you organize the data to optimize training? Fig 1 shows a simple breakdown of the statistics.<br>
 <img src="https://github.com/rhettprestwich/FantasyFootballAssistant_AI/blob/master/Break%20Down.png" alt="Fig 1. break down of NFL statistic organization">  </p>
 
-<p>The data is added upon weekly. In order to create a consistent neural network, it would be beneficial to include as many training sets as possible. To accomplish this, I organized the data into training sets as shown in Fig 2.
-<img src="FantasyFootballAssistant_AI/Organization.jpg" alt="Fig 2. Organization of data sets for training neural network">  </p>
+<p>The data is added upon weekly. In order to create a consistent neural network, it would be beneficial to include as many training sets as possible. To accomplish this, I organized the data into training sets as shown in Fig 2.  </p>
+
+<p><img src="FantasyFootballAssistant_AI/Organization.jpg" alt="Fig 2. Organization of data sets for training neural network">  </p>
 
 <p>Each training set consisted of four weeks of a players statistics for input, and the amount of fantasy points that player earned during the week following for output. This arrangement makes the relationship between the input and output nodes one that is based in time relativity. It trains the network to predict the fantasy points a player will get, based on that players statistics from the last four weeks. This model works well for this problem as a players performance is typically patterned after their recent experience.   </p>
 
@@ -49,9 +48,11 @@
 <h1>
 <a id="results" class="anchor" href="#results" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Results</h1>
 
-<p>The results of the neural network were tested with a 25-fold cross-validation technique. The results varied depending on the number of training sets it was given. Fig 3 shows the results of the validation tests with respect to how many weeks of data it was given.<br>
-<img src="FantasyFootballAssistant_AI/Chart.jpg" alt="Fig 3. Neural network accuracy vs weeks given"><br>
-Since the data organization model requires 5 weeks of data per training set, the network is useful for predicting player points from weeks 6 through the end of the regular season. As you can see in Fig 3. the network saw a big increase in accuracy between the first and second groups. The accuracy does not improve much beyond that, although it does continue to get more precise, as the range of accuracies throughout the cross-validations trend down.</p>
+<p>The results of the neural network were tested with a 25-fold cross-validation technique. The results varied depending on the number of training sets it was given. Fig 3 shows the results of the validation tests with respect to how many weeks of data it was given.  </p>
+
+<p><img src="FantasyFootballAssistant_AI/Chart.jpg" alt="Fig 3. Neural network accuracy vs weeks given">  </p>
+
+<p>Since the data organization model requires 5 weeks of data per training set, the network is useful for predicting player points from weeks 6 through the end of the regular season. As you can see in Fig 3. the network saw a big increase in accuracy between the first and second groups. The accuracy does not improve much beyond that, although it does continue to get more precise, as the range of accuracies throughout the cross-validations trend down.</p>
 
 <h1>
 <a id="conclusion" class="anchor" href="#conclusion" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Conclusion</h1>
