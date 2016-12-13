@@ -37,30 +37,21 @@
 <a id="method" class="anchor" href="#method" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Method</h1>
 
 <p>The first challenge when implementing the neural network, is how do you organize the data to optimize training? Fig 1 shows a simple breakdown of the statistics.<br>
-<img src="https://github.com/rhettprestwich/FantasyFootballAssistant_AI/blob/master/Break%20Down.png" alt="stoooop"></p>
-
-<h3></h3>
+<img src="https://github.com/rhettprestwich/FantasyFootballAssistant_AI/blob/master/Break%20Down.png" alt="Fig 1. break down of NFL statistic organization">  </p>
 
 <p>The data is added upon weekly. In order to create a consistent neural network, it would be beneficial to include as many training sets as possible. To accomplish this, I organized the data into training sets as shown in Fig 2.
-<img src="FantasyFootballAssistant_AI/Organization.jpg" alt="Fig 2. Organization of data sets for training neural network"></p>
+<img src="FantasyFootballAssistant_AI/Organization.jpg" alt="Fig 2. Organization of data sets for training neural network">  </p>
 
-<h3></h3>
-
-<p>Each training set consisted of four weeks of a players statistics for input, and the amount of fantasy points that player earned during the week following for output. This arrangement makes the relationship between the input and output nodes one that is based in time relativity. It trains the network to predict the fantasy points a player will get, based on that players statistics from the last four weeks. This model works well for this problem as a players performance is typically patterned after their recent experience. </p>
-
-<h3></h3>
+<p>Each training set consisted of four weeks of a players statistics for input, and the amount of fantasy points that player earned during the week following for output. This arrangement makes the relationship between the input and output nodes one that is based in time relativity. It trains the network to predict the fantasy points a player will get, based on that players statistics from the last four weeks. This model works well for this problem as a players performance is typically patterned after their recent experience.   </p>
 
 <p>The output of the data was altered slightly in order to simplify the problem and help the neural network converge. Each output is a Boolean value stating whether the player would earn more that 15 fantasy points in the upcoming week. This alteration allowed the neural network to converge easily, and was not much of a concession as our goal has been to predict which players will do well in the following week.  </p>
 
 <h1>
 <a id="results" class="anchor" href="#results" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Results</h1>
 
-<p>The results of the neural network were tested with a 25-fold cross-validation technique. The results varied depending on the number of training sets it was given. Fig 3 shows the results of the validation tests with respect to how many weeks of data it was given. 
-<img src="FantasyFootballAssistant_AI/Chart.jpg" alt="Fig 3. Neural network accuracy vs weeks given"></p>
-
-<h3></h3>
-
-<p>Since the data organization model requires 5 weeks of data per training set, the network is useful for predicting player points from weeks 6 through the end of the regular season. As you can see in Fig 3. the network saw a big increase in accuracy between the first and second groups. The accuracy does not improve much beyond that, although it does continue to get more precise, as the range of accuracies throughout the cross-validations trend down.</p>
+<p>The results of the neural network were tested with a 25-fold cross-validation technique. The results varied depending on the number of training sets it was given. Fig 3 shows the results of the validation tests with respect to how many weeks of data it was given.<br>
+<img src="FantasyFootballAssistant_AI/Chart.jpg" alt="Fig 3. Neural network accuracy vs weeks given"><br>
+Since the data organization model requires 5 weeks of data per training set, the network is useful for predicting player points from weeks 6 through the end of the regular season. As you can see in Fig 3. the network saw a big increase in accuracy between the first and second groups. The accuracy does not improve much beyond that, although it does continue to get more precise, as the range of accuracies throughout the cross-validations trend down.</p>
 
 <h1>
 <a id="conclusion" class="anchor" href="#conclusion" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Conclusion</h1>
