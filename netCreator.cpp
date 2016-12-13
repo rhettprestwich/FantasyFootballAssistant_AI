@@ -3,7 +3,6 @@
 void netCreator::setGenParams()
 {
 	// General Parameters:
-	validationPercent = .2;
 	alterations = true;		//--True when running a temporary alteration of program for analysis
 	testing = false;		//--True when wanting to pull from stored stats vs. api stats
 	overRide = false;
@@ -15,7 +14,7 @@ void netCreator::setGenParams()
 	num_neurons_hidden = 20;			//--The number of neurons in the hidden layer
 	desired_error = (float) 0.00001;	//--The desired get_MSE or get_bit_fail, depending of which stop function is chosen by set_train_stop_function.
 	max_epochs = 300000;			//--The maximum number of epochs the training should continue
-	epochs_between_reports = 0;	//--The number of epochs between printing a status report to stdout.  A value of zero means no reports should be printed.	
+	epochs_between_reports = 1000;	//--The number of epochs between printing a status report to stdout.  A value of zero means no reports should be printed.	
 
 	// When testing simple example:
 	/*
@@ -32,7 +31,7 @@ void netCreator::setNetworkParams()
 	// Neural Network Parameters:	
 	net.set_training_algorithm(FANN::TRAIN_INCREMENTAL);	//--Set the training algorithm.
 	//net.set_bit_fail_limit(.35);							//--Set the bit fail limit used during training.
-	net.set_learning_rate((const float) 1.0);				//--Set the learning rate.
+	net.set_learning_rate((const float) 0.1);				//--Set the learning rate.
 	net.set_activation_function_output(FANN::SIGMOID);		//--Set the activation function for the output layer.
 	net.randomize_weights(-.1, .1);							//--Give each connection a random weight between min_weight and max_weight
 	net.set_train_error_function(FANN::ERRORFUNC_LINEAR);
@@ -59,10 +58,10 @@ void netCreator::setImpliedParams()
 //------------------------------------------------------------------------------------------------------
 netCreator::netCreator(int inputWeek) : week(inputWeek), NFL(inputWeek)
 {
-	startUp(false);
+	startUp(false, 0);
 }
 
-void netCreator::startUp(bool NFLcopied)
+void netCreator::startUp(bool NFLcopied, int numRun)
 {
 	/*------------*/
 	/*--- API: ---*/
@@ -72,9 +71,13 @@ void netCreator::startUp(bool NFLcopied)
 	if (!NFLcopied)
 		NFL.getTheStats();
 
+	makeStatRef();
+
 	/*-----------------------*/
 	/*--- NEURAL NETWORK: ---*/
 	/*-----------------------*/
+	if (numRun == 0)
+		std::wcout << L"	~Organizing Data..." << std::endl << std::endl;
 
 	//set parameters:
 	setGenParams();
@@ -88,11 +91,21 @@ void netCreator::startUp(bool NFLcopied)
 	FANN::training_data tData;
 	createTrainingData(tData);
 
+	print_keptStatRef();
+	if (numRun == 0)
+		std::wcout << L"	~Training Neural Network..." << std::endl << std::endl;
 	//create the Neural Network:
 	createNeuralNetwork(tData);
 
+	if (numRun == 0)
+		std::wcout << L"	~Validating Neural Network..." << std::endl << std::endl;
 	//test/validate neural network:
-	validateNN();
+	if (validationPercent > 0.0001)
+		validateNN(numRun);
+	if (numRun > 20)
+	{
+		getPrediction();
+	}
 
 	//run neural network:
 	//getPrediction(); --needs fixing
@@ -102,9 +115,11 @@ void netCreator::startUp(bool NFLcopied)
 	net.destroy();
 }
 
-netCreator::netCreator(FootballLeague NFLin, int in_week) : NFL(NFLin), week(in_week)
+netCreator::netCreator(FootballLeague NFLin, int in_week, int numRun, double valPerc) : NFL(NFLin), week(in_week)
 {
-	startUp(true);
+	validationPercent = valPerc;
+	startUp(true, numRun);
+
 }
 
 void netCreator::reviewAPIData()
@@ -160,6 +175,7 @@ double ** netCreator::buildInput()
 			for (auto E3 : E2.statVal) //for each statistic for that week for that player.
 			{
 				//---inputs[count3] = E3;
+				//if the stat name is there:
 				currentSet.push_back(E3);//insert the stat into our temporary set. 
 				currentSet.pop_front(); //maintain a size of 141;
 				++count3; //another statistic has been processed.
@@ -249,6 +265,7 @@ void netCreator::weedOutBadCases(FANN::training_data & T)
 {
 	double ** tempIn = new double* [T.length_train_data()];
 	double ** tempOut = new double*[T.length_train_data()];
+
 	double ** tempReadI = T.get_input();
 	double ** tempReadO = T.get_output();
 	for (unsigned int i = 0; i < T.length_train_data(); ++i) //copies the actual values, not the pointers.
@@ -335,8 +352,12 @@ void netCreator::weedOutBadCases(double **& ins, double **& outs)
 void netCreator::weedOutBadStats(double **& ins, double **& outs)
 {
 	std::vector<std::vector<double>> tempIn; //a vector to help us remove a stat from each input set
+	std::vector<std::vector<double>> tempPIn; //a vector to help us remove a stat from each Pinput set
+
 	tempIn.resize(num_data); //we can size the main part of the vector since this method does not alter the number of sets, it only alters the number of stats in each set.
 	//important: tempIn is indexed the same as the dynamic arrays, although it may not see like it.
+	tempPIn.resize(num_data_predict);
+
 
 	// Record how many cases have used each particular stat:
 	std::vector<int> statUsedCount; //a vector to keep track of the count for each stat. 
@@ -373,6 +394,12 @@ void netCreator::weedOutBadStats(double **& ins, double **& outs)
 			//	keepStat[i] = false;
 		}
 
+		//record which stat was being kept:
+		if (keepStat[i])
+		{
+			statsKept.push_back(i);
+			keptStatRef.push_back(statRef[(i-1) % 35]);
+		}
 	//=========================================================
 		//process of removing unwanted stats:
 		for (unsigned int j = 0; j < num_data; ++j) //loop through each set
@@ -381,6 +408,15 @@ void netCreator::weedOutBadStats(double **& ins, double **& outs)
 			{
 				tempIn[j].push_back(ins[j][i]);//reading from original dynamic array
 			} //tempIn[j].size() should equal tempIn[j + 1].size()
+		}
+
+
+		for (unsigned int j = 0; j < num_data_predict; ++j) //loop through each set
+		{
+			if (keepStat[i])//record the value of the good stats
+			{
+				tempPIn[j].push_back(pInput[j][i]);//reading from original dynamic array
+			} 
 		}
 	}
 
@@ -398,6 +434,20 @@ void netCreator::weedOutBadStats(double **& ins, double **& outs)
 			ins[i][j] = tempIn[i][j];
 		}
 	}
+
+
+	//refine pInput:
+	for (unsigned int i = 0; i < num_data_predict; ++i)//loop through all of the data sets
+	{
+		//delete the original dynamic array, and create a new one with the new size:
+		delete[] pInput[i];
+		pInput[i] = new double[tempPIn[0].size()];
+
+		for (unsigned int j = 0; j < num_input; ++j)//loop through all of the stats for that set
+		{
+			pInput[i][j] = tempPIn[i][j];
+		}
+	}
 }
 
 void netCreator::getPrediction()
@@ -408,6 +458,7 @@ void netCreator::getPrediction()
 	std::wofstream myfile("thePrediction.txt");
 	if (myfile.is_open())
 	{
+		/*
 		if (alterations)
 		{
 			//testSimple(); //----------------------------x12
@@ -428,35 +479,54 @@ void netCreator::getPrediction()
 			net.save("theNN.txt");
 			return;
 		}
-		else
+		 */
+
+		myfile << L"WEEK " << week + 1 << " Predictions:" << std::endl << std::endl;
+		std::wcout << L"WEEK " << week + 1 << " Predictions:" << std::endl;
+
+		for (unsigned int i = 0; i < NFL.league.size(); ++i) //for each player in the league
 		{
-			myfile << L"WEEK " << week + 1 << ":" << std::endl << std::endl;
-			for (unsigned int i = 0; i < NFL.league.size(); ++i) //for each player in the league
+
+			int temp1 = static_cast<int>(pInput[i][0]);
+			pInput[i][0] /= highestID;
+			double * results = net.run(pInput[i]);
+
+			std::wstring decision;
+
+			if (*results > 0.5)
+				{
+					decision = L" ** START **";
+				}
+			else
+				{
+					decision = L"sit";
+				}
+
+			myfile << i << L" - " << temp1 << L"--" << NFL.league[temp1].playerName << L" -- " << decision << std::endl;
+			std::wcout << i << L" - " << temp1 << L"--" << NFL.league[temp1].playerName << L" -- " << decision << std::endl;
+			/*
+			if (!testing)
 			{
-
-				int temp1 = static_cast<int>(pInput[i][0]);
-				double * results = net.run(pInput[10]);
-
-				myfile << i << L"--" << temp1 << L"-" << NFL.league[temp1].playerName << L"--" << *results << std::endl;
-				/*
-				if (!testing)
-				{
-				if (predfile.is_open())
-				{
-				for (int j = 0; j < num_input; ++j)
-				{
-				predfile << pInput[i][j] << L" ";
-				}
-				predfile << std::endl;
-				}
-				}
-				*/
+			if (predfile.is_open())
+			{
+			for (int j = 0; j < num_input; ++j)
+			{
+			predfile << pInput[i][j] << L" ";
 			}
+			predfile << std::endl;
+			}
+			}
+			*/
 		}
+		std::wcout << std::endl << L"**players marked \"start\" are predicted" << std::endl <<
+			L"  to score MORE than 15 fantasy points in week " << week + 1 << std::endl;
+		std::wcout << L"**players marked \"sit\" are predicted" << std::endl <<
+			L"  to score LESS than 15 fantasy points in week " << week + 1 << std::endl <<std::endl;
 	}
-	double * results = net.run(pInput[10]);
-	std::wcout << *results << std::endl;
+	//double * results = net.run(pInput[10]);
+	//std::wcout << *results << std::endl;
 
+	myfile.close();
 	net.save("theNN.txt");
 }
 
@@ -490,6 +560,7 @@ void netCreator::createTrainingData(FANN::training_data & tData)
 		pInput[countP] = input[i]; //the last item goes into the prediction set
 		++countP;
 	}
+	num_data_predict = countP;
 
 	if (num_data == 0)
 		throw std::exception("No training set's are given to train the NN.");
@@ -507,13 +578,14 @@ void netCreator::createTrainingData(FANN::training_data & tData)
 	weedOutBadCases(tInput, output);
 
 	//scale the stats:
-	scaleStats(tInput, output);
+	scaleStats(tInput, output, pInput);
 
 	if (num_data == 0)
 		throw std::exception("Statistic and Case Filtering Have Removed All Training Sets. tiny rick.");
 
 	//split for validation:
-	splitSets(tInput, output);
+	if (validationPercent > 0.001)
+		splitSets(tInput, output);
 
 	/*
 	//record the stats: (temporary) //-----------x12
@@ -639,7 +711,7 @@ void netCreator::testSimple()
 	}
 }
 
-void netCreator::scaleStats(double **& ins, double **& outs)
+void netCreator::scaleStats(double **& ins, double **& outs, double **& pins)
 {
 	std::vector<double> highestStatVal;
 	highestStatVal.resize(num_input);
@@ -653,9 +725,27 @@ void netCreator::scaleStats(double **& ins, double **& outs)
 		for (int j = 0; j < num_data; ++j)
 		{
 			if (highestStatVal[i] < ins[j][i])
+			{
 				highestStatVal[i] = ins[j][i];
+				if (i == 0)
+					highestID = highestStatVal[i];
+			}
+
+		}
+
+		//loop through all of the prediciottion stats:
+		for (int j = 0; j < NFL.league.size(); ++j)
+		{
+			if (highestStatVal[i] < pins[j][i])
+			{
+				highestStatVal[i] = pins[j][i];
+				if (i == 0)
+					highestID = highestStatVal[i];
+			}
 		}
 	}
+
+
 
 	//loop through all of the sets:
 	for (int i = 0; i < num_data; ++i)
@@ -666,6 +756,18 @@ void netCreator::scaleStats(double **& ins, double **& outs)
 			//divide each stat by the highest of that stat:
 			double temp = ins[i][j] / highestStatVal[j];
 			ins[i][j] = temp;
+		}
+	}
+
+	//loop through all of the prediction sets:
+	for (int i = 0; i < NFL.league.size(); ++i)
+	{
+		//loop through all of the stats:
+		for (int j = 1; j < num_input; ++j) //except id
+		{
+			//divide each stat by the highest of that stat:
+			double temp = (pins[i][j] / highestStatVal[j]);
+			pins[i][j] = temp;
 		}
 	}
 }
@@ -719,27 +821,178 @@ void netCreator::splitSets(double **& ins, double **& outs)
 	num_data = num_data_train;
 }
 
-void netCreator::validateNN()
+void netCreator::validateNN(int foldId)
 {
+
 	int num_correct = 0;
+	falseNegatives = 0.0;
+	falsePositives = 0.0;
+	trueNegatives = 0.0;
+	truePositives = 0.0;
+	num_pos = 0;
+	num_neg = 0;
+	num_pos = 0;
+	num_neg = 0;
+	num_tp = 0;
+	num_fp = 0;
+	num_tn = 0;
+	num_fn = 0;
+
 	for (int i = 0; i < num_data_test; ++i) //for each testing set
 	{
 		double * test_output = net.run(testInput[i]);
 		if (testOutput[i][0] > 0.999) //if the nominal value is (about) 1
 		{
+			++num_pos;
 			if (*test_output > 0.5)
+			{
 				++num_correct;
+				truePositives += 1.0;
+				++num_tp;
+			}
+			else
+			{
+				falseNegatives += 1.0;
+				++num_fn;
+
+			}
 		}
 		else
 		{
+			++num_neg;
 			if (*test_output <= 0.5)
+			{
 				++num_correct;
+				trueNegatives += 1.0;
+				++num_tn;
+			}
+			else
+			{
+				falsePositives += 1.0;
+				++num_fp;
+			}
 		}
 	}
 
 	double percent_correct = static_cast<double>(num_correct) / static_cast<double>(num_data_test);
 	percent_correct *= 100.0;
+	if (num_pos == 0)
+	{
+		if (falsePositives < 0.1)
+		{
+			truePositives = 100.0;
+			falseNegatives = 0.0;
+		}
+		else //show the number in negative
+		{
+			truePositives = 0.0; //this should never happen
+			falsePositives = 100.0;
+		}
+	}
+	else
+	{
+		if (falsePositives + truePositives < 0.1) //if it never guessed positive
+		{
+			falsePositives = 1;
+			truePositives = 1;
+		}
+		double fP = falsePositives;
+		double tP = truePositives;
+		truePositives /=  (tP + fP); //how many times was it right when it guessed positive
+		falsePositives /= (tP + fP);
+		truePositives  *= 100.0;
+		falsePositives *= 100.0;
+	}
+	double tN = trueNegatives;
+	double fN = falseNegatives;
+	trueNegatives /=  (tN + fN);
+	falseNegatives /= (tN + fN);
 
-	std::wcout << L"--accuracy: " << percent_correct << L"%"<< std::endl;
+	trueNegatives *= 100.0;
+	falseNegatives *= 100.0;
+
+	//std::wcout << std::endl << L"-true positives: " << truePositives << L"%" << std::endl;
+	//std::wcout << L"-true negatives: " <<  trueNegatives << L"%" << std::endl;
+	//std::wcout << L"-false positives: " << falsePositives << L"%" << std::endl;
+	//std::wcout << L"-false negatives: " << falseNegatives << L"%" << std::endl;
 	accPer = percent_correct;
+	
+	/*
+	int nnT = 0;
+	double prev = 0.0;
+	for (int i = 0; i < num_data_test; ++i)
+	{
+		bool counted = false;
+		if (prev >= testInput[i][0])
+			counted = true;
+		if (!counted)
+		{
+			pInput[nnT] = testInput[i];
+			++nnT;
+			prev = testInput[i][0];
+		}
+	}
+	*/
+
+}
+
+void netCreator::makeStatRef()
+{
+	bool startFullCopy = false;
+	//iterate through the whole statID map in the NFL object:
+	for (auto & E : NFL.statID)
+	{
+		if (E.first == L"id")
+			startFullCopy = true;
+		if (startFullCopy)
+			statRef.push_back(E.first);
+		else
+		{
+			if (E.first == L"1")       { int blahb = 0; }
+			else if(E.first == L"13") {statRef.push_back(L"Rushing Attempts");}
+			else if(E.first == L"14") {statRef.push_back(L"rushing yards");}
+			else if(E.first == L"15") {statRef.push_back(L"rushing td");}
+			else if(E.first == L"16") {statRef.push_back(L"40+ rushing yard td bonus");}
+			else if(E.first == L"17") {statRef.push_back(L"50+ rush yd bonus");}
+			else if(E.first == L"18") {statRef.push_back(L"100-199 rush yd bonus");}
+			else if(E.first == L"19") {statRef.push_back(L"200+ rush yd bonus");}
+			else if(E.first == L"2")  {statRef.push_back(L"passing attempts");}
+			else if(E.first == L"20") {statRef.push_back(L"Receptions");}
+			else if(E.first == L"21") {statRef.push_back(L"recieving yds");}
+			else if(E.first == L"22") {statRef.push_back(L"recieving tds");}
+			else if(E.first == L"23") {statRef.push_back(L"40+ recieving yd td bonus");}
+			else if(E.first == L"24") {statRef.push_back(L"50+ rec yd td bonus");}
+			else if(E.first == L"25") {statRef.push_back(L"100-199 rec yard bonus");}
+			else if(E.first == L"27") {statRef.push_back(L"kickoff and punt return yards");}
+			else if(E.first == L"28") {statRef.push_back(L"kickoff and punt return touchdowns");}
+			else if(E.first == L"3")  {statRef.push_back(L"passing completions");}
+			else if(E.first == L"30") {statRef.push_back(L"fumbles lost");}
+			else if(E.first == L"31") {statRef.push_back(L"fumbles");}
+			else if(E.first == L"32") {statRef.push_back(L"2-point conversions");}
+			else if(E.first == L"4")  {statRef.push_back(L"incomplete passes");}
+			else if(E.first == L"5")  {statRef.push_back(L"passing yards");}
+			else if(E.first == L"6")  {statRef.push_back(L"passing touchdowns");}
+			else if(E.first == L"70") {statRef.push_back(L"tackles");}
+			else if(E.first == L"71") {statRef.push_back(L"assisted tackles");}
+			else if(E.first == L"74") {statRef.push_back(L"forced fumble");}
+			else if(E.first == L"75") {statRef.push_back(L"fumbles recovery");}
+			else if(E.first == L"79") {statRef.push_back(L"blocked kick");}
+			else if(E.first == L"83") {statRef.push_back(L"fumble return yards");}
+			else
+			{
+				statRef.push_back(E.first);
+			}
+		}
+	}
+}
+
+void netCreator::print_keptStatRef()
+{
+	int count = 0;
+	std::wofstream myfile;
+	myfile.open("Stat Reference.txt");
+	for (auto E : keptStatRef)
+	{
+		myfile << count << L" -- " << E << std::endl;
+	}
 }

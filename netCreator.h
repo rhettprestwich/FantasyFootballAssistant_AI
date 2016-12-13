@@ -23,6 +23,7 @@ private:
 	double ** testInput; //the data used in our validation
 	double ** testOutput; //the data used in our validation
 	double ** pInput; //the data to use to retrieve our predition
+	double highestID;
 
 	unsigned int num_data; //the number of training data sets
 	unsigned int num_output; //number of outputs per training data
@@ -33,11 +34,12 @@ private:
 	unsigned int max_epochs; //The maximum number of epochs the training should continue
 	unsigned int epochs_between_reports; //The number of epochs between printing a status report to stdout.  A value of zero means no reports should be printed.
 	unsigned int num_data_test; //the number of data sets used for testing
+	int num_data_predict;
 
 public:
 	netCreator(int inputWeek = 5); //the constructor goes through the process of building the Neural Network
-	void startUp(bool NFLcopied);
-	netCreator(FootballLeague NFLin, int in_week);
+	void startUp(bool NFLcopied, int numRun);
+	netCreator(FootballLeague NFLin, int in_week, int numRun, double valPerc);
 
 	void reviewAPIData(); //prints the NFL data structure that our data sets are built from
 	double ** buildInput(); //extracts NFL data and processes it into sets of inputs. Returns both training and prediction data
@@ -55,13 +57,28 @@ public:
 	std::vector<int> alterIds;
 	std::vector<double *> setsUsed;
 	void testSimple();
-	void scaleStats(double **& ins, double **& outs);
+	void scaleStats(double **& ins, double **& outs, double **& pins);
 	void splitSets(double **& ins, double **& outs);
-	void validateNN(); //returns an accuracy percentage
+	void validateNN(int foldId); //returns an accuracy percentage
+	void makeStatRef();
 
 	double accPer;
 	double falsePositives;
 	double falseNegatives;
+	double truePositives;
+	double trueNegatives;
+	int num_pos;
+	int num_neg;
+	int num_tp;
+	int num_fp;
+	int num_tn;
+	int num_fn;
+	std::vector<int> statsKept;
+	std::vector<std::wstring> statRef;
+	std::vector<std::wstring> keptStatRef;
+	void print_keptStatRef();
+
+
 };
 
 #endif

@@ -79,8 +79,8 @@ private:
 
 	std::vector<int> tempCheckedStats;
 	int tempHitCount;
-	std::map<std::wstring, int> statID;
-	std::map <std::wstring, int> teamID;
+
+
 	//int tempPlayerCount;
 
 	TempPlayer tempPlayer; //needed since player id may not be first stat the api gives us.
@@ -113,7 +113,8 @@ public:
 	void displayLeague(std::wstring pN){ displayLeague(pN, false); }
 	void displayLeague(){ displayLeague(L"you shouldnt see this", true); }
 	void printLeague(std::wofstream &);
-
+	std::map<std::wstring, int> statID;
+	std::map <std::wstring, int> teamID;
 };
 
 #endif

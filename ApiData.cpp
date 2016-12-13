@@ -128,7 +128,7 @@ void FootballLeague::getTheStats()
 	statsToRecord = { L"id", L"name", L"seasonPts", L"seasonProjectedPts", L"weekPts",
 		L"weekProjectedPts", L"teamAbbr", L"id" };
 
-	std::wcout << L"Requesting Stats From NFL.com....." << std::endl;
+	std::wcout << std::endl << L"	~Requesting Stats From NFL.com...";
 	retrieveApiData();
 	std::wcout << L"|" << std::endl << std::endl;
 
@@ -152,7 +152,6 @@ FootballLeague::FootballLeague()
 FootballLeague::FootballLeague(FootballLeague & alt_NFL) //only copies the league since that's all we use.
 {
 	this->league = alt_NFL.league;
-	/*
 	this->recordStat = alt_NFL.recordStat;
 	this->indents = alt_NFL.indents;
 	this->statsToRecord = alt_NFL.statsToRecord;
@@ -161,9 +160,7 @@ FootballLeague::FootballLeague(FootballLeague & alt_NFL) //only copies the leagu
 	this->tempCheckedStats = alt_NFL.tempCheckedStats;
 	this->tempHitCount = alt_NFL.tempHitCount;
 	this->statID = alt_NFL.statID;
-	this-> = alt_NFL.
-	this-> = alt_NFL.
-	*/
+	//not everything is copied
 }
 
 void FootballLeague::retrieveApiData()

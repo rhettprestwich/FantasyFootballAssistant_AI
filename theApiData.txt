@@ -505,7 +505,7 @@
   : 0
   weekProjectedPts: 15.6
   seasonProjectedPts: 229.7
-  seasonPts: 150
+  seasonPts: 150.8
   teamAbbr: 24
 ---------Week 2---------
   weekPts: 28.9
@@ -541,7 +541,7 @@
   : 0
   weekProjectedPts: 9.1
   seasonProjectedPts: 229.7
-  seasonPts: 150
+  seasonPts: 150.8
   teamAbbr: 24
 ---------Week 3---------
   weekPts: 6.4
@@ -577,7 +577,7 @@
   : 0
   weekProjectedPts: 22.7
   seasonProjectedPts: 229.7
-  seasonPts: 150
+  seasonPts: 150.8
   teamAbbr: 24
 ---------Week 4---------
   weekPts: 4.3
@@ -613,7 +613,7 @@
   : 0
   weekProjectedPts: 8.8
   seasonProjectedPts: 229.7
-  seasonPts: 150
+  seasonPts: 150.8
   teamAbbr: 24
 ---------Week 5---------
   weekPts: 6
@@ -649,7 +649,7 @@
   : 0
   weekProjectedPts: 8
   seasonProjectedPts: 229.7
-  seasonPts: 150
+  seasonPts: 150.8
   teamAbbr: 24
 ---------Week 6---------
   weekPts: 2.2
@@ -685,7 +685,7 @@
   : 0
   weekProjectedPts: 14.7
   seasonProjectedPts: 229.7
-  seasonPts: 150
+  seasonPts: 150.8
   teamAbbr: 24
 ---------Week 7---------
   weekPts: 25.4
@@ -721,7 +721,7 @@
   : 0
   weekProjectedPts: 6.5
   seasonProjectedPts: 229.7
-  seasonPts: 150
+  seasonPts: 150.8
   teamAbbr: 24
 ---------Week 8---------
   weekPts: 21.8
@@ -757,7 +757,7 @@
   : 0
   weekProjectedPts: 15.9
   seasonProjectedPts: 229.7
-  seasonPts: 150
+  seasonPts: 150.8
   teamAbbr: 24
 ---------Week 9---------
   weekPts: 15.7
@@ -793,7 +793,7 @@
   : 0
   weekProjectedPts: 8.9
   seasonProjectedPts: 229.7
-  seasonPts: 150
+  seasonPts: 150.8
   teamAbbr: 24
 ---------Week 10---------
   weekPts: 10.9
@@ -829,7 +829,7 @@
   : 0
   weekProjectedPts: 14.2
   seasonProjectedPts: 229.7
-  seasonPts: 150
+  seasonPts: 150.8
   teamAbbr: 24
 ---------Week 11---------
   : 0
@@ -901,7 +901,7 @@
   : 0
   weekProjectedPts: 14.7
   seasonProjectedPts: 229.7
-  seasonPts: 150
+  seasonPts: 150.8
   teamAbbr: 24
 ---------Week 13---------
   weekPts: 7.9
@@ -937,7 +937,7 @@
   : 0
   weekProjectedPts: 8.8
   seasonProjectedPts: 229.7
-  seasonPts: 150
+  seasonPts: 150.8
   teamAbbr: 24
 
 
@@ -1918,7 +1918,7 @@
   : 0
   weekProjectedPts: 6.9
   seasonProjectedPts: 126
-  seasonPts: 18.7
+  seasonPts: 20.2
   teamAbbr: 9
 ---------Week 2---------
   weekPts: 4.6
@@ -1954,7 +1954,7 @@
   : 0
   weekProjectedPts: 7.6
   seasonProjectedPts: 126
-  seasonPts: 18.7
+  seasonPts: 20.2
   teamAbbr: 9
 ---------Week 3---------
   weekPts: 3.2
@@ -1990,7 +1990,7 @@
   : 0
   weekProjectedPts: 13.5
   seasonProjectedPts: 126
-  seasonPts: 18.7
+  seasonPts: 20.2
   teamAbbr: 9
 ---------Week 4---------
   : 0
@@ -2098,7 +2098,7 @@
   : 0
   weekProjectedPts: 6.1
   seasonProjectedPts: 126
-  seasonPts: 18.7
+  seasonPts: 20.2
   teamAbbr: 9
 ---------Week 7---------
   weekPts: 4.8
@@ -2134,7 +2134,7 @@
   : 0
   weekProjectedPts: 2
   seasonProjectedPts: 126
-  seasonPts: 18.7
+  seasonPts: 20.2
   teamAbbr: 9
 ---------Week 8---------
   : 0
@@ -2389,7 +2389,7 @@
   : 0
   weekProjectedPts: 6.9
   seasonProjectedPts: 128.9
-  seasonPts: 93.4
+  seasonPts: 106
   teamAbbr: 4
 ---------Week 2---------
   weekPts: 1.6
@@ -2425,7 +2425,7 @@
   : 0
   weekProjectedPts: 14
   seasonProjectedPts: 128.9
-  seasonPts: 93.4
+  seasonPts: 106
   teamAbbr: 4
 ---------Week 3---------
   : 0
@@ -2569,7 +2569,7 @@
   : 0
   weekProjectedPts: 8.8
   seasonProjectedPts: 128.9
-  seasonPts: 93.4
+  seasonPts: 106
   teamAbbr: 4
 ---------Week 7---------
   : 0
@@ -2641,7 +2641,7 @@
   : 0
   weekProjectedPts: 6
   seasonProjectedPts: 128.9
-  seasonPts: 93.4
+  seasonPts: 106
   teamAbbr: 4
 ---------Week 9---------
   weekPts: 4.2
@@ -2677,7 +2677,7 @@
   : 0
   weekProjectedPts: 6.9
   seasonProjectedPts: 128.9
-  seasonPts: 93.4
+  seasonPts: 106
   teamAbbr: 4
 ---------Week 10---------
   weekPts: 3.9
@@ -2713,7 +2713,7 @@
   : 0
   weekProjectedPts: 6.3
   seasonProjectedPts: 128.9
-  seasonPts: 93.4
+  seasonPts: 106
   teamAbbr: 4
 ---------Week 11---------
   weekPts: 9.9
@@ -2749,7 +2749,7 @@
   : 0
   weekProjectedPts: 11.3
   seasonProjectedPts: 128.9
-  seasonPts: 93.4
+  seasonPts: 106
   teamAbbr: 4
 ---------Week 12---------
   weekPts: 21.6
@@ -2785,7 +2785,7 @@
   : 0
   weekProjectedPts: 4.7
   seasonProjectedPts: 128.9
-  seasonPts: 93.4
+  seasonPts: 106
   teamAbbr: 4
 ---------Week 13---------
   weekPts: 3.3
@@ -2821,7 +2821,7 @@
   : 0
   weekProjectedPts: 6.4
   seasonProjectedPts: 128.9
-  seasonPts: 93.4
+  seasonPts: 106
   teamAbbr: 4
 
 
@@ -3331,7 +3331,7 @@
   : 0
   weekProjectedPts: 15.7
   seasonProjectedPts: 89.4
-  seasonPts: 71.2
+  seasonPts: 75.1
   teamAbbr: 22
 ---------Week 2---------
   weekPts: 0.9
@@ -3367,7 +3367,7 @@
   : 0
   weekProjectedPts: 4.4
   seasonProjectedPts: 89.4
-  seasonPts: 71.2
+  seasonPts: 75.1
   teamAbbr: 22
 ---------Week 3---------
   weekPts: 1.9
@@ -3403,7 +3403,7 @@
   : 0
   weekProjectedPts: 3.7
   seasonProjectedPts: 89.4
-  seasonPts: 71.2
+  seasonPts: 75.1
   teamAbbr: 22
 ---------Week 4---------
   weekPts: 1.1
@@ -3439,7 +3439,7 @@
   : 0
   weekProjectedPts: 3.4
   seasonProjectedPts: 89.4
-  seasonPts: 71.2
+  seasonPts: 75.1
   teamAbbr: 22
 ---------Week 5---------
   : 0
@@ -3511,7 +3511,7 @@
   : 0
   weekProjectedPts: 2.4
   seasonProjectedPts: 89.4
-  seasonPts: 71.2
+  seasonPts: 75.1
   teamAbbr: 22
 ---------Week 7---------
   weekPts: 4.4
@@ -3547,7 +3547,7 @@
   : 0
   weekProjectedPts: 2.1
   seasonProjectedPts: 89.4
-  seasonPts: 71.2
+  seasonPts: 75.1
   teamAbbr: 22
 ---------Week 8---------
   weekPts: 10.2
@@ -3583,7 +3583,7 @@
   : 0
   weekProjectedPts: 2.4
   seasonProjectedPts: 89.4
-  seasonPts: 71.2
+  seasonPts: 75.1
   teamAbbr: 22
 ---------Week 9---------
   weekPts: 16.2
@@ -3619,7 +3619,7 @@
   : 0
   weekProjectedPts: 12.4
   seasonProjectedPts: 89.4
-  seasonPts: 71.2
+  seasonPts: 75.1
   teamAbbr: 22
 ---------Week 10---------
   weekPts: 5.5
@@ -3655,7 +3655,7 @@
   : 0
   weekProjectedPts: 11.7
   seasonProjectedPts: 89.4
-  seasonPts: 71.2
+  seasonPts: 75.1
   teamAbbr: 22
 ---------Week 11---------
   weekPts: 12.6
@@ -3691,7 +3691,7 @@
   : 0
   weekProjectedPts: 4.2
   seasonProjectedPts: 89.4
-  seasonPts: 71.2
+  seasonPts: 75.1
   teamAbbr: 22
 ---------Week 12---------
   weekPts: 16.5
@@ -3727,7 +3727,7 @@
   : 0
   weekProjectedPts: 5.9
   seasonProjectedPts: 89.4
-  seasonPts: 71.2
+  seasonPts: 75.1
   teamAbbr: 22
 ---------Week 13---------
   weekPts: 0.9
@@ -3763,7 +3763,7 @@
   : 0
   weekProjectedPts: 6.5
   seasonProjectedPts: 89.4
-  seasonPts: 71.2
+  seasonPts: 75.1
   teamAbbr: 22
 
 
@@ -3802,7 +3802,7 @@
   83: 4
   weekProjectedPts: 13.7
   seasonProjectedPts: 169
-  seasonPts: 77.1
+  seasonPts: 82.8
   teamAbbr: 23
 ---------Week 2---------
   weekPts: 4
@@ -3838,7 +3838,7 @@
   : 0
   weekProjectedPts: 14.7
   seasonProjectedPts: 169
-  seasonPts: 77.1
+  seasonPts: 82.8
   teamAbbr: 23
 ---------Week 3---------
   : 0
@@ -3982,7 +3982,7 @@
   : 0
   weekProjectedPts: 7.1
   seasonProjectedPts: 169
-  seasonPts: 77.1
+  seasonPts: 82.8
   teamAbbr: 23
 ---------Week 7---------
   weekPts: 10.9
@@ -4018,7 +4018,7 @@
   : 0
   weekProjectedPts: 8.4
   seasonProjectedPts: 169
-  seasonPts: 77.1
+  seasonPts: 82.8
   teamAbbr: 23
 ---------Week 8---------
   : 0
@@ -4090,7 +4090,7 @@
   : 0
   weekProjectedPts: 14.9
   seasonProjectedPts: 169
-  seasonPts: 77.1
+  seasonPts: 82.8
   teamAbbr: 23
 ---------Week 10---------
   weekPts: 10.9
@@ -4126,7 +4126,7 @@
   : 0
   weekProjectedPts: 14.2
   seasonProjectedPts: 169
-  seasonPts: 77.1
+  seasonPts: 82.8
   teamAbbr: 23
 ---------Week 11---------
   weekPts: 18.9
@@ -4162,7 +4162,7 @@
   : 0
   weekProjectedPts: 7.4
   seasonProjectedPts: 169
-  seasonPts: 77.1
+  seasonPts: 82.8
   teamAbbr: 23
 ---------Week 12---------
   weekPts: 5.9
@@ -4198,7 +4198,7 @@
   : 0
   weekProjectedPts: 13.6
   seasonProjectedPts: 169
-  seasonPts: 77.1
+  seasonPts: 82.8
   teamAbbr: 23
 ---------Week 13---------
   weekPts: 11.3
@@ -4234,7 +4234,7 @@
   : 0
   weekProjectedPts: 7.6
   seasonProjectedPts: 169
-  seasonPts: 77.1
+  seasonPts: 82.8
   teamAbbr: 23
 
 
@@ -4744,7 +4744,7 @@
   : 0
   weekProjectedPts: 8.8
   seasonProjectedPts: 172.3
-  seasonPts: 180.5
+  seasonPts: 197.3
   teamAbbr: 3
 ---------Week 2---------
   weekPts: 9
@@ -4780,7 +4780,7 @@
   : 0
   weekProjectedPts: 8.5
   seasonProjectedPts: 172.3
-  seasonPts: 180.5
+  seasonPts: 197.3
   teamAbbr: 3
 ---------Week 3---------
   weekPts: 23.6
@@ -4816,7 +4816,7 @@
   : 0
   weekProjectedPts: 8.5
   seasonProjectedPts: 172.3
-  seasonPts: 180.5
+  seasonPts: 197.3
   teamAbbr: 3
 ---------Week 4---------
   weekPts: 16.8
@@ -4852,7 +4852,7 @@
   : 0
   weekProjectedPts: 8.2
   seasonProjectedPts: 172.3
-  seasonPts: 180.5
+  seasonPts: 197.3
   teamAbbr: 3
 ---------Week 5---------
   weekPts: 15.8
@@ -4888,7 +4888,7 @@
   : 0
   weekProjectedPts: 8.2
   seasonProjectedPts: 172.3
-  seasonPts: 180.5
+  seasonPts: 197.3
   teamAbbr: 3
 ---------Week 6---------
   weekPts: 32.2
@@ -4924,7 +4924,7 @@
   : 0
   weekProjectedPts: 16.6
   seasonProjectedPts: 172.3
-  seasonPts: 180.5
+  seasonPts: 197.3
   teamAbbr: 3
 ---------Week 7---------
   weekPts: 1.1
@@ -4960,7 +4960,7 @@
   : 0
   weekProjectedPts: 8.9
   seasonProjectedPts: 172.3
-  seasonPts: 180.5
+  seasonPts: 197.3
   teamAbbr: 3
 ---------Week 8---------
   : 0
@@ -5032,7 +5032,7 @@
   : 0
   weekProjectedPts: 6.7
   seasonProjectedPts: 172.3
-  seasonPts: 180.5
+  seasonPts: 197.3
   teamAbbr: 3
 ---------Week 10---------
   : 0
@@ -5104,7 +5104,7 @@
   83: -5
   weekProjectedPts: 15.7
   seasonProjectedPts: 172.3
-  seasonPts: 180.5
+  seasonPts: 197.3
   teamAbbr: 3
 ---------Week 12---------
   weekPts: 27.4
@@ -5140,7 +5140,7 @@
   : 0
   weekProjectedPts: 6.5
   seasonProjectedPts: 172.3
-  seasonPts: 180.5
+  seasonPts: 197.3
   teamAbbr: 3
 ---------Week 13---------
   weekPts: 19.1
@@ -5176,7 +5176,7 @@
   : 0
   weekProjectedPts: 12.7
   seasonProjectedPts: 172.3
-  seasonPts: 180.5
+  seasonPts: 197.3
   teamAbbr: 3
 
 
@@ -6265,7 +6265,7 @@
   : 0
   weekProjectedPts: 4.5
   seasonProjectedPts: 0
-  seasonPts: 0.6
+  seasonPts: 0.4
   teamAbbr: 10
 ---------Week 5---------
   : 0
@@ -7099,7 +7099,7 @@
   : 0
   weekProjectedPts: 5.9
   seasonProjectedPts: 159
-  seasonPts: 98.1
+  seasonPts: 104.1
   teamAbbr: 25
 ---------Week 2---------
   weekPts: 15.5
@@ -7135,7 +7135,7 @@
   : 0
   weekProjectedPts: 6.2
   seasonProjectedPts: 159
-  seasonPts: 98.1
+  seasonPts: 104.1
   teamAbbr: 25
 ---------Week 3---------
   weekPts: -0.5
@@ -7171,7 +7171,7 @@
   : 0
   weekProjectedPts: 6.94
   seasonProjectedPts: 159
-  seasonPts: 98.1
+  seasonPts: 104.1
   teamAbbr: 25
 ---------Week 4---------
   : 0
@@ -7243,7 +7243,7 @@
   : 0
   weekProjectedPts: 5
   seasonProjectedPts: 159
-  seasonPts: 98.1
+  seasonPts: 104.1
   teamAbbr: 25
 ---------Week 6---------
   weekPts: 6
@@ -7279,7 +7279,7 @@
   : 0
   weekProjectedPts: 10.8
   seasonProjectedPts: 159
-  seasonPts: 98.1
+  seasonPts: 104.1
   teamAbbr: 25
 ---------Week 7---------
   weekPts: 6.3
@@ -7315,7 +7315,7 @@
   : 0
   weekProjectedPts: 4.9
   seasonProjectedPts: 159
-  seasonPts: 98.1
+  seasonPts: 104.1
   teamAbbr: 25
 ---------Week 8---------
   weekPts: 7.1
@@ -7351,7 +7351,7 @@
   : 0
   weekProjectedPts: 3.8
   seasonProjectedPts: 159
-  seasonPts: 98.1
+  seasonPts: 104.1
   teamAbbr: 25
 ---------Week 9---------
   weekPts: 7.5
@@ -7387,7 +7387,7 @@
   : 0
   weekProjectedPts: 10.5
   seasonProjectedPts: 159
-  seasonPts: 98.1
+  seasonPts: 104.1
   teamAbbr: 25
 ---------Week 10---------
   weekPts: 27.9
@@ -7423,7 +7423,7 @@
   : 0
   weekProjectedPts: 3.6
   seasonProjectedPts: 159
-  seasonPts: 98.1
+  seasonPts: 104.1
   teamAbbr: 25
 ---------Week 11---------
   weekPts: 3.1
@@ -7459,7 +7459,7 @@
   : 0
   weekProjectedPts: 11.1
   seasonProjectedPts: 159
-  seasonPts: 98.1
+  seasonPts: 104.1
   teamAbbr: 25
 ---------Week 12---------
   : 0
@@ -8512,7 +8512,7 @@
   : 0
   weekProjectedPts: 9.1
   seasonProjectedPts: 86.8
-  seasonPts: 39.6
+  seasonPts: 39.9
   teamAbbr: 11
 ---------Week 2---------
   weekPts: 1.9
@@ -8548,7 +8548,7 @@
   : 0
   weekProjectedPts: 4.2
   seasonProjectedPts: 86.8
-  seasonPts: 39.6
+  seasonPts: 39.9
   teamAbbr: 11
 ---------Week 3---------
   weekPts: 0.8
@@ -8584,7 +8584,7 @@
   : 0
   weekProjectedPts: 4.84
   seasonProjectedPts: 86.8
-  seasonPts: 39.6
+  seasonPts: 39.9
   teamAbbr: 11
 ---------Week 4---------
   : 0
@@ -8656,7 +8656,7 @@
   : 0
   weekProjectedPts: 9.3
   seasonProjectedPts: 86.8
-  seasonPts: 39.6
+  seasonPts: 39.9
   teamAbbr: 11
 ---------Week 6---------
   : 0
@@ -8836,7 +8836,7 @@
   : 0
   weekProjectedPts: 2.6
   seasonProjectedPts: 86.8
-  seasonPts: 39.6
+  seasonPts: 39.9
   teamAbbr: 11
 ---------Week 11---------
   weekPts: 13.1
@@ -8872,7 +8872,7 @@
   : 0
   weekProjectedPts: 11.4
   seasonProjectedPts: 86.8
-  seasonPts: 39.6
+  seasonPts: 39.9
   teamAbbr: 11
 ---------Week 12---------
   weekPts: 6.8
@@ -8908,7 +8908,7 @@
   : 0
   weekProjectedPts: 5.2
   seasonProjectedPts: 86.8
-  seasonPts: 39.6
+  seasonPts: 39.9
   teamAbbr: 11
 ---------Week 13---------
   weekPts: 0.1
@@ -8944,7 +8944,7 @@
   : 0
   weekProjectedPts: 4.9
   seasonProjectedPts: 86.8
-  seasonPts: 39.6
+  seasonPts: 39.9
   teamAbbr: 11
 
 
@@ -8983,7 +8983,7 @@
   : 0
   weekProjectedPts: 6.7
   seasonProjectedPts: 181.5
-  seasonPts: 203.6
+  seasonPts: 218.8
   teamAbbr: 12
 ---------Week 2---------
   weekPts: 14.5
@@ -9019,7 +9019,7 @@
   : 0
   weekProjectedPts: 13.2
   seasonProjectedPts: 181.5
-  seasonPts: 203.6
+  seasonPts: 218.8
   teamAbbr: 12
 ---------Week 3---------
   weekPts: 21.5
@@ -9055,7 +9055,7 @@
   : 0
   weekProjectedPts: 10.04
   seasonProjectedPts: 181.5
-  seasonPts: 203.6
+  seasonPts: 218.8
   teamAbbr: 12
 ---------Week 4---------
   weekPts: 23.9
@@ -9091,7 +9091,7 @@
   : 0
   weekProjectedPts: 8.7
   seasonProjectedPts: 181.5
-  seasonPts: 203.6
+  seasonPts: 218.8
   teamAbbr: 12
 ---------Week 5---------
   weekPts: 13.7
@@ -9127,7 +9127,7 @@
   : 0
   weekProjectedPts: 7.4
   seasonProjectedPts: 181.5
-  seasonPts: 203.6
+  seasonPts: 218.8
   teamAbbr: 12
 ---------Week 6---------
   weekPts: 12.5
@@ -9163,7 +9163,7 @@
   : 0
   weekProjectedPts: 19.5
   seasonProjectedPts: 181.5
-  seasonPts: 203.6
+  seasonPts: 218.8
   teamAbbr: 12
 ---------Week 7---------
   weekPts: 18.7
@@ -9199,7 +9199,7 @@
   : 0
   weekProjectedPts: 20.1
   seasonProjectedPts: 181.5
-  seasonPts: 203.6
+  seasonPts: 218.8
   teamAbbr: 12
 ---------Week 8---------
   weekPts: 18.8
@@ -9235,7 +9235,7 @@
   : 0
   weekProjectedPts: 20.5
   seasonProjectedPts: 181.5
-  seasonPts: 203.6
+  seasonPts: 218.8
   teamAbbr: 12
 ---------Week 9---------
   weekPts: 14
@@ -9271,7 +9271,7 @@
   : 0
   weekProjectedPts: 15.6
   seasonProjectedPts: 181.5
-  seasonPts: 203.6
+  seasonPts: 218.8
   teamAbbr: 12
 ---------Week 10---------
   weekPts: 26
@@ -9307,7 +9307,7 @@
   : 0
   weekProjectedPts: 9.2
   seasonProjectedPts: 181.5
-  seasonPts: 203.6
+  seasonPts: 218.8
   teamAbbr: 12
 ---------Week 11---------
   weekPts: 13.9
@@ -9343,7 +9343,7 @@
   : 0
   weekProjectedPts: 15.8
   seasonProjectedPts: 181.5
-  seasonPts: 203.6
+  seasonPts: 218.8
   teamAbbr: 12
 ---------Week 12---------
   weekPts: 8.4
@@ -9379,7 +9379,7 @@
   : 0
   weekProjectedPts: 9
   seasonProjectedPts: 181.5
-  seasonPts: 203.6
+  seasonPts: 218.8
   teamAbbr: 12
 ---------Week 13---------
   : 0
@@ -9454,7 +9454,7 @@
   : 0
   weekProjectedPts: 0
   seasonProjectedPts: 27.8
-  seasonPts: 78.5
+  seasonPts: 87.6
   teamAbbr: 20
 ---------Week 2---------
   weekPts: 2.5
@@ -9490,7 +9490,7 @@
   : 0
   weekProjectedPts: 0
   seasonProjectedPts: 27.8
-  seasonPts: 78.5
+  seasonPts: 87.6
   teamAbbr: 20
 ---------Week 3---------
   weekPts: 1.9
@@ -9526,7 +9526,7 @@
   : 0
   weekProjectedPts: 7.54
   seasonProjectedPts: 27.8
-  seasonPts: 78.5
+  seasonPts: 87.6
   teamAbbr: 20
 ---------Week 4---------
   weekPts: 7.8
@@ -9562,7 +9562,7 @@
   : 0
   weekProjectedPts: 1.3
   seasonProjectedPts: 27.8
-  seasonPts: 78.5
+  seasonPts: 87.6
   teamAbbr: 20
 ---------Week 5---------
   weekPts: 16.1
@@ -9598,7 +9598,7 @@
   : 0
   weekProjectedPts: 8
   seasonProjectedPts: 27.8
-  seasonPts: 78.5
+  seasonPts: 87.6
   teamAbbr: 20
 ---------Week 6---------
   : 0
@@ -9670,7 +9670,7 @@
   : 0
   weekProjectedPts: 8.5
   seasonProjectedPts: 27.8
-  seasonPts: 78.5
+  seasonPts: 87.6
   teamAbbr: 20
 ---------Week 8---------
   weekPts: 7.8
@@ -9706,7 +9706,7 @@
   : 0
   weekProjectedPts: 9.8
   seasonProjectedPts: 27.8
-  seasonPts: 78.5
+  seasonPts: 87.6
   teamAbbr: 20
 ---------Week 9---------
   weekPts: 4.1
@@ -9742,7 +9742,7 @@
   : 0
   weekProjectedPts: 6.2
   seasonProjectedPts: 27.8
-  seasonPts: 78.5
+  seasonPts: 87.6
   teamAbbr: 20
 ---------Week 10---------
   weekPts: 7.5
@@ -9778,7 +9778,7 @@
   : 0
   weekProjectedPts: 5.8
   seasonProjectedPts: 27.8
-  seasonPts: 78.5
+  seasonPts: 87.6
   teamAbbr: 20
 ---------Week 11---------
   weekPts: 8.7
@@ -9814,7 +9814,7 @@
   : 0
   weekProjectedPts: 3.1
   seasonProjectedPts: 27.8
-  seasonPts: 78.5
+  seasonPts: 87.6
   teamAbbr: 20
 ---------Week 12---------
   weekPts: 10.1
@@ -9850,7 +9850,7 @@
   : 0
   weekProjectedPts: 6.1
   seasonProjectedPts: 27.8
-  seasonPts: 78.5
+  seasonPts: 87.6
   teamAbbr: 20
 ---------Week 13---------
   weekPts: 2.7
@@ -9886,7 +9886,7 @@
   : 0
   weekProjectedPts: 3
   seasonProjectedPts: 27.8
-  seasonPts: 78.5
+  seasonPts: 87.6
   teamAbbr: 20
 
 
@@ -9925,7 +9925,7 @@
   : 0
   weekProjectedPts: 0
   seasonProjectedPts: 78.8
-  seasonPts: 65.8
+  seasonPts: 95.7
   teamAbbr: 24
 ---------Week 2---------
   weekPts: 0.3
@@ -9961,7 +9961,7 @@
   : 0
   weekProjectedPts: 0
   seasonProjectedPts: 78.8
-  seasonPts: 65.8
+  seasonPts: 95.7
   teamAbbr: 24
 ---------Week 3---------
   weekPts: 5.1
@@ -9997,7 +9997,7 @@
   : 0
   weekProjectedPts: 2.7
   seasonProjectedPts: 78.8
-  seasonPts: 65.8
+  seasonPts: 95.7
   teamAbbr: 24
 ---------Week 4---------
   weekPts: 8
@@ -10033,7 +10033,7 @@
   : 0
   weekProjectedPts: 10
   seasonProjectedPts: 78.8
-  seasonPts: 65.8
+  seasonPts: 95.7
   teamAbbr: 24
 ---------Week 5---------
   weekPts: 5.1
@@ -10069,7 +10069,7 @@
   : 0
   weekProjectedPts: 8.8
   seasonProjectedPts: 78.8
-  seasonPts: 65.8
+  seasonPts: 95.7
   teamAbbr: 24
 ---------Week 6---------
   weekPts: 2.2
@@ -10105,7 +10105,7 @@
   : 0
   weekProjectedPts: 2.8
   seasonProjectedPts: 78.8
-  seasonPts: 65.8
+  seasonPts: 95.7
   teamAbbr: 24
 ---------Week 7---------
   weekPts: 1.8
@@ -10141,7 +10141,7 @@
   : 0
   weekProjectedPts: 10.6
   seasonProjectedPts: 78.8
-  seasonPts: 65.8
+  seasonPts: 95.7
   teamAbbr: 24
 ---------Week 8---------
   weekPts: 13.9
@@ -10177,7 +10177,7 @@
   : 0
   weekProjectedPts: 3.7
   seasonProjectedPts: 78.8
-  seasonPts: 65.8
+  seasonPts: 95.7
   teamAbbr: 24
 ---------Week 9---------
   weekPts: 5.1
@@ -10213,7 +10213,7 @@
   : 0
   weekProjectedPts: 4
   seasonProjectedPts: 78.8
-  seasonPts: 65.8
+  seasonPts: 95.7
   teamAbbr: 24
 ---------Week 10---------
   weekPts: 14.9
@@ -10249,7 +10249,7 @@
   : 0
   weekProjectedPts: 4.3
   seasonProjectedPts: 78.8
-  seasonPts: 65.8
+  seasonPts: 95.7
   teamAbbr: 24
 ---------Week 11---------
   : 0
@@ -10321,7 +10321,7 @@
   : 0
   weekProjectedPts: 11
   seasonProjectedPts: 78.8
-  seasonPts: 65.8
+  seasonPts: 95.7
   teamAbbr: 24
 ---------Week 13---------
   weekPts: 0.3
@@ -10357,7 +10357,7 @@
   : 0
   weekProjectedPts: 16.9
   seasonProjectedPts: 78.8
-  seasonPts: 65.8
+  seasonPts: 95.7
   teamAbbr: 24
 
 
@@ -10867,7 +10867,7 @@
   : 0
   weekProjectedPts: 0.4
   seasonProjectedPts: 31.5
-  seasonPts: 40.3
+  seasonPts: 49
   teamAbbr: 28
 ---------Week 2---------
   weekPts: 2.1
@@ -10903,7 +10903,7 @@
   : 0
   weekProjectedPts: 0.3
   seasonProjectedPts: 31.5
-  seasonPts: 40.3
+  seasonPts: 49
   teamAbbr: 28
 ---------Week 3---------
   weekPts: 1.2
@@ -10939,7 +10939,7 @@
   : 0
   weekProjectedPts: 1
   seasonProjectedPts: 31.5
-  seasonPts: 40.3
+  seasonPts: 49
   teamAbbr: 28
 ---------Week 4---------
   weekPts: 0.8
@@ -10975,7 +10975,7 @@
   : 0
   weekProjectedPts: 7.7
   seasonProjectedPts: 31.5
-  seasonPts: 40.3
+  seasonPts: 49
   teamAbbr: 28
 ---------Week 5---------
   weekPts: -0.1
@@ -11011,7 +11011,7 @@
   : 0
   weekProjectedPts: 1.8
   seasonProjectedPts: 31.5
-  seasonPts: 40.3
+  seasonPts: 49
   teamAbbr: 28
 ---------Week 6---------
   weekPts: 0.2
@@ -11047,7 +11047,7 @@
   : 0
   weekProjectedPts: 1.2
   seasonProjectedPts: 31.5
-  seasonPts: 40.3
+  seasonPts: 49
   teamAbbr: 28
 ---------Week 7---------
   weekPts: 11.3
@@ -11083,7 +11083,7 @@
   : 0
   weekProjectedPts: 10.8
   seasonProjectedPts: 31.5
-  seasonPts: 40.3
+  seasonPts: 49
   teamAbbr: 28
 ---------Week 8---------
   : 0
@@ -11155,7 +11155,7 @@
   : 0
   weekProjectedPts: 1.8
   seasonProjectedPts: 31.5
-  seasonPts: 40.3
+  seasonPts: 49
   teamAbbr: 28
 ---------Week 10---------
   : 0
@@ -11227,7 +11227,7 @@
   : 0
   weekProjectedPts: 0
   seasonProjectedPts: 31.5
-  seasonPts: 40.3
+  seasonPts: 49
   teamAbbr: 28
 ---------Week 12---------
   weekPts: 4.9
@@ -11263,7 +11263,7 @@
   : 0
   weekProjectedPts: 0
   seasonProjectedPts: 31.5
-  seasonPts: 40.3
+  seasonPts: 49
   teamAbbr: 28
 ---------Week 13---------
   weekPts: 2
@@ -11299,7 +11299,7 @@
   : 0
   weekProjectedPts: 0
   seasonProjectedPts: 31.5
-  seasonPts: 40.3
+  seasonPts: 49
   teamAbbr: 28
 
 
@@ -11338,7 +11338,7 @@
   : 0
   weekProjectedPts: 18.9
   seasonProjectedPts: 167.2
-  seasonPts: 142.2
+  seasonPts: 144.5
   teamAbbr: 22
 ---------Week 2---------
   weekPts: 4.7
@@ -11374,7 +11374,7 @@
   : 0
   weekProjectedPts: 14.7
   seasonProjectedPts: 167.2
-  seasonPts: 142.2
+  seasonPts: 144.5
   teamAbbr: 22
 ---------Week 3---------
   weekPts: 18.7
@@ -11410,7 +11410,7 @@
   : 0
   weekProjectedPts: 15.4
   seasonProjectedPts: 167.2
-  seasonPts: 142.2
+  seasonPts: 144.5
   teamAbbr: 22
 ---------Week 4---------
   weekPts: 16.5
@@ -11446,7 +11446,7 @@
   : 0
   weekProjectedPts: 14.6
   seasonProjectedPts: 167.2
-  seasonPts: 142.2
+  seasonPts: 144.5
   teamAbbr: 22
 ---------Week 5---------
   : 0
@@ -11518,7 +11518,7 @@
   : 0
   weekProjectedPts: 7.8
   seasonProjectedPts: 167.2
-  seasonPts: 142.2
+  seasonPts: 144.5
   teamAbbr: 22
 ---------Week 7---------
   weekPts: 12.2
@@ -11554,7 +11554,7 @@
   : 0
   weekProjectedPts: 9.2
   seasonProjectedPts: 167.2
-  seasonPts: 142.2
+  seasonPts: 144.5
   teamAbbr: 22
 ---------Week 8---------
   weekPts: -1.5
@@ -11590,7 +11590,7 @@
   : 0
   weekProjectedPts: 15.2
   seasonProjectedPts: 167.2
-  seasonPts: 142.2
+  seasonPts: 144.5
   teamAbbr: 22
 ---------Week 9---------
   weekPts: 29.1
@@ -11626,7 +11626,7 @@
   : 0
   weekProjectedPts: 15.4
   seasonProjectedPts: 167.2
-  seasonPts: 142.2
+  seasonPts: 144.5
   teamAbbr: 22
 ---------Week 10---------
   weekPts: 6.3
@@ -11662,7 +11662,7 @@
   : 0
   weekProjectedPts: 8.6
   seasonProjectedPts: 167.2
-  seasonPts: 142.2
+  seasonPts: 144.5
   teamAbbr: 22
 ---------Week 11---------
   weekPts: 7.5
@@ -11698,7 +11698,7 @@
   : 0
   weekProjectedPts: 8
   seasonProjectedPts: 167.2
-  seasonPts: 142.2
+  seasonPts: 144.5
   teamAbbr: 22
 ---------Week 12---------
   weekPts: 28.7
@@ -11734,7 +11734,7 @@
   : 0
   weekProjectedPts: 6.7
   seasonProjectedPts: 167.2
-  seasonPts: 142.2
+  seasonPts: 144.5
   teamAbbr: 22
 ---------Week 13---------
   weekPts: 5.3
@@ -11770,7 +11770,7 @@
   : 0
   weekProjectedPts: 6.9
   seasonProjectedPts: 167.2
-  seasonPts: 142.2
+  seasonPts: 144.5
   teamAbbr: 22
 
 
@@ -14164,7 +14164,7 @@
   : 0
   weekProjectedPts: 10.4
   seasonProjectedPts: 102.7
-  seasonPts: 24.2
+  seasonPts: 25.2
   teamAbbr: 23
 ---------Week 2---------
   weekPts: 4.6
@@ -14200,7 +14200,7 @@
   : 0
   weekProjectedPts: 4.6
   seasonProjectedPts: 102.7
-  seasonPts: 24.2
+  seasonPts: 25.2
   teamAbbr: 23
 ---------Week 3---------
   weekPts: 13.5
@@ -14236,7 +14236,7 @@
   : 0
   weekProjectedPts: 4.44
   seasonProjectedPts: 102.7
-  seasonPts: 24.2
+  seasonPts: 25.2
   teamAbbr: 23
 ---------Week 4---------
   : 0
@@ -15106,7 +15106,7 @@
   : 0
   weekProjectedPts: 0.4
   seasonProjectedPts: 8.3
-  seasonPts: 39.2
+  seasonPts: 39.5
   teamAbbr: 22
 ---------Week 2---------
   weekPts: 1
@@ -15142,7 +15142,7 @@
   : 0
   weekProjectedPts: 0.5
   seasonProjectedPts: 8.3
-  seasonPts: 39.2
+  seasonPts: 39.5
   teamAbbr: 22
 ---------Week 3---------
   weekPts: 6.3
@@ -15178,7 +15178,7 @@
   : 0
   weekProjectedPts: 0.4
   seasonProjectedPts: 8.3
-  seasonPts: 39.2
+  seasonPts: 39.5
   teamAbbr: 22
 ---------Week 4---------
   weekPts: 19.2
@@ -15214,7 +15214,7 @@
   : 0
   weekProjectedPts: 0.2
   seasonProjectedPts: 8.3
-  seasonPts: 39.2
+  seasonPts: 39.5
   teamAbbr: 22
 ---------Week 5---------
   : 0
@@ -15322,7 +15322,7 @@
   : 0
   weekProjectedPts: 0.3
   seasonProjectedPts: 8.3
-  seasonPts: 39.2
+  seasonPts: 39.5
   teamAbbr: 22
 ---------Week 8---------
   weekPts: 1.2
@@ -15358,7 +15358,7 @@
   : 0
   weekProjectedPts: 0.5
   seasonProjectedPts: 8.3
-  seasonPts: 39.2
+  seasonPts: 39.5
   teamAbbr: 22
 ---------Week 9---------
   weekPts: 1.4
@@ -15394,7 +15394,7 @@
   : 0
   weekProjectedPts: 0.5
   seasonProjectedPts: 8.3
-  seasonPts: 39.2
+  seasonPts: 39.5
   teamAbbr: 22
 ---------Week 10---------
   : 0
@@ -15466,7 +15466,7 @@
   : 0
   weekProjectedPts: 0.4
   seasonProjectedPts: 8.3
-  seasonPts: 39.2
+  seasonPts: 39.5
   teamAbbr: 22
 ---------Week 12---------
   weekPts: 0.7
@@ -15502,7 +15502,7 @@
   : 0
   weekProjectedPts: 0.6
   seasonProjectedPts: 8.3
-  seasonPts: 39.2
+  seasonPts: 39.5
   teamAbbr: 22
 ---------Week 13---------
   weekPts: 7.5
@@ -15538,7 +15538,7 @@
   : 0
   weekProjectedPts: 0.6
   seasonProjectedPts: 8.3
-  seasonPts: 39.2
+  seasonPts: 39.5
   teamAbbr: 22
 
 
@@ -15577,7 +15577,7 @@
   : 0
   weekProjectedPts: 13.7
   seasonProjectedPts: 161.2
-  seasonPts: 137.3
+  seasonPts: 150.7
   teamAbbr: 14
 ---------Week 2---------
   weekPts: 12.3
@@ -15613,7 +15613,7 @@
   : 0
   weekProjectedPts: 6.9
   seasonProjectedPts: 161.2
-  seasonPts: 137.3
+  seasonPts: 150.7
   teamAbbr: 14
 ---------Week 3---------
   weekPts: 14.3
@@ -15649,7 +15649,7 @@
   : 0
   weekProjectedPts: 15.1
   seasonProjectedPts: 161.2
-  seasonPts: 137.3
+  seasonPts: 150.7
   teamAbbr: 14
 ---------Week 4---------
   weekPts: 15.5
@@ -15685,7 +15685,7 @@
   : 0
   weekProjectedPts: 12.1
   seasonProjectedPts: 161.2
-  seasonPts: 137.3
+  seasonPts: 150.7
   teamAbbr: 14
 ---------Week 5---------
   weekPts: 7.9
@@ -15721,7 +15721,7 @@
   : 0
   weekProjectedPts: 14.1
   seasonProjectedPts: 161.2
-  seasonPts: 137.3
+  seasonPts: 150.7
   teamAbbr: 14
 ---------Week 6---------
   weekPts: 10.8
@@ -15757,7 +15757,7 @@
   : 0
   weekProjectedPts: 12.1
   seasonProjectedPts: 161.2
-  seasonPts: 137.3
+  seasonPts: 150.7
   teamAbbr: 14
 ---------Week 7---------
   weekPts: 14.3
@@ -15793,7 +15793,7 @@
   : 0
   weekProjectedPts: 7.4
   seasonProjectedPts: 161.2
-  seasonPts: 137.3
+  seasonPts: 150.7
   teamAbbr: 14
 ---------Week 8---------
   weekPts: 12.2
@@ -15829,7 +15829,7 @@
   : 0
   weekProjectedPts: 8
   seasonProjectedPts: 161.2
-  seasonPts: 137.3
+  seasonPts: 150.7
   teamAbbr: 14
 ---------Week 9---------
   weekPts: 19.1
@@ -15865,7 +15865,7 @@
   : 0
   weekProjectedPts: 6.8
   seasonProjectedPts: 161.2
-  seasonPts: 137.3
+  seasonPts: 150.7
   teamAbbr: 14
 ---------Week 10---------
   : 0
@@ -15937,7 +15937,7 @@
   : 0
   weekProjectedPts: 13.4
   seasonProjectedPts: 161.2
-  seasonPts: 137.3
+  seasonPts: 150.7
   teamAbbr: 14
 ---------Week 12---------
   weekPts: 3.1
@@ -15973,7 +15973,7 @@
   : 0
   weekProjectedPts: 20.2
   seasonProjectedPts: 161.2
-  seasonPts: 137.3
+  seasonPts: 150.7
   teamAbbr: 14
 ---------Week 13---------
   weekPts: 7.9
@@ -16009,7 +16009,7 @@
   : 0
   weekProjectedPts: 7.3
   seasonProjectedPts: 161.2
-  seasonPts: 137.3
+  seasonPts: 150.7
   teamAbbr: 14
 
 
@@ -16048,7 +16048,7 @@
   : 0
   weekProjectedPts: 4.1
   seasonProjectedPts: 81.8
-  seasonPts: 84.6
+  seasonPts: 94.6
   teamAbbr: 25
 ---------Week 2---------
   weekPts: 4.8
@@ -16084,7 +16084,7 @@
   : 0
   weekProjectedPts: 4.5
   seasonProjectedPts: 81.8
-  seasonPts: 84.6
+  seasonPts: 94.6
   teamAbbr: 25
 ---------Week 3---------
   weekPts: 18.7
@@ -16120,7 +16120,7 @@
   : 0
   weekProjectedPts: 4.8
   seasonProjectedPts: 81.8
-  seasonPts: 84.6
+  seasonPts: 94.6
   teamAbbr: 25
 ---------Week 4---------
   : 0
@@ -16192,7 +16192,7 @@
   : 0
   weekProjectedPts: 3.9
   seasonProjectedPts: 81.8
-  seasonPts: 84.6
+  seasonPts: 94.6
   teamAbbr: 25
 ---------Week 6---------
   weekPts: 2.4
@@ -16228,7 +16228,7 @@
   : 0
   weekProjectedPts: 10.4
   seasonProjectedPts: 81.8
-  seasonPts: 84.6
+  seasonPts: 94.6
   teamAbbr: 25
 ---------Week 7---------
   weekPts: 4.9
@@ -16264,7 +16264,7 @@
   : 0
   weekProjectedPts: 3.8
   seasonProjectedPts: 81.8
-  seasonPts: 84.6
+  seasonPts: 94.6
   teamAbbr: 25
 ---------Week 8---------
   weekPts: 10.3
@@ -16300,7 +16300,7 @@
   : 0
   weekProjectedPts: 3.7
   seasonProjectedPts: 81.8
-  seasonPts: 84.6
+  seasonPts: 94.6
   teamAbbr: 25
 ---------Week 9---------
   weekPts: 7.1
@@ -16336,7 +16336,7 @@
   : 0
   weekProjectedPts: 3.7
   seasonProjectedPts: 81.8
-  seasonPts: 84.6
+  seasonPts: 94.6
   teamAbbr: 25
 ---------Week 10---------
   weekPts: 7.6
@@ -16372,7 +16372,7 @@
   : 0
   weekProjectedPts: 17.4
   seasonProjectedPts: 81.8
-  seasonPts: 84.6
+  seasonPts: 94.6
   teamAbbr: 25
 ---------Week 11---------
   weekPts: 2.1
@@ -16408,7 +16408,7 @@
   : 0
   weekProjectedPts: 3.7
   seasonProjectedPts: 81.8
-  seasonPts: 84.6
+  seasonPts: 94.6
   teamAbbr: 25
 ---------Week 12---------
   weekPts: 5.4
@@ -16444,7 +16444,7 @@
   : 0
   weekProjectedPts: 17.6
   seasonProjectedPts: 81.8
-  seasonPts: 84.6
+  seasonPts: 94.6
   teamAbbr: 25
 ---------Week 13---------
   weekPts: 10.9
@@ -16480,7 +16480,7 @@
   : 0
   weekProjectedPts: 5.5
   seasonProjectedPts: 81.8
-  seasonPts: 84.6
+  seasonPts: 94.6
   teamAbbr: 25
 
 
@@ -16519,7 +16519,7 @@
   : 0
   weekProjectedPts: 3.1
   seasonProjectedPts: 45.1
-  seasonPts: 17.1
+  seasonPts: 17.5
   teamAbbr: 3
 ---------Week 2---------
   : 0
@@ -16663,7 +16663,7 @@
   : 0
   weekProjectedPts: 1.8
   seasonProjectedPts: 45.1
-  seasonPts: 17.1
+  seasonPts: 17.5
   teamAbbr: 3
 ---------Week 6---------
   weekPts: 0.6
@@ -16699,7 +16699,7 @@
   : 0
   weekProjectedPts: 1.8
   seasonProjectedPts: 45.1
-  seasonPts: 17.1
+  seasonPts: 17.5
   teamAbbr: 3
 ---------Week 7---------
   weekPts: 9.4
@@ -16735,7 +16735,7 @@
   : 0
   weekProjectedPts: 1.6
   seasonProjectedPts: 45.1
-  seasonPts: 17.1
+  seasonPts: 17.5
   teamAbbr: 3
 ---------Week 8---------
   weekPts: 2.6
@@ -16771,7 +16771,7 @@
   : 0
   weekProjectedPts: 2.2
   seasonProjectedPts: 45.1
-  seasonPts: 17.1
+  seasonPts: 17.5
   teamAbbr: 3
 ---------Week 9---------
   weekPts: 2.2
@@ -16807,7 +16807,7 @@
   : 0
   weekProjectedPts: 1.1
   seasonProjectedPts: 45.1
-  seasonPts: 17.1
+  seasonPts: 17.5
   teamAbbr: 3
 ---------Week 10---------
   : 0
@@ -16879,7 +16879,7 @@
   : 0
   weekProjectedPts: 1.6
   seasonProjectedPts: 45.1
-  seasonPts: 17.1
+  seasonPts: 17.5
   teamAbbr: 3
 ---------Week 12---------
   : 0
@@ -16951,7 +16951,7 @@
   : 0
   weekProjectedPts: 1.2
   seasonProjectedPts: 45.1
-  seasonPts: 17.1
+  seasonPts: 17.5
   teamAbbr: 3
 
 
@@ -20287,7 +20287,7 @@
   : 0
   weekProjectedPts: 15.3
   seasonProjectedPts: 143.3
-  seasonPts: 52.8
+  seasonPts: 67.3
   teamAbbr: 30
 ---------Week 2---------
   weekPts: 2.3
@@ -20323,7 +20323,7 @@
   : 0
   weekProjectedPts: 9.5
   seasonProjectedPts: 143.3
-  seasonPts: 52.8
+  seasonPts: 67.3
   teamAbbr: 30
 ---------Week 3---------
   : 0
@@ -20611,7 +20611,7 @@
   : 0
   weekProjectedPts: 1.5
   seasonProjectedPts: 143.3
-  seasonPts: 52.8
+  seasonPts: 67.3
   teamAbbr: 30
 ---------Week 11---------
   weekPts: 10.5
@@ -20647,7 +20647,7 @@
   83: -2
   weekProjectedPts: 8.6
   seasonProjectedPts: 143.3
-  seasonPts: 52.8
+  seasonPts: 67.3
   teamAbbr: 30
 ---------Week 12---------
   weekPts: 7
@@ -20683,7 +20683,7 @@
   : 0
   weekProjectedPts: 14.2
   seasonProjectedPts: 143.3
-  seasonPts: 52.8
+  seasonPts: 67.3
   teamAbbr: 30
 ---------Week 13---------
   weekPts: 12.8
@@ -20719,7 +20719,7 @@
   : 0
   weekProjectedPts: 13.5
   seasonProjectedPts: 143.3
-  seasonPts: 52.8
+  seasonPts: 67.3
   teamAbbr: 30
 
 
@@ -21229,7 +21229,7 @@
   : 0
   weekProjectedPts: 7.4
   seasonProjectedPts: 178.8
-  seasonPts: 127
+  seasonPts: 145.2
   teamAbbr: 13
 ---------Week 2---------
   weekPts: 9.7
@@ -21265,7 +21265,7 @@
   : 0
   weekProjectedPts: 6.9
   seasonProjectedPts: 178.8
-  seasonPts: 127
+  seasonPts: 145.2
   teamAbbr: 13
 ---------Week 3---------
   weekPts: 10.7
@@ -21301,7 +21301,7 @@
   : 0
   weekProjectedPts: 7.8
   seasonProjectedPts: 178.8
-  seasonPts: 127
+  seasonPts: 145.2
   teamAbbr: 13
 ---------Week 4---------
   weekPts: 10.8
@@ -21337,7 +21337,7 @@
   : 0
   weekProjectedPts: 13.3
   seasonProjectedPts: 178.8
-  seasonPts: 127
+  seasonPts: 145.2
   teamAbbr: 13
 ---------Week 5---------
   weekPts: 2.4
@@ -21373,7 +21373,7 @@
   : 0
   weekProjectedPts: 6.7
   seasonProjectedPts: 178.8
-  seasonPts: 127
+  seasonPts: 145.2
   teamAbbr: 13
 ---------Week 6---------
   weekPts: 29.8
@@ -21409,7 +21409,7 @@
   : 0
   weekProjectedPts: 21
   seasonProjectedPts: 178.8
-  seasonPts: 127
+  seasonPts: 145.2
   teamAbbr: 13
 ---------Week 7---------
   weekPts: 6.7
@@ -21445,7 +21445,7 @@
   : 0
   weekProjectedPts: 6.9
   seasonProjectedPts: 178.8
-  seasonPts: 127
+  seasonPts: 145.2
   teamAbbr: 13
 ---------Week 8---------
   weekPts: 12.3
@@ -21481,7 +21481,7 @@
   : 0
   weekProjectedPts: 8.2
   seasonProjectedPts: 178.8
-  seasonPts: 127
+  seasonPts: 145.2
   teamAbbr: 13
 ---------Week 9---------
   : 0
@@ -21553,7 +21553,7 @@
   : 0
   weekProjectedPts: 14.3
   seasonProjectedPts: 178.8
-  seasonPts: 127
+  seasonPts: 145.2
   teamAbbr: 13
 ---------Week 11---------
   weekPts: 17.3
@@ -21589,7 +21589,7 @@
   : 0
   weekProjectedPts: 13.1
   seasonProjectedPts: 178.8
-  seasonPts: 127
+  seasonPts: 145.2
   teamAbbr: 13
 ---------Week 12---------
   weekPts: 5.5
@@ -21625,7 +21625,7 @@
   : 0
   weekProjectedPts: 13.4
   seasonProjectedPts: 178.8
-  seasonPts: 127
+  seasonPts: 145.2
   teamAbbr: 13
 ---------Week 13---------
   weekPts: 1.8
@@ -21661,7 +21661,7 @@
   : 0
   weekProjectedPts: 14.3
   seasonProjectedPts: 178.8
-  seasonPts: 127
+  seasonPts: 145.2
   teamAbbr: 13
 
 
@@ -22642,7 +22642,7 @@
   : 0
   weekProjectedPts: 2.3
   seasonProjectedPts: 50.6
-  seasonPts: 42.4
+  seasonPts: 46.7
   teamAbbr: 14
 ---------Week 2---------
   weekPts: 7
@@ -22678,7 +22678,7 @@
   : 0
   weekProjectedPts: 2.2
   seasonProjectedPts: 50.6
-  seasonPts: 42.4
+  seasonPts: 46.7
   teamAbbr: 14
 ---------Week 3---------
   weekPts: 6.9
@@ -22714,7 +22714,7 @@
   : 0
   weekProjectedPts: 2.8
   seasonProjectedPts: 50.6
-  seasonPts: 42.4
+  seasonPts: 46.7
   teamAbbr: 14
 ---------Week 4---------
   weekPts: 0.5
@@ -22750,7 +22750,7 @@
   : 0
   weekProjectedPts: 2
   seasonProjectedPts: 50.6
-  seasonPts: 42.4
+  seasonPts: 46.7
   teamAbbr: 14
 ---------Week 5---------
   : 0
@@ -22822,7 +22822,7 @@
   : 0
   weekProjectedPts: 1.8
   seasonProjectedPts: 50.6
-  seasonPts: 42.4
+  seasonPts: 46.7
   teamAbbr: 14
 ---------Week 7---------
   weekPts: 2.2
@@ -22858,7 +22858,7 @@
   : 0
   weekProjectedPts: 2
   seasonProjectedPts: 50.6
-  seasonPts: 42.4
+  seasonPts: 46.7
   teamAbbr: 14
 ---------Week 8---------
   weekPts: 3.4
@@ -22894,7 +22894,7 @@
   : 0
   weekProjectedPts: 1.9
   seasonProjectedPts: 50.6
-  seasonPts: 42.4
+  seasonPts: 46.7
   teamAbbr: 14
 ---------Week 9---------
   weekPts: 2.3
@@ -22930,7 +22930,7 @@
   : 0
   weekProjectedPts: 1.9
   seasonProjectedPts: 50.6
-  seasonPts: 42.4
+  seasonPts: 46.7
   teamAbbr: 14
 ---------Week 10---------
   : 0
@@ -23002,7 +23002,7 @@
   : 0
   weekProjectedPts: 2.1
   seasonProjectedPts: 50.6
-  seasonPts: 42.4
+  seasonPts: 46.7
   teamAbbr: 14
 ---------Week 12---------
   weekPts: 1.8
@@ -23038,7 +23038,7 @@
   : 0
   weekProjectedPts: 8
   seasonProjectedPts: 50.6
-  seasonPts: 42.4
+  seasonPts: 46.7
   teamAbbr: 14
 ---------Week 13---------
   weekPts: 7.6
@@ -23074,7 +23074,7 @@
   : 0
   weekProjectedPts: 1.9
   seasonProjectedPts: 50.6
-  seasonPts: 42.4
+  seasonPts: 46.7
   teamAbbr: 14
 
 
@@ -23185,7 +23185,7 @@
   : 0
   weekProjectedPts: 0
   seasonProjectedPts: 1.6
-  seasonPts: 17.1
+  seasonPts: 18
   teamAbbr: 23
 ---------Week 4---------
   weekPts: 6.5
@@ -23221,7 +23221,7 @@
   : 0
   weekProjectedPts: 0.3
   seasonProjectedPts: 1.6
-  seasonPts: 17.1
+  seasonPts: 18
   teamAbbr: 23
 ---------Week 5---------
   weekPts: 7.4
@@ -23257,7 +23257,7 @@
   : 0
   weekProjectedPts: 1.4
   seasonProjectedPts: 1.6
-  seasonPts: 17.1
+  seasonPts: 18
   teamAbbr: 23
 ---------Week 6---------
   weekPts: 2.9
@@ -23293,7 +23293,7 @@
   : 0
   weekProjectedPts: 2
   seasonProjectedPts: 1.6
-  seasonPts: 17.1
+  seasonPts: 18
   teamAbbr: 23
 ---------Week 7---------
   weekPts: -0.1
@@ -23329,7 +23329,7 @@
   : 0
   weekProjectedPts: 8.4
   seasonProjectedPts: 1.6
-  seasonPts: 17.1
+  seasonPts: 18
   teamAbbr: 23
 ---------Week 8---------
   : 0
@@ -23437,7 +23437,7 @@
   : 0
   weekProjectedPts: 1.5
   seasonProjectedPts: 1.6
-  seasonPts: 17.1
+  seasonPts: 18
   teamAbbr: 23
 ---------Week 11---------
   : 0
@@ -23509,7 +23509,7 @@
   : 0
   weekProjectedPts: 0.6
   seasonProjectedPts: 1.6
-  seasonPts: 17.1
+  seasonPts: 18
   teamAbbr: 23
 ---------Week 13---------
   weekPts: 0
@@ -23545,7 +23545,7 @@
   : 0
   weekProjectedPts: 0.5
   seasonProjectedPts: 1.6
-  seasonPts: 17.1
+  seasonPts: 18
   teamAbbr: 23
 
 
@@ -23584,7 +23584,7 @@
   : 0
   weekProjectedPts: 0
   seasonProjectedPts: 0
-  seasonPts: 12.3
+  seasonPts: 13.5
   teamAbbr: 13
 ---------Week 2---------
   weekPts: 2.1
@@ -23620,7 +23620,7 @@
   : 0
   weekProjectedPts: 0
   seasonProjectedPts: 0
-  seasonPts: 12.3
+  seasonPts: 13.5
   teamAbbr: 13
 ---------Week 3---------
   weekPts: 1.9
@@ -23656,7 +23656,7 @@
   : 0
   weekProjectedPts: 1.8
   seasonProjectedPts: 0
-  seasonPts: 12.3
+  seasonPts: 13.5
   teamAbbr: 13
 ---------Week 4---------
   : 0
@@ -23836,7 +23836,7 @@
   : 0
   weekProjectedPts: 0.8
   seasonProjectedPts: 0
-  seasonPts: 12.3
+  seasonPts: 13.5
   teamAbbr: 13
 ---------Week 9---------
   : 0
@@ -23980,7 +23980,7 @@
   : 0
   weekProjectedPts: 2.1
   seasonProjectedPts: 0
-  seasonPts: 12.3
+  seasonPts: 13.5
   teamAbbr: 13
 ---------Week 13---------
   weekPts: 5.8
@@ -24016,7 +24016,7 @@
   : 0
   weekProjectedPts: 0
   seasonProjectedPts: 0
-  seasonPts: 12.3
+  seasonPts: 13.5
   teamAbbr: 13
 
 
@@ -24526,7 +24526,7 @@
   : 0
   weekProjectedPts: 0
   seasonProjectedPts: 54.1
-  seasonPts: 14.2
+  seasonPts: 15.4
   teamAbbr: 8
 ---------Week 2---------
   weekPts: 3.2
@@ -24562,7 +24562,7 @@
   : 0
   weekProjectedPts: 0
   seasonProjectedPts: 54.1
-  seasonPts: 14.2
+  seasonPts: 15.4
   teamAbbr: 8
 ---------Week 3---------
   weekPts: 6.1
@@ -24598,7 +24598,7 @@
   : 0
   weekProjectedPts: 2.4
   seasonProjectedPts: 54.1
-  seasonPts: 14.2
+  seasonPts: 15.4
   teamAbbr: 8
 ---------Week 4---------
   weekPts: 1.6
@@ -24634,7 +24634,7 @@
   : 0
   weekProjectedPts: 1.8
   seasonProjectedPts: 54.1
-  seasonPts: 14.2
+  seasonPts: 15.4
   teamAbbr: 8
 ---------Week 5---------
   : 0
@@ -24850,7 +24850,7 @@
   : 0
   weekProjectedPts: 1.5
   seasonProjectedPts: 54.1
-  seasonPts: 14.2
+  seasonPts: 15.4
   teamAbbr: 8
 ---------Week 11---------
   weekPts: 1.6
@@ -24886,7 +24886,7 @@
   : 0
   weekProjectedPts: 1.4
   seasonProjectedPts: 54.1
-  seasonPts: 14.2
+  seasonPts: 15.4
   teamAbbr: 8
 ---------Week 12---------
   weekPts: 0.1
@@ -24922,7 +24922,7 @@
   : 0
   weekProjectedPts: 1.6
   seasonProjectedPts: 54.1
-  seasonPts: 14.2
+  seasonPts: 15.4
   teamAbbr: 8
 ---------Week 13---------
   weekPts: 0
@@ -24958,7 +24958,7 @@
   : 0
   weekProjectedPts: 1.1
   seasonProjectedPts: 54.1
-  seasonPts: 14.2
+  seasonPts: 15.4
   teamAbbr: 8
 
 
@@ -24997,7 +24997,7 @@
   : 0
   weekProjectedPts: 0
   seasonProjectedPts: 58.2
-  seasonPts: 25.1
+  seasonPts: 28
   teamAbbr: 22
 ---------Week 2---------
   weekPts: 1.7
@@ -25033,7 +25033,7 @@
   : 0
   weekProjectedPts: 0
   seasonProjectedPts: 58.2
-  seasonPts: 25.1
+  seasonPts: 28
   teamAbbr: 22
 ---------Week 3---------
   weekPts: 3.2
@@ -25069,7 +25069,7 @@
   : 0
   weekProjectedPts: 2.8
   seasonProjectedPts: 58.2
-  seasonPts: 25.1
+  seasonPts: 28
   teamAbbr: 22
 ---------Week 4---------
   weekPts: 0
@@ -25105,7 +25105,7 @@
   : 0
   weekProjectedPts: 2.6
   seasonProjectedPts: 58.2
-  seasonPts: 25.1
+  seasonPts: 28
   teamAbbr: 22
 ---------Week 5---------
   : 0
@@ -25177,7 +25177,7 @@
   : 0
   weekProjectedPts: 1.5
   seasonProjectedPts: 58.2
-  seasonPts: 25.1
+  seasonPts: 28
   teamAbbr: 22
 ---------Week 7---------
   weekPts: 0.7
@@ -25213,7 +25213,7 @@
   : 0
   weekProjectedPts: 1.5
   seasonProjectedPts: 58.2
-  seasonPts: 25.1
+  seasonPts: 28
   teamAbbr: 22
 ---------Week 8---------
   weekPts: 0.7
@@ -25249,7 +25249,7 @@
   : 0
   weekProjectedPts: 8
   seasonProjectedPts: 58.2
-  seasonPts: 25.1
+  seasonPts: 28
   teamAbbr: 22
 ---------Week 9---------
   weekPts: 0.4
@@ -25285,7 +25285,7 @@
   : 0
   weekProjectedPts: 1.6
   seasonProjectedPts: 58.2
-  seasonPts: 25.1
+  seasonPts: 28
   teamAbbr: 22
 ---------Week 10---------
   weekPts: 2.6
@@ -25321,7 +25321,7 @@
   : 0
   weekProjectedPts: 1.4
   seasonProjectedPts: 58.2
-  seasonPts: 25.1
+  seasonPts: 28
   teamAbbr: 22
 ---------Week 11---------
   : 0
@@ -25393,7 +25393,7 @@
   : 0
   weekProjectedPts: 0.9
   seasonProjectedPts: 58.2
-  seasonPts: 25.1
+  seasonPts: 28
   teamAbbr: 22
 ---------Week 13---------
   weekPts: 5.3
@@ -25429,7 +25429,7 @@
   : 0
   weekProjectedPts: 1
   seasonProjectedPts: 58.2
-  seasonPts: 25.1
+  seasonPts: 28
   teamAbbr: 22
 
 
@@ -26917,7 +26917,7 @@
   : 0
   weekProjectedPts: 0
   seasonProjectedPts: 9.1
-  seasonPts: 15.7
+  seasonPts: 20.8
   teamAbbr: 6
 ---------Week 3---------
   weekPts: 0
@@ -26953,7 +26953,7 @@
   : 0
   weekProjectedPts: 0
   seasonProjectedPts: 9.1
-  seasonPts: 15.7
+  seasonPts: 20.8
   teamAbbr: 6
 ---------Week 4---------
   : 0
@@ -27025,7 +27025,7 @@
   : 0
   weekProjectedPts: 0
   seasonProjectedPts: 9.1
-  seasonPts: 15.7
+  seasonPts: 20.8
   teamAbbr: 6
 ---------Week 6---------
   weekPts: 1.6
@@ -27061,7 +27061,7 @@
   : 0
   weekProjectedPts: 0.2
   seasonProjectedPts: 9.1
-  seasonPts: 15.7
+  seasonPts: 20.8
   teamAbbr: 6
 ---------Week 7---------
   weekPts: 3.3
@@ -27097,7 +27097,7 @@
   : 0
   weekProjectedPts: 0.5
   seasonProjectedPts: 9.1
-  seasonPts: 15.7
+  seasonPts: 20.8
   teamAbbr: 6
 ---------Week 8---------
   weekPts: 0
@@ -27133,7 +27133,7 @@
   : 0
   weekProjectedPts: 0.8
   seasonProjectedPts: 9.1
-  seasonPts: 15.7
+  seasonPts: 20.8
   teamAbbr: 6
 ---------Week 9---------
   : 0
@@ -27205,7 +27205,7 @@
   : 0
   weekProjectedPts: 0.5
   seasonProjectedPts: 9.1
-  seasonPts: 15.7
+  seasonPts: 20.8
   teamAbbr: 6
 ---------Week 11---------
   weekPts: 1.4
@@ -27241,7 +27241,7 @@
   : 0
   weekProjectedPts: 0.6
   seasonProjectedPts: 9.1
-  seasonPts: 15.7
+  seasonPts: 20.8
   teamAbbr: 6
 ---------Week 12---------
   weekPts: 4.8
@@ -27277,7 +27277,7 @@
   : 0
   weekProjectedPts: 0.6
   seasonProjectedPts: 9.1
-  seasonPts: 15.7
+  seasonPts: 20.8
   teamAbbr: 6
 ---------Week 13---------
   weekPts: 4.6
@@ -27313,7 +27313,7 @@
   : 0
   weekProjectedPts: 1.7
   seasonProjectedPts: 9.1
-  seasonPts: 15.7
+  seasonPts: 20.8
   teamAbbr: 6
 
 
@@ -28765,7 +28765,7 @@
   : 0
   weekProjectedPts: 1.8
   seasonProjectedPts: 59.5
-  seasonPts: 98.8
+  seasonPts: 102.4
   teamAbbr: 11
 ---------Week 2---------
   weekPts: 6.6
@@ -28801,7 +28801,7 @@
   : 0
   weekProjectedPts: 1.6
   seasonProjectedPts: 59.5
-  seasonPts: 98.8
+  seasonPts: 102.4
   teamAbbr: 11
 ---------Week 3---------
   weekPts: 23.1
@@ -28837,7 +28837,7 @@
   : 0
   weekProjectedPts: 7.8
   seasonProjectedPts: 59.5
-  seasonPts: 98.8
+  seasonPts: 102.4
   teamAbbr: 11
 ---------Week 4---------
   weekPts: 15
@@ -28873,7 +28873,7 @@
   : 0
   weekProjectedPts: 7.6
   seasonProjectedPts: 59.5
-  seasonPts: 98.8
+  seasonPts: 102.4
   teamAbbr: 11
 ---------Week 5---------
   : 0
@@ -28945,7 +28945,7 @@
   : 0
   weekProjectedPts: 8.8
   seasonProjectedPts: 59.5
-  seasonPts: 98.8
+  seasonPts: 102.4
   teamAbbr: 11
 ---------Week 7---------
   weekPts: 5.5
@@ -28981,7 +28981,7 @@
   : 0
   weekProjectedPts: 8.6
   seasonProjectedPts: 59.5
-  seasonPts: 98.8
+  seasonPts: 102.4
   teamAbbr: 11
 ---------Week 8---------
   weekPts: 10.2
@@ -29017,7 +29017,7 @@
   : 0
   weekProjectedPts: 15.2
   seasonProjectedPts: 59.5
-  seasonPts: 98.8
+  seasonPts: 102.4
   teamAbbr: 11
 ---------Week 9---------
   weekPts: 6.1
@@ -29053,7 +29053,7 @@
   : 0
   weekProjectedPts: 14.4
   seasonProjectedPts: 59.5
-  seasonPts: 98.8
+  seasonPts: 102.4
   teamAbbr: 11
 ---------Week 10---------
   weekPts: 2.6
@@ -29089,7 +29089,7 @@
   : 0
   weekProjectedPts: 6.1
   seasonProjectedPts: 59.5
-  seasonPts: 98.8
+  seasonPts: 102.4
   teamAbbr: 11
 ---------Week 11---------
   : 0
@@ -29161,7 +29161,7 @@
   : 0
   weekProjectedPts: 2.4
   seasonProjectedPts: 59.5
-  seasonPts: 98.8
+  seasonPts: 102.4
   teamAbbr: 11
 ---------Week 13---------
   weekPts: 1.9
@@ -29197,7 +29197,7 @@
   : 0
   weekProjectedPts: 2.3
   seasonProjectedPts: 59.5
-  seasonPts: 98.8
+  seasonPts: 102.4
   teamAbbr: 11
 
 
@@ -29236,7 +29236,7 @@
   : 0
   weekProjectedPts: 0
   seasonProjectedPts: 53.7
-  seasonPts: 83.5
+  seasonPts: 86.9
   teamAbbr: 3
 ---------Week 2---------
   weekPts: 7.8
@@ -29272,7 +29272,7 @@
   : 0
   weekProjectedPts: 0
   seasonProjectedPts: 53.7
-  seasonPts: 83.5
+  seasonPts: 86.9
   teamAbbr: 3
 ---------Week 3---------
   weekPts: 2
@@ -29308,7 +29308,7 @@
   : 0
   weekProjectedPts: 2.9
   seasonProjectedPts: 53.7
-  seasonPts: 83.5
+  seasonPts: 86.9
   teamAbbr: 3
 ---------Week 4---------
   weekPts: 4.3
@@ -29344,7 +29344,7 @@
   : 0
   weekProjectedPts: 2.1
   seasonProjectedPts: 53.7
-  seasonPts: 83.5
+  seasonPts: 86.9
   teamAbbr: 3
 ---------Week 5---------
   weekPts: 6.6
@@ -29380,7 +29380,7 @@
   : 0
   weekProjectedPts: 2.1
   seasonProjectedPts: 53.7
-  seasonPts: 83.5
+  seasonPts: 86.9
   teamAbbr: 3
 ---------Week 6---------
   weekPts: 12.1
@@ -29416,7 +29416,7 @@
   : 0
   weekProjectedPts: 8.3
   seasonProjectedPts: 53.7
-  seasonPts: 83.5
+  seasonPts: 86.9
   teamAbbr: 3
 ---------Week 7---------
   weekPts: 2
@@ -29452,7 +29452,7 @@
   : 0
   weekProjectedPts: 2.5
   seasonProjectedPts: 53.7
-  seasonPts: 83.5
+  seasonPts: 86.9
   teamAbbr: 3
 ---------Week 8---------
   weekPts: 15.4
@@ -29488,7 +29488,7 @@
   : 0
   weekProjectedPts: 11.8
   seasonProjectedPts: 53.7
-  seasonPts: 83.5
+  seasonPts: 86.9
   teamAbbr: 3
 ---------Week 9---------
   weekPts: 9.6
@@ -29524,7 +29524,7 @@
   : 0
   weekProjectedPts: 2.1
   seasonProjectedPts: 53.7
-  seasonPts: 83.5
+  seasonPts: 86.9
   teamAbbr: 3
 ---------Week 10---------
   : 0
@@ -29596,7 +29596,7 @@
   : 0
   weekProjectedPts: 2.6
   seasonProjectedPts: 53.7
-  seasonPts: 83.5
+  seasonPts: 86.9
   teamAbbr: 3
 ---------Week 12---------
   : 0
@@ -29668,7 +29668,7 @@
   : 0
   weekProjectedPts: 2.2
   seasonProjectedPts: 53.7
-  seasonPts: 83.5
+  seasonPts: 86.9
   teamAbbr: 3
 
 
@@ -30103,7 +30103,7 @@
   : 0
   weekProjectedPts: 0
   seasonProjectedPts: 0
-  seasonPts: 0
+  seasonPts: 3.4
   teamAbbr: 0
 ---------Week 13---------
   : 0
@@ -30178,7 +30178,7 @@
   : 0
   weekProjectedPts: 7.7
   seasonProjectedPts: 84.8
-  seasonPts: 65.2
+  seasonPts: 75
   teamAbbr: 31
 ---------Week 2---------
   weekPts: 5.8
@@ -30214,7 +30214,7 @@
   : 0
   weekProjectedPts: 14.1
   seasonProjectedPts: 84.8
-  seasonPts: 65.2
+  seasonPts: 75
   teamAbbr: 31
 ---------Week 3---------
   weekPts: 1.6
@@ -30250,7 +30250,7 @@
   : 0
   weekProjectedPts: 1.9
   seasonProjectedPts: 84.8
-  seasonPts: 65.2
+  seasonPts: 75
   teamAbbr: 31
 ---------Week 4---------
   weekPts: 10
@@ -30286,7 +30286,7 @@
   : 0
   weekProjectedPts: 9.8
   seasonProjectedPts: 84.8
-  seasonPts: 65.2
+  seasonPts: 75
   teamAbbr: 31
 ---------Week 5---------
   weekPts: 4.5
@@ -30322,7 +30322,7 @@
   : 0
   weekProjectedPts: 3.5
   seasonProjectedPts: 84.8
-  seasonPts: 65.2
+  seasonPts: 75
   teamAbbr: 31
 ---------Week 6---------
   weekPts: 6.6
@@ -30358,7 +30358,7 @@
   : 0
   weekProjectedPts: 9.7
   seasonProjectedPts: 84.8
-  seasonPts: 65.2
+  seasonPts: 75
   teamAbbr: 31
 ---------Week 7---------
   weekPts: 11.3
@@ -30394,7 +30394,7 @@
   : 0
   weekProjectedPts: 10.1
   seasonProjectedPts: 84.8
-  seasonPts: 65.2
+  seasonPts: 75
   teamAbbr: 31
 ---------Week 8---------
   weekPts: 4.1
@@ -30430,7 +30430,7 @@
   : 0
   weekProjectedPts: 9.1
   seasonProjectedPts: 84.8
-  seasonPts: 65.2
+  seasonPts: 75
   teamAbbr: 31
 ---------Week 9---------
   : 0
@@ -30502,7 +30502,7 @@
   : 0
   weekProjectedPts: 9.8
   seasonProjectedPts: 84.8
-  seasonPts: 65.2
+  seasonPts: 75
   teamAbbr: 31
 ---------Week 11---------
   weekPts: 1.9
@@ -30538,7 +30538,7 @@
   : 0
   weekProjectedPts: 3.4
   seasonProjectedPts: 84.8
-  seasonPts: 65.2
+  seasonPts: 75
   teamAbbr: 31
 ---------Week 12---------
   weekPts: 3.4
@@ -30574,7 +30574,7 @@
   : 0
   weekProjectedPts: 3.5
   seasonProjectedPts: 84.8
-  seasonPts: 65.2
+  seasonPts: 75
   teamAbbr: 31
 ---------Week 13---------
   weekPts: 4.5
@@ -30610,7 +30610,7 @@
   : 0
   weekProjectedPts: 2.9
   seasonProjectedPts: 84.8
-  seasonPts: 65.2
+  seasonPts: 75
   teamAbbr: 31
 
 
@@ -31120,7 +31120,7 @@
   : 0
   weekProjectedPts: 1.3
   seasonProjectedPts: 54.8
-  seasonPts: 37.5
+  seasonPts: 39
   teamAbbr: 4
 ---------Week 2---------
   weekPts: 11.1
@@ -31156,7 +31156,7 @@
   : 0
   weekProjectedPts: 7.6
   seasonProjectedPts: 54.8
-  seasonPts: 37.5
+  seasonPts: 39
   teamAbbr: 4
 ---------Week 3---------
   weekPts: 5.6
@@ -31192,7 +31192,7 @@
   : 0
   weekProjectedPts: 1.1
   seasonProjectedPts: 54.8
-  seasonPts: 37.5
+  seasonPts: 39
   teamAbbr: 4
 ---------Week 4---------
   weekPts: 9.2
@@ -31228,7 +31228,7 @@
   : 0
   weekProjectedPts: 9.5
   seasonProjectedPts: 54.8
-  seasonPts: 37.5
+  seasonPts: 39
   teamAbbr: 4
 ---------Week 5---------
   weekPts: 5.4
@@ -31264,7 +31264,7 @@
   : 0
   weekProjectedPts: 15.8
   seasonProjectedPts: 54.8
-  seasonPts: 37.5
+  seasonPts: 39
   teamAbbr: 4
 ---------Week 6---------
   weekPts: 0.3
@@ -31300,7 +31300,7 @@
   : 0
   weekProjectedPts: 3.3
   seasonProjectedPts: 54.8
-  seasonPts: 37.5
+  seasonPts: 39
   teamAbbr: 4
 ---------Week 7---------
   : 0
@@ -31372,7 +31372,7 @@
   : 0
   weekProjectedPts: 2.5
   seasonProjectedPts: 54.8
-  seasonPts: 37.5
+  seasonPts: 39
   teamAbbr: 4
 ---------Week 9---------
   weekPts: 0.1
@@ -31408,7 +31408,7 @@
   : 0
   weekProjectedPts: 2.4
   seasonProjectedPts: 54.8
-  seasonPts: 37.5
+  seasonPts: 39
   teamAbbr: 4
 ---------Week 10---------
   weekPts: 1.4
@@ -31444,7 +31444,7 @@
   : 0
   weekProjectedPts: 1.9
   seasonProjectedPts: 54.8
-  seasonPts: 37.5
+  seasonPts: 39
   teamAbbr: 4
 ---------Week 11---------
   weekPts: 0
@@ -31480,7 +31480,7 @@
   : 0
   weekProjectedPts: 2.1
   seasonProjectedPts: 54.8
-  seasonPts: 37.5
+  seasonPts: 39
   teamAbbr: 4
 ---------Week 12---------
   weekPts: 1.4
@@ -31516,7 +31516,7 @@
   : 0
   weekProjectedPts: 1.5
   seasonProjectedPts: 54.8
-  seasonPts: 37.5
+  seasonPts: 39
   teamAbbr: 4
 ---------Week 13---------
   weekPts: 0.3
@@ -31552,7 +31552,7 @@
   : 0
   weekProjectedPts: 1.9
   seasonProjectedPts: 54.8
-  seasonPts: 37.5
+  seasonPts: 39
   teamAbbr: 4
 
 
@@ -32641,7 +32641,7 @@
   : 0
   weekProjectedPts: 9.4
   seasonProjectedPts: 180.9
-  seasonPts: 155.8
+  seasonPts: 203.6
   teamAbbr: 26
 ---------Week 5---------
   weekPts: 15.4
@@ -32677,7 +32677,7 @@
   : 0
   weekProjectedPts: 16.2
   seasonProjectedPts: 180.9
-  seasonPts: 155.8
+  seasonPts: 203.6
   teamAbbr: 26
 ---------Week 6---------
   weekPts: 12.8
@@ -32713,7 +32713,7 @@
   : 0
   weekProjectedPts: 21.9
   seasonProjectedPts: 180.9
-  seasonPts: 155.8
+  seasonPts: 203.6
   teamAbbr: 26
 ---------Week 7---------
   weekPts: 14.9
@@ -32749,7 +32749,7 @@
   : 0
   weekProjectedPts: 9.3
   seasonProjectedPts: 180.9
-  seasonPts: 155.8
+  seasonPts: 203.6
   teamAbbr: 26
 ---------Week 8---------
   : 0
@@ -32821,7 +32821,7 @@
   83: 4
   weekProjectedPts: 10.9
   seasonProjectedPts: 180.9
-  seasonPts: 155.8
+  seasonPts: 203.6
   teamAbbr: 26
 ---------Week 10---------
   weekPts: 25.4
@@ -32857,7 +32857,7 @@
   : 0
   weekProjectedPts: 17.8
   seasonProjectedPts: 180.9
-  seasonPts: 155.8
+  seasonPts: 203.6
   teamAbbr: 26
 ---------Week 11---------
   weekPts: 26.1
@@ -32893,7 +32893,7 @@
   : 0
   weekProjectedPts: 17
   seasonProjectedPts: 180.9
-  seasonPts: 155.8
+  seasonPts: 203.6
   teamAbbr: 26
 ---------Week 12---------
   weekPts: 20.2
@@ -32929,7 +32929,7 @@
   : 0
   weekProjectedPts: 17.5
   seasonProjectedPts: 180.9
-  seasonPts: 155.8
+  seasonPts: 203.6
   teamAbbr: 26
 ---------Week 13---------
   weekPts: 16.2
@@ -32965,7 +32965,7 @@
   : 0
   weekProjectedPts: 16.3
   seasonProjectedPts: 180.9
-  seasonPts: 155.8
+  seasonPts: 203.6
   teamAbbr: 26
 
 
@@ -36301,7 +36301,7 @@
   : 0
   weekProjectedPts: 1.6
   seasonProjectedPts: 37.4
-  seasonPts: 17.8
+  seasonPts: 18
   teamAbbr: 5
 ---------Week 2---------
   weekPts: 0.6
@@ -36337,7 +36337,7 @@
   : 0
   weekProjectedPts: 0.1
   seasonProjectedPts: 37.4
-  seasonPts: 17.8
+  seasonPts: 18
   teamAbbr: 5
 ---------Week 3---------
   : 0
@@ -36445,7 +36445,7 @@
   : 0
   weekProjectedPts: 0.7
   seasonProjectedPts: 37.4
-  seasonPts: 17.8
+  seasonPts: 18
   teamAbbr: 5
 ---------Week 6---------
   weekPts: 5
@@ -36481,7 +36481,7 @@
   : 0
   weekProjectedPts: 0.3
   seasonProjectedPts: 37.4
-  seasonPts: 17.8
+  seasonPts: 18
   teamAbbr: 5
 ---------Week 7---------
   weekPts: 5.7
@@ -36517,7 +36517,7 @@
   : 0
   weekProjectedPts: 0.9
   seasonProjectedPts: 37.4
-  seasonPts: 17.8
+  seasonPts: 18
   teamAbbr: 5
 ---------Week 8---------
   weekPts: 0.3
@@ -36553,7 +36553,7 @@
   : 0
   weekProjectedPts: 2.6
   seasonProjectedPts: 37.4
-  seasonPts: 17.8
+  seasonPts: 18
   teamAbbr: 5
 ---------Week 9---------
   : 0
@@ -36625,7 +36625,7 @@
   : 0
   weekProjectedPts: 1.9
   seasonProjectedPts: 37.4
-  seasonPts: 17.8
+  seasonPts: 18
   teamAbbr: 5
 ---------Week 11---------
   : 0
@@ -36697,7 +36697,7 @@
   : 0
   weekProjectedPts: 1.3
   seasonProjectedPts: 37.4
-  seasonPts: 17.8
+  seasonPts: 18
   teamAbbr: 5
 ---------Week 13---------
   weekPts: 0.8
@@ -36733,7 +36733,7 @@
   : 0
   weekProjectedPts: 1.5
   seasonProjectedPts: 37.4
-  seasonPts: 17.8
+  seasonPts: 18
   teamAbbr: 5
 
 
@@ -36772,7 +36772,7 @@
   : 0
   weekProjectedPts: 20.9
   seasonProjectedPts: 195.2
-  seasonPts: 164.3
+  seasonPts: 166.1
   teamAbbr: 1
 ---------Week 2---------
   weekPts: 9.3
@@ -36808,7 +36808,7 @@
   : 0
   weekProjectedPts: 9.8
   seasonProjectedPts: 195.2
-  seasonPts: 164.3
+  seasonPts: 166.1
   teamAbbr: 1
 ---------Week 3---------
   weekPts: 26.7
@@ -36844,7 +36844,7 @@
   : 0
   weekProjectedPts: 16.1
   seasonProjectedPts: 195.2
-  seasonPts: 164.3
+  seasonPts: 166.1
   teamAbbr: 1
 ---------Week 4---------
   weekPts: 12.4
@@ -36880,7 +36880,7 @@
   : 0
   weekProjectedPts: 9.9
   seasonProjectedPts: 195.2
-  seasonPts: 164.3
+  seasonPts: 166.1
   teamAbbr: 1
 ---------Week 5---------
   weekPts: 18.3
@@ -36916,7 +36916,7 @@
   : 0
   weekProjectedPts: 9.2
   seasonProjectedPts: 195.2
-  seasonPts: 164.3
+  seasonPts: 166.1
   teamAbbr: 1
 ---------Week 6---------
   weekPts: 5
@@ -36952,7 +36952,7 @@
   : 0
   weekProjectedPts: 9.1
   seasonProjectedPts: 195.2
-  seasonPts: 164.3
+  seasonPts: 166.1
   teamAbbr: 1
 ---------Week 7---------
   weekPts: 10
@@ -36988,7 +36988,7 @@
   : 0
   weekProjectedPts: 16.2
   seasonProjectedPts: 195.2
-  seasonPts: 164.3
+  seasonPts: 166.1
   teamAbbr: 1
 ---------Week 8---------
   weekPts: 17.8
@@ -37024,7 +37024,7 @@
   : 0
   weekProjectedPts: 15.8
   seasonProjectedPts: 195.2
-  seasonPts: 164.3
+  seasonPts: 166.1
   teamAbbr: 1
 ---------Week 9---------
   weekPts: 10.5
@@ -37060,7 +37060,7 @@
   : 0
   weekProjectedPts: 16.7
   seasonProjectedPts: 195.2
-  seasonPts: 164.3
+  seasonPts: 166.1
   teamAbbr: 1
 ---------Week 10---------
   weekPts: 8.1
@@ -37096,7 +37096,7 @@
   : 0
   weekProjectedPts: 16.2
   seasonProjectedPts: 195.2
-  seasonPts: 164.3
+  seasonPts: 166.1
   teamAbbr: 1
 ---------Week 11---------
   : 0
@@ -37168,7 +37168,7 @@
   : 0
   weekProjectedPts: 20.8
   seasonProjectedPts: 195.2
-  seasonPts: 164.3
+  seasonPts: 166.1
   teamAbbr: 1
 ---------Week 13---------
   weekPts: 22.5
@@ -37204,7 +37204,7 @@
   : 0
   weekProjectedPts: 8.4
   seasonProjectedPts: 195.2
-  seasonPts: 164.3
+  seasonPts: 166.1
   teamAbbr: 1
 
 
@@ -37243,7 +37243,7 @@
   : 0
   weekProjectedPts: 8
   seasonProjectedPts: 57.3
-  seasonPts: 25
+  seasonPts: 30.5
   teamAbbr: 13
 ---------Week 2---------
   weekPts: 1.1
@@ -37279,7 +37279,7 @@
   : 0
   weekProjectedPts: 3.2
   seasonProjectedPts: 57.3
-  seasonPts: 25
+  seasonPts: 30.5
   teamAbbr: 13
 ---------Week 3---------
   weekPts: 1.2
@@ -37315,7 +37315,7 @@
   : 0
   weekProjectedPts: 2.6
   seasonProjectedPts: 57.3
-  seasonPts: 25
+  seasonPts: 30.5
   teamAbbr: 13
 ---------Week 4---------
   weekPts: 2.3
@@ -37351,7 +37351,7 @@
   : 0
   weekProjectedPts: 2.4
   seasonProjectedPts: 57.3
-  seasonPts: 25
+  seasonPts: 30.5
   teamAbbr: 13
 ---------Week 5---------
   weekPts: 3.9
@@ -37387,7 +37387,7 @@
   : 0
   weekProjectedPts: 2
   seasonProjectedPts: 57.3
-  seasonPts: 25
+  seasonPts: 30.5
   teamAbbr: 13
 ---------Week 6---------
   weekPts: 1.3
@@ -37423,7 +37423,7 @@
   : 0
   weekProjectedPts: 8.6
   seasonProjectedPts: 57.3
-  seasonPts: 25
+  seasonPts: 30.5
   teamAbbr: 13
 ---------Week 7---------
   weekPts: 4.3
@@ -37459,7 +37459,7 @@
   : 0
   weekProjectedPts: 1.7
   seasonProjectedPts: 57.3
-  seasonPts: 25
+  seasonPts: 30.5
   teamAbbr: 13
 ---------Week 8---------
   weekPts: 4.1
@@ -37495,7 +37495,7 @@
   : 0
   weekProjectedPts: 8.9
   seasonProjectedPts: 57.3
-  seasonPts: 25
+  seasonPts: 30.5
   teamAbbr: 13
 ---------Week 9---------
   : 0
@@ -37567,7 +37567,7 @@
   : 0
   weekProjectedPts: 2.3
   seasonProjectedPts: 57.3
-  seasonPts: 25
+  seasonPts: 30.5
   teamAbbr: 13
 ---------Week 11---------
   : 0
@@ -37675,7 +37675,7 @@
   : 0
   weekProjectedPts: 1.6
   seasonProjectedPts: 57.3
-  seasonPts: 25
+  seasonPts: 30.5
   teamAbbr: 13
 
 
@@ -37714,7 +37714,7 @@
   : 0
   weekProjectedPts: 5.9
   seasonProjectedPts: 143.9
-  seasonPts: 123.2
+  seasonPts: 143.4
   teamAbbr: 6
 ---------Week 2---------
   weekPts: 5.9
@@ -37750,7 +37750,7 @@
   : 0
   weekProjectedPts: 5.8
   seasonProjectedPts: 143.9
-  seasonPts: 123.2
+  seasonPts: 143.4
   teamAbbr: 6
 ---------Week 3---------
   weekPts: 21.7
@@ -37786,7 +37786,7 @@
   : 0
   weekProjectedPts: 6.8
   seasonProjectedPts: 143.9
-  seasonPts: 123.2
+  seasonPts: 143.4
   teamAbbr: 6
 ---------Week 4---------
   weekPts: 7.1
@@ -37822,7 +37822,7 @@
   : 0
   weekProjectedPts: 17.3
   seasonProjectedPts: 143.9
-  seasonPts: 123.2
+  seasonPts: 143.4
   teamAbbr: 6
 ---------Week 5---------
   weekPts: 1.2
@@ -37858,7 +37858,7 @@
   : 0
   weekProjectedPts: 6.9
   seasonProjectedPts: 143.9
-  seasonPts: 123.2
+  seasonPts: 143.4
   teamAbbr: 6
 ---------Week 6---------
   weekPts: 4.1
@@ -37894,7 +37894,7 @@
   : 0
   weekProjectedPts: 6.5
   seasonProjectedPts: 143.9
-  seasonPts: 123.2
+  seasonPts: 143.4
   teamAbbr: 6
 ---------Week 7---------
   weekPts: 25.2
@@ -37930,7 +37930,7 @@
   : 0
   weekProjectedPts: 13.2
   seasonProjectedPts: 143.9
-  seasonPts: 123.2
+  seasonPts: 143.4
   teamAbbr: 6
 ---------Week 8---------
   weekPts: 13.3
@@ -37966,7 +37966,7 @@
   : 0
   weekProjectedPts: 6.9
   seasonProjectedPts: 143.9
-  seasonPts: 123.2
+  seasonPts: 143.4
   teamAbbr: 6
 ---------Week 9---------
   : 0
@@ -38038,7 +38038,7 @@
   : 0
   weekProjectedPts: 7.1
   seasonProjectedPts: 143.9
-  seasonPts: 123.2
+  seasonPts: 143.4
   teamAbbr: 6
 ---------Week 11---------
   weekPts: 6.3
@@ -38074,7 +38074,7 @@
   : 0
   weekProjectedPts: 13.3
   seasonProjectedPts: 143.9
-  seasonPts: 123.2
+  seasonPts: 143.4
   teamAbbr: 6
 ---------Week 12---------
   weekPts: 8.2
@@ -38110,7 +38110,7 @@
   : 0
   weekProjectedPts: 8.1
   seasonProjectedPts: 143.9
-  seasonPts: 123.2
+  seasonPts: 143.4
   teamAbbr: 6
 ---------Week 13---------
   weekPts: 10.5
@@ -38146,7 +38146,7 @@
   : 0
   weekProjectedPts: 9.1
   seasonProjectedPts: 143.9
-  seasonPts: 123.2
+  seasonPts: 143.4
   teamAbbr: 6
 
 
@@ -39598,7 +39598,7 @@
   : 0
   weekProjectedPts: 3.9
   seasonProjectedPts: 130.2
-  seasonPts: 59.9
+  seasonPts: 66.8
   teamAbbr: 20
 ---------Week 2---------
   weekPts: 0.1
@@ -39634,7 +39634,7 @@
   : 0
   weekProjectedPts: 3.8
   seasonProjectedPts: 130.2
-  seasonPts: 59.9
+  seasonPts: 66.8
   teamAbbr: 20
 ---------Week 3---------
   weekPts: 6.7
@@ -39670,7 +39670,7 @@
   : 0
   weekProjectedPts: 2.7
   seasonProjectedPts: 130.2
-  seasonPts: 59.9
+  seasonPts: 66.8
   teamAbbr: 20
 ---------Week 4---------
   weekPts: 15.5
@@ -39706,7 +39706,7 @@
   : 0
   weekProjectedPts: 6.8
   seasonProjectedPts: 130.2
-  seasonPts: 59.9
+  seasonPts: 66.8
   teamAbbr: 20
 ---------Week 5---------
   weekPts: 4.6
@@ -39742,7 +39742,7 @@
   : 0
   weekProjectedPts: 19.1
   seasonProjectedPts: 130.2
-  seasonPts: 59.9
+  seasonPts: 66.8
   teamAbbr: 20
 ---------Week 6---------
   : 0
@@ -39814,7 +39814,7 @@
   : 0
   weekProjectedPts: 7.4
   seasonProjectedPts: 130.2
-  seasonPts: 59.9
+  seasonPts: 66.8
   teamAbbr: 20
 ---------Week 8---------
   : 0
@@ -39886,7 +39886,7 @@
   : 0
   weekProjectedPts: 2.4
   seasonProjectedPts: 130.2
-  seasonPts: 59.9
+  seasonPts: 66.8
   teamAbbr: 20
 ---------Week 10---------
   weekPts: 3.3
@@ -39922,7 +39922,7 @@
   : 0
   weekProjectedPts: 9.9
   seasonProjectedPts: 130.2
-  seasonPts: 59.9
+  seasonPts: 66.8
   teamAbbr: 20
 ---------Week 11---------
   weekPts: 4.1
@@ -39958,7 +39958,7 @@
   : 0
   weekProjectedPts: 13.1
   seasonProjectedPts: 130.2
-  seasonPts: 59.9
+  seasonPts: 66.8
   teamAbbr: 20
 ---------Week 12---------
   weekPts: 7.6
@@ -39994,7 +39994,7 @@
   : 0
   weekProjectedPts: 10.3
   seasonProjectedPts: 130.2
-  seasonPts: 59.9
+  seasonPts: 66.8
   teamAbbr: 20
 ---------Week 13---------
   weekPts: 11.5
@@ -40030,7 +40030,7 @@
   : 0
   weekProjectedPts: 7.2
   seasonProjectedPts: 130.2
-  seasonPts: 59.9
+  seasonPts: 66.8
   teamAbbr: 20
 
 
@@ -40069,7 +40069,7 @@
   : 0
   weekProjectedPts: 7.5
   seasonProjectedPts: 165.4
-  seasonPts: 123.2
+  seasonPts: 149.2
   teamAbbr: 28
 ---------Week 2---------
   weekPts: 3.2
@@ -40105,7 +40105,7 @@
   : 0
   weekProjectedPts: 7.5
   seasonProjectedPts: 165.4
-  seasonPts: 123.2
+  seasonPts: 149.2
   teamAbbr: 28
 ---------Week 3---------
   weekPts: 24.5
@@ -40141,7 +40141,7 @@
   : 0
   weekProjectedPts: 7.5
   seasonProjectedPts: 165.4
-  seasonPts: 123.2
+  seasonPts: 149.2
   teamAbbr: 28
 ---------Week 4---------
   weekPts: 13.9
@@ -40177,7 +40177,7 @@
   : 0
   weekProjectedPts: 14.3
   seasonProjectedPts: 165.4
-  seasonPts: 123.2
+  seasonPts: 149.2
   teamAbbr: 28
 ---------Week 5---------
   weekPts: 17.4
@@ -40213,7 +40213,7 @@
   : 0
   weekProjectedPts: 13.8
   seasonProjectedPts: 165.4
-  seasonPts: 123.2
+  seasonPts: 149.2
   teamAbbr: 28
 ---------Week 6---------
   weekPts: 5.2
@@ -40249,7 +40249,7 @@
   : 0
   weekProjectedPts: 14.3
   seasonProjectedPts: 165.4
-  seasonPts: 123.2
+  seasonPts: 149.2
   teamAbbr: 28
 ---------Week 7---------
   : 0
@@ -40393,7 +40393,7 @@
   : 0
   weekProjectedPts: 6.3
   seasonProjectedPts: 165.4
-  seasonPts: 123.2
+  seasonPts: 149.2
   teamAbbr: 28
 ---------Week 11---------
   weekPts: 11
@@ -40429,7 +40429,7 @@
   : 0
   weekProjectedPts: 6.9
   seasonProjectedPts: 165.4
-  seasonPts: 123.2
+  seasonPts: 149.2
   teamAbbr: 28
 ---------Week 12---------
   weekPts: 15.5
@@ -40465,7 +40465,7 @@
   : 0
   weekProjectedPts: 13.6
   seasonProjectedPts: 165.4
-  seasonPts: 123.2
+  seasonPts: 149.2
   teamAbbr: 28
 ---------Week 13---------
   weekPts: 9.8
@@ -40501,7 +40501,7 @@
   : 0
   weekProjectedPts: 13.7
   seasonProjectedPts: 165.4
-  seasonPts: 123.2
+  seasonPts: 149.2
   teamAbbr: 28
 
 
@@ -40540,7 +40540,7 @@
   : 0
   weekProjectedPts: 5.8
   seasonProjectedPts: 118.1
-  seasonPts: 32.8
+  seasonPts: 37.8
   teamAbbr: 30
 ---------Week 2---------
   weekPts: 2.8
@@ -40576,7 +40576,7 @@
   : 0
   weekProjectedPts: 5.8
   seasonProjectedPts: 118.1
-  seasonPts: 32.8
+  seasonPts: 37.8
   teamAbbr: 30
 ---------Week 3---------
   weekPts: 18.4
@@ -40612,7 +40612,7 @@
   : 0
   weekProjectedPts: 10.6
   seasonProjectedPts: 118.1
-  seasonPts: 32.8
+  seasonPts: 37.8
   teamAbbr: 30
 ---------Week 4---------
   weekPts: 1.5
@@ -40648,7 +40648,7 @@
   : 0
   weekProjectedPts: 15.7
   seasonProjectedPts: 118.1
-  seasonPts: 32.8
+  seasonPts: 37.8
   teamAbbr: 30
 ---------Week 5---------
   : 0
@@ -41482,7 +41482,7 @@
   : 0
   weekProjectedPts: 11.6
   seasonProjectedPts: 187.9
-  seasonPts: 117.9
+  seasonPts: 129.7
   teamAbbr: 7
 ---------Week 2---------
   weekPts: 20.8
@@ -41518,7 +41518,7 @@
   : 0
   weekProjectedPts: 6.1
   seasonProjectedPts: 187.9
-  seasonPts: 117.9
+  seasonPts: 129.7
   teamAbbr: 7
 ---------Week 3---------
   weekPts: 7.9
@@ -41554,7 +41554,7 @@
   : 0
   weekProjectedPts: 12.6
   seasonProjectedPts: 187.9
-  seasonPts: 117.9
+  seasonPts: 129.7
   teamAbbr: 7
 ---------Week 4---------
   weekPts: 20.2
@@ -41590,7 +41590,7 @@
   : 0
   weekProjectedPts: 12.1
   seasonProjectedPts: 187.9
-  seasonPts: 117.9
+  seasonPts: 129.7
   teamAbbr: 7
 ---------Week 5---------
   weekPts: 4
@@ -41626,7 +41626,7 @@
   : 0
   weekProjectedPts: 13.3
   seasonProjectedPts: 187.9
-  seasonPts: 117.9
+  seasonPts: 129.7
   teamAbbr: 7
 ---------Week 6---------
   weekPts: 3.6
@@ -41662,7 +41662,7 @@
   : 0
   weekProjectedPts: 7.2
   seasonProjectedPts: 187.9
-  seasonPts: 117.9
+  seasonPts: 129.7
   teamAbbr: 7
 ---------Week 7---------
   weekPts: 13.9
@@ -41698,7 +41698,7 @@
   : 0
   weekProjectedPts: 7
   seasonProjectedPts: 187.9
-  seasonPts: 117.9
+  seasonPts: 129.7
   teamAbbr: 7
 ---------Week 8---------
   weekPts: 12.3
@@ -41734,7 +41734,7 @@
   : 0
   weekProjectedPts: 6.7
   seasonProjectedPts: 187.9
-  seasonPts: 117.9
+  seasonPts: 129.7
   teamAbbr: 7
 ---------Week 9---------
   weekPts: 6.7
@@ -41770,7 +41770,7 @@
   : 0
   weekProjectedPts: 7.1
   seasonProjectedPts: 187.9
-  seasonPts: 117.9
+  seasonPts: 129.7
   teamAbbr: 7
 ---------Week 10---------
   weekPts: 5.3
@@ -41806,7 +41806,7 @@
   : 0
   weekProjectedPts: 6.4
   seasonProjectedPts: 187.9
-  seasonPts: 117.9
+  seasonPts: 129.7
   teamAbbr: 7
 ---------Week 11---------
   weekPts: 2.3
@@ -41842,7 +41842,7 @@
   : 0
   weekProjectedPts: 11.8
   seasonProjectedPts: 187.9
-  seasonPts: 117.9
+  seasonPts: 129.7
   teamAbbr: 7
 ---------Week 12---------
   weekPts: 7.1
@@ -41878,7 +41878,7 @@
   : 0
   weekProjectedPts: 7.3
   seasonProjectedPts: 187.9
-  seasonPts: 117.9
+  seasonPts: 129.7
   teamAbbr: 7
 ---------Week 13---------
   : 0
@@ -43837,7 +43837,7 @@
   : 0
   weekProjectedPts: -0.4
   seasonProjectedPts: 35.8
-  seasonPts: 57.7
+  seasonPts: 64.5
   teamAbbr: 19
 ---------Week 2---------
   : 0
@@ -43909,7 +43909,7 @@
   : 0
   weekProjectedPts: 1.8
   seasonProjectedPts: 35.8
-  seasonPts: 57.7
+  seasonPts: 64.5
   teamAbbr: 19
 ---------Week 4---------
   weekPts: 1.5
@@ -43945,7 +43945,7 @@
   : 0
   weekProjectedPts: 7.3
   seasonProjectedPts: 35.8
-  seasonPts: 57.7
+  seasonPts: 64.5
   teamAbbr: 19
 ---------Week 5---------
   weekPts: 7
@@ -43981,7 +43981,7 @@
   : 0
   weekProjectedPts: 2.4
   seasonProjectedPts: 35.8
-  seasonPts: 57.7
+  seasonPts: 64.5
   teamAbbr: 19
 ---------Week 6---------
   weekPts: 7.7
@@ -44017,7 +44017,7 @@
   : 0
   weekProjectedPts: 0
   seasonProjectedPts: 35.8
-  seasonPts: 57.7
+  seasonPts: 64.5
   teamAbbr: 19
 ---------Week 7---------
   weekPts: 7.6
@@ -44053,7 +44053,7 @@
   : 0
   weekProjectedPts: 2.1
   seasonProjectedPts: 35.8
-  seasonPts: 57.7
+  seasonPts: 64.5
   teamAbbr: 19
 ---------Week 8---------
   : 0
@@ -44125,7 +44125,7 @@
   : 0
   weekProjectedPts: 2.2
   seasonProjectedPts: 35.8
-  seasonPts: 57.7
+  seasonPts: 64.5
   teamAbbr: 19
 ---------Week 10---------
   weekPts: 14
@@ -44161,7 +44161,7 @@
   : 0
   weekProjectedPts: 2.6
   seasonProjectedPts: 35.8
-  seasonPts: 57.7
+  seasonPts: 64.5
   teamAbbr: 19
 ---------Week 11---------
   weekPts: 0
@@ -44197,7 +44197,7 @@
   : 0
   weekProjectedPts: 2.6
   seasonProjectedPts: 35.8
-  seasonPts: 57.7
+  seasonPts: 64.5
   teamAbbr: 19
 ---------Week 12---------
   weekPts: 1.8
@@ -44233,7 +44233,7 @@
   : 0
   weekProjectedPts: 2.7
   seasonProjectedPts: 35.8
-  seasonPts: 57.7
+  seasonPts: 64.5
   teamAbbr: 19
 ---------Week 13---------
   weekPts: 0.9
@@ -44269,7 +44269,7 @@
   : 0
   weekProjectedPts: 2
   seasonProjectedPts: 35.8
-  seasonPts: 57.7
+  seasonPts: 64.5
   teamAbbr: 19
 
 
@@ -45250,7 +45250,7 @@
   : 0
   weekProjectedPts: 7.1
   seasonProjectedPts: 32.1
-  seasonPts: 4.7
+  seasonPts: 5.3
   teamAbbr: 26
 ---------Week 2---------
   weekPts: 1.3
@@ -45286,7 +45286,7 @@
   : 0
   weekProjectedPts: 2.1
   seasonProjectedPts: 32.1
-  seasonPts: 4.7
+  seasonPts: 5.3
   teamAbbr: 26
 ---------Week 3---------
   weekPts: 0
@@ -45322,7 +45322,7 @@
   : 0
   weekProjectedPts: 2.9
   seasonProjectedPts: 32.1
-  seasonPts: 4.7
+  seasonPts: 5.3
   teamAbbr: 26
 ---------Week 4---------
   : 0
@@ -45430,7 +45430,7 @@
   : 0
   weekProjectedPts: 0.7
   seasonProjectedPts: 32.1
-  seasonPts: 4.7
+  seasonPts: 5.3
   teamAbbr: 26
 ---------Week 7---------
   weekPts: 0
@@ -45466,7 +45466,7 @@
   : 0
   weekProjectedPts: 0.5
   seasonProjectedPts: 32.1
-  seasonPts: 4.7
+  seasonPts: 5.3
   teamAbbr: 26
 ---------Week 8---------
   : 0
@@ -45574,7 +45574,7 @@
   : 0
   weekProjectedPts: 0.5
   seasonProjectedPts: 32.1
-  seasonPts: 4.7
+  seasonPts: 5.3
   teamAbbr: 26
 ---------Week 11---------
   : 0
@@ -45646,7 +45646,7 @@
   : 0
   weekProjectedPts: 0.4
   seasonProjectedPts: 32.1
-  seasonPts: 4.7
+  seasonPts: 5.3
   teamAbbr: 26
 ---------Week 13---------
   weekPts: 0
@@ -45682,7 +45682,7 @@
   : 0
   weekProjectedPts: 0.9
   seasonProjectedPts: 32.1
-  seasonPts: 4.7
+  seasonPts: 5.3
   teamAbbr: 26
 
 
@@ -46663,7 +46663,7 @@
   : 0
   weekProjectedPts: 14.8
   seasonProjectedPts: 178.5
-  seasonPts: 38.5
+  seasonPts: 39
   teamAbbr: 5
 ---------Week 2---------
   weekPts: 7.4
@@ -46699,7 +46699,7 @@
   : 0
   weekProjectedPts: 22.3
   seasonProjectedPts: 178.5
-  seasonPts: 38.5
+  seasonPts: 39
   teamAbbr: 5
 ---------Week 3---------
   weekPts: 4.6
@@ -46735,7 +46735,7 @@
   : 0
   weekProjectedPts: 15.5
   seasonProjectedPts: 178.5
-  seasonPts: 38.5
+  seasonPts: 39
   teamAbbr: 5
 ---------Week 4---------
   : 0
@@ -46915,7 +46915,7 @@
   : 0
   weekProjectedPts: 2.9
   seasonProjectedPts: 178.5
-  seasonPts: 38.5
+  seasonPts: 39
   teamAbbr: 5
 ---------Week 9---------
   : 0
@@ -46987,7 +46987,7 @@
   : 0
   weekProjectedPts: 3.5
   seasonProjectedPts: 178.5
-  seasonPts: 38.5
+  seasonPts: 39
   teamAbbr: 5
 ---------Week 11---------
   weekPts: 9.8
@@ -47023,7 +47023,7 @@
   : 0
   weekProjectedPts: 3.3
   seasonProjectedPts: 178.5
-  seasonPts: 38.5
+  seasonPts: 39
   teamAbbr: 5
 ---------Week 12---------
   weekPts: 0.5
@@ -47059,7 +47059,7 @@
   : 0
   weekProjectedPts: 3.1
   seasonProjectedPts: 178.5
-  seasonPts: 38.5
+  seasonPts: 39
   teamAbbr: 5
 ---------Week 13---------
   weekPts: 0.2
@@ -47095,7 +47095,7 @@
   : 0
   weekProjectedPts: 9.4
   seasonProjectedPts: 178.5
-  seasonPts: 38.5
+  seasonPts: 39
   teamAbbr: 5
 
 
@@ -47134,7 +47134,7 @@
   : 0
   weekProjectedPts: 2
   seasonProjectedPts: 30.5
-  seasonPts: 5
+  seasonPts: 4.4
   teamAbbr: 0
 ---------Week 2---------
   : 0
@@ -47242,7 +47242,7 @@
   : 0
   weekProjectedPts: 1.2
   seasonProjectedPts: 30.5
-  seasonPts: 5
+  seasonPts: 4.4
   teamAbbr: 0
 ---------Week 5---------
   weekPts: 2.8
@@ -47278,7 +47278,7 @@
   : 0
   weekProjectedPts: 1
   seasonProjectedPts: 30.5
-  seasonPts: 5
+  seasonPts: 4.4
   teamAbbr: 0
 ---------Week 6---------
   : 0
@@ -47422,7 +47422,7 @@
   : 0
   weekProjectedPts: 0.7
   seasonProjectedPts: 30.5
-  seasonPts: 5
+  seasonPts: 4.4
   teamAbbr: 0
 ---------Week 10---------
   : 0
@@ -47494,7 +47494,7 @@
   : 0
   weekProjectedPts: 0.9
   seasonProjectedPts: 30.5
-  seasonPts: 5
+  seasonPts: 4.4
   teamAbbr: 0
 ---------Week 12---------
   weekPts: 0.9
@@ -47530,7 +47530,7 @@
   : 0
   weekProjectedPts: 0.6
   seasonProjectedPts: 30.5
-  seasonPts: 5
+  seasonPts: 4.4
   teamAbbr: 0
 ---------Week 13---------
   : 0
@@ -47605,7 +47605,7 @@
   : 0
   weekProjectedPts: 2.7
   seasonProjectedPts: 84.7
-  seasonPts: 104.6
+  seasonPts: 122.1
   teamAbbr: 1
 ---------Week 2---------
   weekPts: 13.1
@@ -47641,7 +47641,7 @@
   : 0
   weekProjectedPts: 2.7
   seasonProjectedPts: 84.7
-  seasonPts: 104.6
+  seasonPts: 122.1
   teamAbbr: 1
 ---------Week 3---------
   weekPts: 26.9
@@ -47677,7 +47677,7 @@
   : 0
   weekProjectedPts: 2.34
   seasonProjectedPts: 84.7
-  seasonPts: 104.6
+  seasonPts: 122.1
   teamAbbr: 1
 ---------Week 4---------
   weekPts: 3.3
@@ -47713,7 +47713,7 @@
   : 0
   weekProjectedPts: 10
   seasonProjectedPts: 84.7
-  seasonPts: 104.6
+  seasonPts: 122.1
   teamAbbr: 1
 ---------Week 5---------
   weekPts: 22.3
@@ -47749,7 +47749,7 @@
   : 0
   weekProjectedPts: 4.9
   seasonProjectedPts: 84.7
-  seasonPts: 104.6
+  seasonPts: 122.1
   teamAbbr: 1
 ---------Week 6---------
   weekPts: 1.7
@@ -47785,7 +47785,7 @@
   : 0
   weekProjectedPts: 4.6
   seasonProjectedPts: 84.7
-  seasonPts: 104.6
+  seasonPts: 122.1
   teamAbbr: 1
 ---------Week 7---------
   weekPts: 13.4
@@ -47821,7 +47821,7 @@
   : 0
   weekProjectedPts: 17.1
   seasonProjectedPts: 84.7
-  seasonPts: 104.6
+  seasonPts: 122.1
   teamAbbr: 1
 ---------Week 8---------
   : 0
@@ -48001,7 +48001,7 @@
   : 0
   weekProjectedPts: 3.7
   seasonProjectedPts: 84.7
-  seasonPts: 104.6
+  seasonPts: 122.1
   teamAbbr: 1
 ---------Week 13---------
   weekPts: 4.9
@@ -48037,7 +48037,7 @@
   : 0
   weekProjectedPts: 10.5
   seasonProjectedPts: 84.7
-  seasonPts: 104.6
+  seasonPts: 122.1
   teamAbbr: 1
 
 
@@ -48076,7 +48076,7 @@
   : 0
   weekProjectedPts: 15
   seasonProjectedPts: 80.6
-  seasonPts: 72.1
+  seasonPts: 76.6
   teamAbbr: 7
 ---------Week 2---------
   weekPts: 5.6
@@ -48112,7 +48112,7 @@
   : 0
   weekProjectedPts: 4.2
   seasonProjectedPts: 80.6
-  seasonPts: 72.1
+  seasonPts: 76.6
   teamAbbr: 7
 ---------Week 3---------
   weekPts: 8.1
@@ -48148,7 +48148,7 @@
   : 0
   weekProjectedPts: 5.04
   seasonProjectedPts: 80.6
-  seasonPts: 72.1
+  seasonPts: 76.6
   teamAbbr: 7
 ---------Week 4---------
   weekPts: 5.6
@@ -48184,7 +48184,7 @@
   : 0
   weekProjectedPts: 3.4
   seasonProjectedPts: 80.6
-  seasonPts: 72.1
+  seasonPts: 76.6
   teamAbbr: 7
 ---------Week 5---------
   weekPts: 2.2
@@ -48220,7 +48220,7 @@
   : 0
   weekProjectedPts: 9.8
   seasonProjectedPts: 80.6
-  seasonPts: 72.1
+  seasonPts: 76.6
   teamAbbr: 7
 ---------Week 6---------
   weekPts: 13.4
@@ -48256,7 +48256,7 @@
   : 0
   weekProjectedPts: 5
   seasonProjectedPts: 80.6
-  seasonPts: 72.1
+  seasonPts: 76.6
   teamAbbr: 7
 ---------Week 7---------
   weekPts: 3.3
@@ -48292,7 +48292,7 @@
   : 0
   weekProjectedPts: 5.1
   seasonProjectedPts: 80.6
-  seasonPts: 72.1
+  seasonPts: 76.6
   teamAbbr: 7
 ---------Week 8---------
   weekPts: 11.6
@@ -48328,7 +48328,7 @@
   : 0
   weekProjectedPts: 5.2
   seasonProjectedPts: 80.6
-  seasonPts: 72.1
+  seasonPts: 76.6
   teamAbbr: 7
 ---------Week 9---------
   weekPts: 4.6
@@ -48364,7 +48364,7 @@
   : 0
   weekProjectedPts: 5.4
   seasonProjectedPts: 80.6
-  seasonPts: 72.1
+  seasonPts: 76.6
   teamAbbr: 7
 ---------Week 10---------
   weekPts: 3.1
@@ -48400,7 +48400,7 @@
   : 0
   weekProjectedPts: 5.1
   seasonProjectedPts: 80.6
-  seasonPts: 72.1
+  seasonPts: 76.6
   teamAbbr: 7
 ---------Week 11---------
   weekPts: 5.6
@@ -48436,7 +48436,7 @@
   : 0
   weekProjectedPts: 5.1
   seasonProjectedPts: 80.6
-  seasonPts: 72.1
+  seasonPts: 76.6
   teamAbbr: 7
 ---------Week 12---------
   weekPts: 4
@@ -48472,7 +48472,7 @@
   : 0
   weekProjectedPts: 11.1
   seasonProjectedPts: 80.6
-  seasonPts: 72.1
+  seasonPts: 76.6
   teamAbbr: 7
 ---------Week 13---------
   : 0
@@ -49018,7 +49018,7 @@
   : 0
   weekProjectedPts: 6.3
   seasonProjectedPts: 172.9
-  seasonPts: 209.1
+  seasonPts: 209.6
   teamAbbr: 27
 ---------Week 2---------
   weekPts: 18
@@ -49054,7 +49054,7 @@
   : 0
   weekProjectedPts: 13.5
   seasonProjectedPts: 172.9
-  seasonPts: 209.1
+  seasonPts: 209.6
   teamAbbr: 27
 ---------Week 3---------
   weekPts: 13.8
@@ -49090,7 +49090,7 @@
   : 0
   weekProjectedPts: 6.8
   seasonProjectedPts: 172.9
-  seasonPts: 209.1
+  seasonPts: 209.6
   teamAbbr: 27
 ---------Week 4---------
   weekPts: 17.9
@@ -49126,7 +49126,7 @@
   : 0
   weekProjectedPts: 19.4
   seasonProjectedPts: 172.9
-  seasonPts: 209.1
+  seasonPts: 209.6
   teamAbbr: 27
 ---------Week 5---------
   weekPts: 12.7
@@ -49162,7 +49162,7 @@
   : 0
   weekProjectedPts: 15.1
   seasonProjectedPts: 172.9
-  seasonPts: 209.1
+  seasonPts: 209.6
   teamAbbr: 27
 ---------Week 6---------
   weekPts: 9.4
@@ -49198,7 +49198,7 @@
   : 0
   weekProjectedPts: 14.7
   seasonProjectedPts: 172.9
-  seasonPts: 209.1
+  seasonPts: 209.6
   teamAbbr: 27
 ---------Week 7---------
   weekPts: 30.1
@@ -49234,7 +49234,7 @@
   : 0
   weekProjectedPts: 20.7
   seasonProjectedPts: 172.9
-  seasonPts: 209.1
+  seasonPts: 209.6
   teamAbbr: 27
 ---------Week 8---------
   weekPts: 15.5
@@ -49270,7 +49270,7 @@
   : 0
   weekProjectedPts: 8.8
   seasonProjectedPts: 172.9
-  seasonPts: 209.1
+  seasonPts: 209.6
   teamAbbr: 27
 ---------Week 9---------
   weekPts: 32.1
@@ -49306,7 +49306,7 @@
   : 0
   weekProjectedPts: 14.7
   seasonProjectedPts: 172.9
-  seasonPts: 209.1
+  seasonPts: 209.6
   teamAbbr: 27
 ---------Week 10---------
   weekPts: 13.2
@@ -49342,7 +49342,7 @@
   : 0
   weekProjectedPts: 17.1
   seasonProjectedPts: 172.9
-  seasonPts: 209.1
+  seasonPts: 209.6
   teamAbbr: 27
 ---------Week 11---------
   : 0
@@ -49414,7 +49414,7 @@
   : 0
   weekProjectedPts: 19.9
   seasonProjectedPts: 172.9
-  seasonPts: 209.1
+  seasonPts: 209.6
   teamAbbr: 27
 ---------Week 13---------
   weekPts: 19.8
@@ -49450,7 +49450,7 @@
   : 0
   weekProjectedPts: 22.1
   seasonProjectedPts: 172.9
-  seasonPts: 209.1
+  seasonPts: 209.6
   teamAbbr: 27
 
 
@@ -49489,7 +49489,7 @@
   : 0
   weekProjectedPts: 2
   seasonProjectedPts: 158.6
-  seasonPts: 72
+  seasonPts: 81
   teamAbbr: 15
 ---------Week 2---------
   weekPts: 3.8
@@ -49525,7 +49525,7 @@
   : 0
   weekProjectedPts: 2
   seasonProjectedPts: 158.6
-  seasonPts: 72
+  seasonPts: 81
   teamAbbr: 15
 ---------Week 3---------
   weekPts: 2.8
@@ -49561,7 +49561,7 @@
   : 0
   weekProjectedPts: 1.94
   seasonProjectedPts: 158.6
-  seasonPts: 72
+  seasonPts: 81
   teamAbbr: 15
 ---------Week 4---------
   weekPts: 11.7
@@ -49597,7 +49597,7 @@
   : 0
   weekProjectedPts: 12
   seasonProjectedPts: 158.6
-  seasonPts: 72
+  seasonPts: 81
   teamAbbr: 15
 ---------Week 5---------
   : 0
@@ -49669,7 +49669,7 @@
   : 0
   weekProjectedPts: 4.8
   seasonProjectedPts: 158.6
-  seasonPts: 72
+  seasonPts: 81
   teamAbbr: 15
 ---------Week 7---------
   weekPts: 2.8
@@ -49705,7 +49705,7 @@
   : 0
   weekProjectedPts: 12.2
   seasonProjectedPts: 158.6
-  seasonPts: 72
+  seasonPts: 81
   teamAbbr: 15
 ---------Week 8---------
   weekPts: 5.6
@@ -49741,7 +49741,7 @@
   : 0
   weekProjectedPts: 5
   seasonProjectedPts: 158.6
-  seasonPts: 72
+  seasonPts: 81
   teamAbbr: 15
 ---------Week 9---------
   weekPts: 10.5
@@ -49777,7 +49777,7 @@
   : 0
   weekProjectedPts: 5.1
   seasonProjectedPts: 158.6
-  seasonPts: 72
+  seasonPts: 81
   teamAbbr: 15
 ---------Week 10---------
   weekPts: 5.9
@@ -49813,7 +49813,7 @@
   : 0
   weekProjectedPts: 15.5
   seasonProjectedPts: 158.6
-  seasonPts: 72
+  seasonPts: 81
   teamAbbr: 15
 ---------Week 11---------
   weekPts: 3.2
@@ -49849,7 +49849,7 @@
   : 0
   weekProjectedPts: 5
   seasonProjectedPts: 158.6
-  seasonPts: 72
+  seasonPts: 81
   teamAbbr: 15
 ---------Week 12---------
   weekPts: 2
@@ -49885,7 +49885,7 @@
   : 0
   weekProjectedPts: 0.9
   seasonProjectedPts: 158.6
-  seasonPts: 72
+  seasonPts: 81
   teamAbbr: 15
 ---------Week 13---------
   weekPts: 8.2
@@ -49921,7 +49921,7 @@
   : 0
   weekProjectedPts: 12
   seasonProjectedPts: 158.6
-  seasonPts: 72
+  seasonPts: 81
   teamAbbr: 15
 
 
@@ -49960,7 +49960,7 @@
   : 0
   weekProjectedPts: 15.1
   seasonProjectedPts: 167.8
-  seasonPts: 114.9
+  seasonPts: 129.2
   teamAbbr: 0
 ---------Week 2---------
   weekPts: 7
@@ -49996,7 +49996,7 @@
   : 0
   weekProjectedPts: 7.6
   seasonProjectedPts: 167.8
-  seasonPts: 114.9
+  seasonPts: 129.2
   teamAbbr: 0
 ---------Week 3---------
   weekPts: 20
@@ -50032,7 +50032,7 @@
   : 0
   weekProjectedPts: 7.4
   seasonProjectedPts: 167.8
-  seasonPts: 114.9
+  seasonPts: 129.2
   teamAbbr: 0
 ---------Week 4---------
   weekPts: 8.2
@@ -50068,7 +50068,7 @@
   : 0
   weekProjectedPts: 13.5
   seasonProjectedPts: 167.8
-  seasonPts: 114.9
+  seasonPts: 129.2
   teamAbbr: 0
 ---------Week 5---------
   weekPts: 14.8
@@ -50104,7 +50104,7 @@
   : 0
   weekProjectedPts: 15.1
   seasonProjectedPts: 167.8
-  seasonPts: 114.9
+  seasonPts: 129.2
   teamAbbr: 0
 ---------Week 6---------
   weekPts: 9.7
@@ -50140,7 +50140,7 @@
   : 0
   weekProjectedPts: 10
   seasonProjectedPts: 167.8
-  seasonPts: 114.9
+  seasonPts: 129.2
   teamAbbr: 0
 ---------Week 7---------
   weekPts: 9.2
@@ -50176,7 +50176,7 @@
   : 0
   weekProjectedPts: 15.8
   seasonProjectedPts: 167.8
-  seasonPts: 114.9
+  seasonPts: 129.2
   teamAbbr: 0
 ---------Week 8---------
   : 0
@@ -50248,7 +50248,7 @@
   : 0
   weekProjectedPts: 8.7
   seasonProjectedPts: 167.8
-  seasonPts: 114.9
+  seasonPts: 129.2
   teamAbbr: 0
 ---------Week 10---------
   weekPts: 7.2
@@ -50284,7 +50284,7 @@
   : 0
   weekProjectedPts: 7.7
   seasonProjectedPts: 167.8
-  seasonPts: 114.9
+  seasonPts: 129.2
   teamAbbr: 0
 ---------Week 11---------
   weekPts: 13.6
@@ -50320,7 +50320,7 @@
   : 0
   weekProjectedPts: 8.3
   seasonProjectedPts: 167.8
-  seasonPts: 114.9
+  seasonPts: 129.2
   teamAbbr: 0
 ---------Week 12---------
   weekPts: 8.9
@@ -50356,7 +50356,7 @@
   : 0
   weekProjectedPts: 8.5
   seasonProjectedPts: 167.8
-  seasonPts: 114.9
+  seasonPts: 129.2
   teamAbbr: 0
 ---------Week 13---------
   weekPts: 4.7
@@ -50392,7 +50392,7 @@
   : 0
   weekProjectedPts: 7
   seasonProjectedPts: 167.8
-  seasonPts: 114.9
+  seasonPts: 129.2
   teamAbbr: 0
 
 
@@ -50575,7 +50575,7 @@
   : 0
   weekProjectedPts: 0.1
   seasonProjectedPts: 2.8
-  seasonPts: 23.8
+  seasonPts: 24
   teamAbbr: 11
 ---------Week 6---------
   weekPts: 0.2
@@ -50611,7 +50611,7 @@
   : 0
   weekProjectedPts: 0.3
   seasonProjectedPts: 2.8
-  seasonPts: 23.8
+  seasonPts: 24
   teamAbbr: 11
 ---------Week 7---------
   weekPts: 1.6
@@ -50647,7 +50647,7 @@
   : 0
   weekProjectedPts: 0.4
   seasonProjectedPts: 2.8
-  seasonPts: 23.8
+  seasonPts: 24
   teamAbbr: 11
 ---------Week 8---------
   weekPts: 3.3
@@ -50683,7 +50683,7 @@
   : 0
   weekProjectedPts: 0.6
   seasonProjectedPts: 2.8
-  seasonPts: 23.8
+  seasonPts: 24
   teamAbbr: 11
 ---------Week 9---------
   weekPts: 0.7
@@ -50719,7 +50719,7 @@
   : 0
   weekProjectedPts: 1.2
   seasonProjectedPts: 2.8
-  seasonPts: 23.8
+  seasonPts: 24
   teamAbbr: 11
 ---------Week 10---------
   : 0
@@ -50791,7 +50791,7 @@
   : 0
   weekProjectedPts: 0.6
   seasonProjectedPts: 2.8
-  seasonPts: 23.8
+  seasonPts: 24
   teamAbbr: 11
 ---------Week 12---------
   weekPts: 7.6
@@ -50827,7 +50827,7 @@
   : 0
   weekProjectedPts: 0.8
   seasonProjectedPts: 2.8
-  seasonPts: 23.8
+  seasonPts: 24
   teamAbbr: 11
 ---------Week 13---------
   weekPts: 7.8
@@ -50863,7 +50863,7 @@
   : 0
   weekProjectedPts: 0.7
   seasonProjectedPts: 2.8
-  seasonPts: 23.8
+  seasonPts: 24
   teamAbbr: 11
 
 
@@ -50938,7 +50938,7 @@
   : 0
   weekProjectedPts: 5.5
   seasonProjectedPts: 59.8
-  seasonPts: 142.1
+  seasonPts: 148.4
   teamAbbr: 19
 ---------Week 3---------
   weekPts: 8.8
@@ -50974,7 +50974,7 @@
   : 0
   weekProjectedPts: 14.1
   seasonProjectedPts: 59.8
-  seasonPts: 142.1
+  seasonPts: 148.4
   teamAbbr: 19
 ---------Week 4---------
   weekPts: 4.6
@@ -51010,7 +51010,7 @@
   : 0
   weekProjectedPts: 2.5
   seasonProjectedPts: 59.8
-  seasonPts: 142.1
+  seasonPts: 148.4
   teamAbbr: 19
 ---------Week 5---------
   weekPts: 10.2
@@ -51046,7 +51046,7 @@
   : 0
   weekProjectedPts: 16.9
   seasonProjectedPts: 59.8
-  seasonPts: 142.1
+  seasonPts: 148.4
   teamAbbr: 19
 ---------Week 6---------
   weekPts: 32.7
@@ -51082,7 +51082,7 @@
   : 0
   weekProjectedPts: 2.5
   seasonProjectedPts: 59.8
-  seasonPts: 142.1
+  seasonPts: 148.4
   teamAbbr: 19
 ---------Week 7---------
   weekPts: 27.6
@@ -51118,7 +51118,7 @@
   : 0
   weekProjectedPts: 11.9
   seasonProjectedPts: 59.8
-  seasonPts: 142.1
+  seasonPts: 148.4
   teamAbbr: 19
 ---------Week 8---------
   : 0
@@ -51190,7 +51190,7 @@
   : 0
   weekProjectedPts: 7.3
   seasonProjectedPts: 59.8
-  seasonPts: 142.1
+  seasonPts: 148.4
   teamAbbr: 19
 ---------Week 10---------
   weekPts: 8
@@ -51226,7 +51226,7 @@
   : 0
   weekProjectedPts: 14.2
   seasonProjectedPts: 59.8
-  seasonPts: 142.1
+  seasonPts: 148.4
   teamAbbr: 19
 ---------Week 11---------
   weekPts: 8.4
@@ -51262,7 +51262,7 @@
   : 0
   weekProjectedPts: 14.3
   seasonProjectedPts: 59.8
-  seasonPts: 142.1
+  seasonPts: 148.4
   teamAbbr: 19
 ---------Week 12---------
   weekPts: 11.6
@@ -51298,7 +51298,7 @@
   : 0
   weekProjectedPts: 14.1
   seasonProjectedPts: 59.8
-  seasonPts: 142.1
+  seasonPts: 148.4
   teamAbbr: 19
 ---------Week 13---------
   weekPts: 8.7
@@ -51334,7 +51334,7 @@
   : 0
   weekProjectedPts: 7.3
   seasonProjectedPts: 59.8
-  seasonPts: 142.1
+  seasonPts: 148.4
   teamAbbr: 19
 
 
@@ -53257,7 +53257,7 @@
   : 0
   weekProjectedPts: 14
   seasonProjectedPts: 232.5
-  seasonPts: 258.9
+  seasonPts: 271
   teamAbbr: 0
 ---------Week 2---------
   weekPts: 14.3
@@ -53293,7 +53293,7 @@
   : 0
   weekProjectedPts: 15.7
   seasonProjectedPts: 232.5
-  seasonPts: 258.9
+  seasonPts: 271
   teamAbbr: 0
 ---------Week 3---------
   weekPts: 23.1
@@ -53329,7 +53329,7 @@
   : 0
   weekProjectedPts: 17.4
   seasonProjectedPts: 232.5
-  seasonPts: 258.9
+  seasonPts: 271
   teamAbbr: 0
 ---------Week 4---------
   weekPts: 10.4
@@ -53365,7 +53365,7 @@
   : 0
   weekProjectedPts: 21.3
   seasonProjectedPts: 232.5
-  seasonPts: 258.9
+  seasonPts: 271
   teamAbbr: 0
 ---------Week 5---------
   weekPts: 30.5
@@ -53401,7 +53401,7 @@
   : 0
   weekProjectedPts: 17.9
   seasonProjectedPts: 232.5
-  seasonPts: 258.9
+  seasonPts: 271
   teamAbbr: 0
 ---------Week 6---------
   weekPts: 31.8
@@ -53437,7 +53437,7 @@
   : 0
   weekProjectedPts: 17.4
   seasonProjectedPts: 232.5
-  seasonPts: 258.9
+  seasonPts: 271
   teamAbbr: 0
 ---------Week 7---------
   weekPts: 17.1
@@ -53473,7 +53473,7 @@
   : 0
   weekProjectedPts: 17.1
   seasonProjectedPts: 232.5
-  seasonPts: 258.9
+  seasonPts: 271
   teamAbbr: 0
 ---------Week 8---------
   weekPts: 10.8
@@ -53509,7 +53509,7 @@
   : 0
   weekProjectedPts: 17.8
   seasonProjectedPts: 232.5
-  seasonPts: 258.9
+  seasonPts: 271
   teamAbbr: 0
 ---------Week 9---------
   : 0
@@ -53581,7 +53581,7 @@
   : 0
   weekProjectedPts: 24.4
   seasonProjectedPts: 232.5
-  seasonPts: 258.9
+  seasonPts: 271
   teamAbbr: 0
 ---------Week 11---------
   weekPts: 28
@@ -53617,7 +53617,7 @@
   : 0
   weekProjectedPts: 11.8
   seasonProjectedPts: 232.5
-  seasonPts: 258.9
+  seasonPts: 271
   teamAbbr: 0
 ---------Week 12---------
   weekPts: 22.1
@@ -53653,7 +53653,7 @@
   : 0
   weekProjectedPts: 19
   seasonProjectedPts: 232.5
-  seasonPts: 258.9
+  seasonPts: 271
   teamAbbr: 0
 ---------Week 13---------
   weekPts: 29.5
@@ -53689,7 +53689,7 @@
   : 0
   weekProjectedPts: 26.2
   seasonProjectedPts: 232.5
-  seasonPts: 258.9
+  seasonPts: 271
   teamAbbr: 0
 
 
@@ -54778,7 +54778,7 @@
   : 0
   weekProjectedPts: 0
   seasonProjectedPts: 0
-  seasonPts: 27.9
+  seasonPts: 32.4
   teamAbbr: 10
 ---------Week 5---------
   weekPts: 3.2
@@ -54814,7 +54814,7 @@
   : 0
   weekProjectedPts: 1.6
   seasonProjectedPts: 0
-  seasonPts: 27.9
+  seasonPts: 32.4
   teamAbbr: 10
 ---------Week 6---------
   weekPts: 7.7
@@ -54850,7 +54850,7 @@
   : 0
   weekProjectedPts: 8.1
   seasonProjectedPts: 0
-  seasonPts: 27.9
+  seasonPts: 32.4
   teamAbbr: 10
 ---------Week 7---------
   weekPts: 8.9
@@ -54886,7 +54886,7 @@
   : 0
   weekProjectedPts: 17.2
   seasonProjectedPts: 0
-  seasonPts: 27.9
+  seasonPts: 32.4
   teamAbbr: 10
 ---------Week 8---------
   weekPts: 0.7
@@ -54922,7 +54922,7 @@
   : 0
   weekProjectedPts: 7.7
   seasonProjectedPts: 0
-  seasonPts: 27.9
+  seasonPts: 32.4
   teamAbbr: 10
 ---------Week 9---------
   : 0
@@ -55066,7 +55066,7 @@
   : 0
   weekProjectedPts: 1
   seasonProjectedPts: 0
-  seasonPts: 27.9
+  seasonPts: 32.4
   teamAbbr: 10
 ---------Week 13---------
   weekPts: 4
@@ -55102,7 +55102,7 @@
   : 0
   weekProjectedPts: 0.6
   seasonProjectedPts: 0
-  seasonPts: 27.9
+  seasonPts: 32.4
   teamAbbr: 10
 
 
@@ -55141,7 +55141,7 @@
   : 0
   weekProjectedPts: 1
   seasonProjectedPts: 23.8
-  seasonPts: 7.7
+  seasonPts: 9
   teamAbbr: 15
 ---------Week 2---------
   weekPts: 7.5
@@ -55177,7 +55177,7 @@
   : 0
   weekProjectedPts: 0.7
   seasonProjectedPts: 23.8
-  seasonPts: 7.7
+  seasonPts: 9
   teamAbbr: 15
 ---------Week 3---------
   weekPts: 0
@@ -55213,7 +55213,7 @@
   : 0
   weekProjectedPts: 0.9
   seasonProjectedPts: 23.8
-  seasonPts: 7.7
+  seasonPts: 9
   teamAbbr: 15
 ---------Week 4---------
   weekPts: 0
@@ -55249,7 +55249,7 @@
   : 0
   weekProjectedPts: 0.5
   seasonProjectedPts: 23.8
-  seasonPts: 7.7
+  seasonPts: 9
   teamAbbr: 15
 ---------Week 5---------
   : 0
@@ -55537,7 +55537,7 @@
   : 0
   weekProjectedPts: 0
   seasonProjectedPts: 23.8
-  seasonPts: 7.7
+  seasonPts: 9
   teamAbbr: 15
 ---------Week 13---------
   weekPts: 0.2
@@ -55573,7 +55573,7 @@
   : 0
   weekProjectedPts: 0.4
   seasonProjectedPts: 23.8
-  seasonPts: 7.7
+  seasonPts: 9
   teamAbbr: 15
 
 
@@ -55936,7 +55936,7 @@
   : 0
   weekProjectedPts: 0
   seasonProjectedPts: 42.9
-  seasonPts: 7
+  seasonPts: 8.9
   teamAbbr: 13
 ---------Week 11---------
   weekPts: -0.2
@@ -55972,7 +55972,7 @@
   : 0
   weekProjectedPts: 0
   seasonProjectedPts: 42.9
-  seasonPts: 7
+  seasonPts: 8.9
   teamAbbr: 13
 ---------Week 12---------
   weekPts: 1.9
@@ -56008,7 +56008,7 @@
   : 0
   weekProjectedPts: 0
   seasonProjectedPts: 42.9
-  seasonPts: 7
+  seasonPts: 8.9
   teamAbbr: 13
 ---------Week 13---------
   weekPts: 0
@@ -56044,7 +56044,7 @@
   : 0
   weekProjectedPts: 1.7
   seasonProjectedPts: 42.9
-  seasonPts: 7
+  seasonPts: 8.9
   teamAbbr: 13
 
 
@@ -56083,7 +56083,7 @@
   : 0
   weekProjectedPts: 9.6
   seasonProjectedPts: 177.7
-  seasonPts: 43
+  seasonPts: 50.4
   teamAbbr: 29
 ---------Week 2---------
   weekPts: 0.8
@@ -56119,7 +56119,7 @@
   : 0
   weekProjectedPts: 9.6
   seasonProjectedPts: 177.7
-  seasonPts: 43
+  seasonPts: 50.4
   teamAbbr: 29
 ---------Week 3---------
   : 0
@@ -56443,7 +56443,7 @@
   : 0
   weekProjectedPts: 3.4
   seasonProjectedPts: 177.7
-  seasonPts: 43
+  seasonPts: 50.4
   teamAbbr: 29
 ---------Week 12---------
   weekPts: 3.8
@@ -56479,7 +56479,7 @@
   : 0
   weekProjectedPts: 15.2
   seasonProjectedPts: 177.7
-  seasonPts: 43
+  seasonPts: 50.4
   teamAbbr: 29
 ---------Week 13---------
   weekPts: 23.8
@@ -56515,7 +56515,7 @@
   : 0
   weekProjectedPts: 7.4
   seasonProjectedPts: 177.7
-  seasonPts: 43
+  seasonPts: 50.4
   teamAbbr: 29
 
 
@@ -57277,7 +57277,7 @@
   : 0
   weekProjectedPts: 1.3
   seasonProjectedPts: 25.2
-  seasonPts: 8.6
+  seasonPts: 11
   teamAbbr: 1
 ---------Week 9---------
   weekPts: 3
@@ -57313,7 +57313,7 @@
   : 0
   weekProjectedPts: 1.9
   seasonProjectedPts: 25.2
-  seasonPts: 8.6
+  seasonPts: 11
   teamAbbr: 1
 ---------Week 10---------
   weekPts: -0.1
@@ -57349,7 +57349,7 @@
   : 0
   weekProjectedPts: 1.9
   seasonProjectedPts: 25.2
-  seasonPts: 8.6
+  seasonPts: 11
   teamAbbr: 1
 ---------Week 11---------
   : 0
@@ -58909,7 +58909,7 @@
   : 0
   weekProjectedPts: 0
   seasonProjectedPts: 44.4
-  seasonPts: 79.3
+  seasonPts: 80.4
   teamAbbr: 9
 ---------Week 2---------
   weekPts: 5.1
@@ -58945,7 +58945,7 @@
   : 0
   weekProjectedPts: 0
   seasonProjectedPts: 44.4
-  seasonPts: 79.3
+  seasonPts: 80.4
   teamAbbr: 9
 ---------Week 3---------
   weekPts: 2.5
@@ -58981,7 +58981,7 @@
   : 0
   weekProjectedPts: 1.7
   seasonProjectedPts: 44.4
-  seasonPts: 79.3
+  seasonPts: 80.4
   teamAbbr: 9
 ---------Week 4---------
   weekPts: 3
@@ -59017,7 +59017,7 @@
   : 0
   weekProjectedPts: 6
   seasonProjectedPts: 44.4
-  seasonPts: 79.3
+  seasonPts: 80.4
   teamAbbr: 9
 ---------Week 5---------
   weekPts: 5.9
@@ -59053,7 +59053,7 @@
   : 0
   weekProjectedPts: 2.3
   seasonProjectedPts: 44.4
-  seasonPts: 79.3
+  seasonPts: 80.4
   teamAbbr: 9
 ---------Week 6---------
   weekPts: 5.3
@@ -59089,7 +59089,7 @@
   : 0
   weekProjectedPts: 7.1
   seasonProjectedPts: 44.4
-  seasonPts: 79.3
+  seasonPts: 80.4
   teamAbbr: 9
 ---------Week 7---------
   weekPts: 14.7
@@ -59125,7 +59125,7 @@
   : 0
   weekProjectedPts: 2.8
   seasonProjectedPts: 44.4
-  seasonPts: 79.3
+  seasonPts: 80.4
   teamAbbr: 9
 ---------Week 8---------
   weekPts: 12.4
@@ -59161,7 +59161,7 @@
   : 0
   weekProjectedPts: 8.8
   seasonProjectedPts: 44.4
-  seasonPts: 79.3
+  seasonPts: 80.4
   teamAbbr: 9
 ---------Week 9---------
   weekPts: 3
@@ -59197,7 +59197,7 @@
   : 0
   weekProjectedPts: 14.7
   seasonProjectedPts: 44.4
-  seasonPts: 79.3
+  seasonPts: 80.4
   teamAbbr: 9
 ---------Week 10---------
   weekPts: 8.8
@@ -59233,7 +59233,7 @@
   : 0
   weekProjectedPts: 14.6
   seasonProjectedPts: 44.4
-  seasonPts: 79.3
+  seasonPts: 80.4
   teamAbbr: 9
 ---------Week 11---------
   : 0
@@ -59305,7 +59305,7 @@
   : 0
   weekProjectedPts: 7.6
   seasonProjectedPts: 44.4
-  seasonPts: 79.3
+  seasonPts: 80.4
   teamAbbr: 9
 ---------Week 13---------
   weekPts: 9.7
@@ -59341,7 +59341,7 @@
   : 0
   weekProjectedPts: 7.7
   seasonProjectedPts: 44.4
-  seasonPts: 79.3
+  seasonPts: 80.4
   teamAbbr: 9
 
 
@@ -59380,7 +59380,7 @@
   : 0
   weekProjectedPts: 7.3
   seasonProjectedPts: 180
-  seasonPts: 236.7
+  seasonPts: 247.4
   teamAbbr: 8
 ---------Week 2---------
   weekPts: 12.7
@@ -59416,7 +59416,7 @@
   : 0
   weekProjectedPts: 7.1
   seasonProjectedPts: 180
-  seasonPts: 236.7
+  seasonPts: 247.4
   teamAbbr: 8
 ---------Week 3---------
   weekPts: 16
@@ -59452,7 +59452,7 @@
   : 0
   weekProjectedPts: 12.3
   seasonProjectedPts: 180
-  seasonPts: 236.7
+  seasonPts: 247.4
   teamAbbr: 8
 ---------Week 4---------
   weekPts: 21.7
@@ -59488,7 +59488,7 @@
   : 0
   weekProjectedPts: 13.3
   seasonProjectedPts: 180
-  seasonPts: 236.7
+  seasonPts: 247.4
   teamAbbr: 8
 ---------Week 5---------
   weekPts: 29.1
@@ -59524,7 +59524,7 @@
   : 0
   weekProjectedPts: 8.3
   seasonProjectedPts: 180
-  seasonPts: 236.7
+  seasonPts: 247.4
   teamAbbr: 8
 ---------Week 6---------
   weekPts: 17.4
@@ -59560,7 +59560,7 @@
   : 0
   weekProjectedPts: 8.2
   seasonProjectedPts: 180
-  seasonPts: 236.7
+  seasonPts: 247.4
   teamAbbr: 8
 ---------Week 7---------
   : 0
@@ -59632,7 +59632,7 @@
   : 0
   weekProjectedPts: 20.1
   seasonProjectedPts: 180
-  seasonPts: 236.7
+  seasonPts: 247.4
   teamAbbr: 8
 ---------Week 9---------
   weekPts: 21.7
@@ -59668,7 +59668,7 @@
   : 0
   weekProjectedPts: 14.3
   seasonProjectedPts: 180
-  seasonPts: 236.7
+  seasonPts: 247.4
   teamAbbr: 8
 ---------Week 10---------
   weekPts: 38.9
@@ -59704,7 +59704,7 @@
   : 0
   weekProjectedPts: 8.5
   seasonProjectedPts: 180
-  seasonPts: 236.7
+  seasonPts: 247.4
   teamAbbr: 8
 ---------Week 11---------
   weekPts: 12.7
@@ -59740,7 +59740,7 @@
   : 0
   weekProjectedPts: 8.2
   seasonProjectedPts: 180
-  seasonPts: 236.7
+  seasonPts: 247.4
   teamAbbr: 8
 ---------Week 12---------
   weekPts: 24
@@ -59776,7 +59776,7 @@
   : 0
   weekProjectedPts: 16.3
   seasonProjectedPts: 180
-  seasonPts: 236.7
+  seasonPts: 247.4
   teamAbbr: 8
 ---------Week 13---------
   weekPts: 16.5
@@ -59812,7 +59812,7 @@
   : 0
   weekProjectedPts: 9.4
   seasonProjectedPts: 180
-  seasonPts: 236.7
+  seasonPts: 247.4
   teamAbbr: 8
 
 
@@ -60829,7 +60829,7 @@
   : 0
   weekProjectedPts: 0
   seasonProjectedPts: 36.8
-  seasonPts: 19.2
+  seasonPts: 20.3
   teamAbbr: 19
 ---------Week 3---------
   weekPts: 4.8
@@ -60865,7 +60865,7 @@
   : 0
   weekProjectedPts: 0
   seasonProjectedPts: 36.8
-  seasonPts: 19.2
+  seasonPts: 20.3
   teamAbbr: 19
 ---------Week 4---------
   weekPts: 1.5
@@ -60901,7 +60901,7 @@
   : 0
   weekProjectedPts: 1.8
   seasonProjectedPts: 36.8
-  seasonPts: 19.2
+  seasonPts: 20.3
   teamAbbr: 19
 ---------Week 5---------
   weekPts: 2
@@ -60937,7 +60937,7 @@
   : 0
   weekProjectedPts: 1.9
   seasonProjectedPts: 36.8
-  seasonPts: 19.2
+  seasonPts: 20.3
   teamAbbr: 19
 ---------Week 6---------
   : 0
@@ -61081,7 +61081,7 @@
   : 0
   weekProjectedPts: 1.3
   seasonProjectedPts: 36.8
-  seasonPts: 19.2
+  seasonPts: 20.3
   teamAbbr: 19
 ---------Week 10---------
   weekPts: 0.9
@@ -61117,7 +61117,7 @@
   : 0
   weekProjectedPts: 1.2
   seasonProjectedPts: 36.8
-  seasonPts: 19.2
+  seasonPts: 20.3
   teamAbbr: 19
 ---------Week 11---------
   weekPts: 0.2
@@ -61153,7 +61153,7 @@
   : 0
   weekProjectedPts: 1.1
   seasonProjectedPts: 36.8
-  seasonPts: 19.2
+  seasonPts: 20.3
   teamAbbr: 19
 ---------Week 12---------
   weekPts: 0.9
@@ -61189,7 +61189,7 @@
   : 0
   weekProjectedPts: 0.2
   seasonProjectedPts: 36.8
-  seasonPts: 19.2
+  seasonPts: 20.3
   teamAbbr: 19
 ---------Week 13---------
   weekPts: 0.5
@@ -61225,7 +61225,7 @@
   : 0
   weekProjectedPts: 0
   seasonProjectedPts: 36.8
-  seasonPts: 19.2
+  seasonPts: 20.3
   teamAbbr: 19
 
 
@@ -62242,7 +62242,7 @@
   : 0
   weekProjectedPts: 0
   seasonProjectedPts: 43.8
-  seasonPts: 146.5
+  seasonPts: 157.5
   teamAbbr: 5
 ---------Week 3---------
   weekPts: 9.2
@@ -62278,7 +62278,7 @@
   : 0
   weekProjectedPts: 1.7
   seasonProjectedPts: 43.8
-  seasonPts: 146.5
+  seasonPts: 157.5
   teamAbbr: 5
 ---------Week 4---------
   weekPts: 13.2
@@ -62314,7 +62314,7 @@
   : 0
   weekProjectedPts: 11.5
   seasonProjectedPts: 43.8
-  seasonPts: 146.5
+  seasonPts: 157.5
   teamAbbr: 5
 ---------Week 5---------
   weekPts: 22.3
@@ -62350,7 +62350,7 @@
   : 0
   weekProjectedPts: 18.1
   seasonProjectedPts: 43.8
-  seasonPts: 146.5
+  seasonPts: 157.5
   teamAbbr: 5
 ---------Week 6---------
   weekPts: 10
@@ -62386,7 +62386,7 @@
   : 0
   weekProjectedPts: 20.7
   seasonProjectedPts: 43.8
-  seasonPts: 146.5
+  seasonPts: 157.5
   teamAbbr: 5
 ---------Week 7---------
   weekPts: 2.2
@@ -62422,7 +62422,7 @@
   : 0
   weekProjectedPts: 7.8
   seasonProjectedPts: 43.8
-  seasonPts: 146.5
+  seasonPts: 157.5
   teamAbbr: 5
 ---------Week 8---------
   weekPts: 26.2
@@ -62458,7 +62458,7 @@
   : 0
   weekProjectedPts: 6.4
   seasonProjectedPts: 43.8
-  seasonPts: 146.5
+  seasonPts: 157.5
   teamAbbr: 5
 ---------Week 9---------
   : 0
@@ -62530,7 +62530,7 @@
   : 0
   weekProjectedPts: 14.8
   seasonProjectedPts: 43.8
-  seasonPts: 146.5
+  seasonPts: 157.5
   teamAbbr: 5
 ---------Week 11---------
   weekPts: 9.9
@@ -62566,7 +62566,7 @@
   : 0
   weekProjectedPts: 6.8
   seasonProjectedPts: 43.8
-  seasonPts: 146.5
+  seasonPts: 157.5
   teamAbbr: 5
 ---------Week 12---------
   weekPts: 12.7
@@ -62602,7 +62602,7 @@
   : 0
   weekProjectedPts: 13.7
   seasonProjectedPts: 43.8
-  seasonPts: 146.5
+  seasonPts: 157.5
   teamAbbr: 5
 ---------Week 13---------
   weekPts: 29.7
@@ -62638,7 +62638,7 @@
   : 0
   weekProjectedPts: 19.4
   seasonProjectedPts: 43.8
-  seasonPts: 146.5
+  seasonPts: 157.5
   teamAbbr: 5
 
 
@@ -62713,7 +62713,7 @@
   : 0
   weekProjectedPts: 0
   seasonProjectedPts: 0
-  seasonPts: 10.7
+  seasonPts: 14.3
   teamAbbr: 29
 ---------Week 3---------
   weekPts: 3.1
@@ -62749,7 +62749,7 @@
   : 0
   weekProjectedPts: 0
   seasonProjectedPts: 0
-  seasonPts: 10.7
+  seasonPts: 14.3
   teamAbbr: 29
 ---------Week 4---------
   weekPts: 0.1
@@ -62785,7 +62785,7 @@
   : 0
   weekProjectedPts: 0
   seasonProjectedPts: 0
-  seasonPts: 10.7
+  seasonPts: 14.3
   teamAbbr: 29
 ---------Week 5---------
   : 0
@@ -62857,7 +62857,7 @@
   : 0
   weekProjectedPts: 1.7
   seasonProjectedPts: 0
-  seasonPts: 10.7
+  seasonPts: 14.3
   teamAbbr: 29
 ---------Week 7---------
   weekPts: 0.2
@@ -62893,7 +62893,7 @@
   : 0
   weekProjectedPts: 1.6
   seasonProjectedPts: 0
-  seasonPts: 10.7
+  seasonPts: 14.3
   teamAbbr: 29
 ---------Week 8---------
   : 0
@@ -63001,7 +63001,7 @@
   : 0
   weekProjectedPts: 0.9
   seasonProjectedPts: 0
-  seasonPts: 10.7
+  seasonPts: 14.3
   teamAbbr: 29
 ---------Week 11---------
   : 0
@@ -63727,7 +63727,7 @@
   : 0
   weekProjectedPts: 0
   seasonProjectedPts: 0
-  seasonPts: 33.8
+  seasonPts: 38.3
   teamAbbr: 23
 ---------Week 5---------
   weekPts: 2.2
@@ -63763,7 +63763,7 @@
   : 0
   weekProjectedPts: 0
   seasonProjectedPts: 0
-  seasonPts: 33.8
+  seasonPts: 38.3
   teamAbbr: 23
 ---------Week 6---------
   weekPts: 2.6
@@ -63799,7 +63799,7 @@
   : 0
   weekProjectedPts: 0
   seasonProjectedPts: 0
-  seasonPts: 33.8
+  seasonPts: 38.3
   teamAbbr: 23
 ---------Week 7---------
   weekPts: 1.6
@@ -63835,7 +63835,7 @@
   : 0
   weekProjectedPts: 0
   seasonProjectedPts: 0
-  seasonPts: 33.8
+  seasonPts: 38.3
   teamAbbr: 23
 ---------Week 8---------
   : 0
@@ -63907,7 +63907,7 @@
   : 0
   weekProjectedPts: 3
   seasonProjectedPts: 0
-  seasonPts: 33.8
+  seasonPts: 38.3
   teamAbbr: 23
 ---------Week 10---------
   weekPts: 3.1
@@ -63943,7 +63943,7 @@
   : 0
   weekProjectedPts: 9.9
   seasonProjectedPts: 0
-  seasonPts: 33.8
+  seasonPts: 38.3
   teamAbbr: 23
 ---------Week 11---------
   weekPts: 3.5
@@ -63979,7 +63979,7 @@
   : 0
   weekProjectedPts: 3.6
   seasonProjectedPts: 0
-  seasonPts: 33.8
+  seasonPts: 38.3
   teamAbbr: 23
 ---------Week 12---------
   weekPts: 4.3
@@ -64015,7 +64015,7 @@
   : 0
   weekProjectedPts: 10
   seasonProjectedPts: 0
-  seasonPts: 33.8
+  seasonPts: 38.3
   teamAbbr: 23
 ---------Week 13---------
   weekPts: 3.8
@@ -64051,7 +64051,7 @@
   : 0
   weekProjectedPts: 3.7
   seasonProjectedPts: 0
-  seasonPts: 33.8
+  seasonPts: 38.3
   teamAbbr: 23
 
 
@@ -64090,7 +64090,7 @@
   : 0
   weekProjectedPts: 2.6
   seasonProjectedPts: 44.9
-  seasonPts: 40.4
+  seasonPts: 40.7
   teamAbbr: 25
 ---------Week 2---------
   weekPts: 1.6
@@ -64126,7 +64126,7 @@
   : 0
   weekProjectedPts: 2.6
   seasonProjectedPts: 44.9
-  seasonPts: 40.4
+  seasonPts: 40.7
   teamAbbr: 25
 ---------Week 3---------
   weekPts: 13.9
@@ -64162,7 +64162,7 @@
   : 0
   weekProjectedPts: 0
   seasonProjectedPts: 44.9
-  seasonPts: 40.4
+  seasonPts: 40.7
   teamAbbr: 25
 ---------Week 4---------
   : 0
@@ -64270,7 +64270,7 @@
   : 0
   weekProjectedPts: 2.8
   seasonProjectedPts: 44.9
-  seasonPts: 40.4
+  seasonPts: 40.7
   teamAbbr: 25
 ---------Week 7---------
   weekPts: 1.3
@@ -64306,7 +64306,7 @@
   : 0
   weekProjectedPts: 2.9
   seasonProjectedPts: 44.9
-  seasonPts: 40.4
+  seasonPts: 40.7
   teamAbbr: 25
 ---------Week 8---------
   weekPts: -2.5
@@ -64342,7 +64342,7 @@
   : 0
   weekProjectedPts: 2.7
   seasonProjectedPts: 44.9
-  seasonPts: 40.4
+  seasonPts: 40.7
   teamAbbr: 25
 ---------Week 9---------
   weekPts: 2.5
@@ -64378,7 +64378,7 @@
   : 0
   weekProjectedPts: 2
   seasonProjectedPts: 44.9
-  seasonPts: 40.4
+  seasonPts: 40.7
   teamAbbr: 25
 ---------Week 10---------
   weekPts: 7
@@ -64414,7 +64414,7 @@
   : 0
   weekProjectedPts: 2
   seasonProjectedPts: 44.9
-  seasonPts: 40.4
+  seasonPts: 40.7
   teamAbbr: 25
 ---------Week 11---------
   weekPts: 7.9
@@ -64450,7 +64450,7 @@
   : 0
   weekProjectedPts: 8.9
   seasonProjectedPts: 44.9
-  seasonPts: 40.4
+  seasonPts: 40.7
   teamAbbr: 25
 ---------Week 12---------
   weekPts: 4.7
@@ -64486,7 +64486,7 @@
   : 0
   weekProjectedPts: 10.9
   seasonProjectedPts: 44.9
-  seasonPts: 40.4
+  seasonPts: 40.7
   teamAbbr: 25
 ---------Week 13---------
   weekPts: 1.9
@@ -64522,7 +64522,7 @@
   : 0
   weekProjectedPts: 11.2
   seasonProjectedPts: 44.9
-  seasonPts: 40.4
+  seasonPts: 40.7
   teamAbbr: 25
 
 
@@ -65032,7 +65032,7 @@
   : 0
   weekProjectedPts: 2
   seasonProjectedPts: 52.1
-  seasonPts: 53.9
+  seasonPts: 58.6
   teamAbbr: 12
 ---------Week 2---------
   weekPts: 4.9
@@ -65068,7 +65068,7 @@
   : 0
   weekProjectedPts: 1.9
   seasonProjectedPts: 52.1
-  seasonPts: 53.9
+  seasonPts: 58.6
   teamAbbr: 12
 ---------Week 3---------
   weekPts: 4.5
@@ -65104,7 +65104,7 @@
   : 0
   weekProjectedPts: 1.6
   seasonProjectedPts: 52.1
-  seasonPts: 53.9
+  seasonPts: 58.6
   teamAbbr: 12
 ---------Week 4---------
   weekPts: 0.9
@@ -65140,7 +65140,7 @@
   : 0
   weekProjectedPts: 2.5
   seasonProjectedPts: 52.1
-  seasonPts: 53.9
+  seasonPts: 58.6
   teamAbbr: 12
 ---------Week 5---------
   weekPts: 5.4
@@ -65176,7 +65176,7 @@
   : 0
   weekProjectedPts: 2.3
   seasonProjectedPts: 52.1
-  seasonPts: 53.9
+  seasonPts: 58.6
   teamAbbr: 12
 ---------Week 6---------
   weekPts: 2.7
@@ -65212,7 +65212,7 @@
   : 0
   weekProjectedPts: 2.6
   seasonProjectedPts: 52.1
-  seasonPts: 53.9
+  seasonPts: 58.6
   teamAbbr: 12
 ---------Week 7---------
   weekPts: 0.3
@@ -65248,7 +65248,7 @@
   : 0
   weekProjectedPts: 2.3
   seasonProjectedPts: 52.1
-  seasonPts: 53.9
+  seasonPts: 58.6
   teamAbbr: 12
 ---------Week 8---------
   weekPts: 15.7
@@ -65284,7 +65284,7 @@
   : 0
   weekProjectedPts: 1.9
   seasonProjectedPts: 52.1
-  seasonPts: 53.9
+  seasonPts: 58.6
   teamAbbr: 12
 ---------Week 9---------
   : 0
@@ -65356,7 +65356,7 @@
   : 0
   weekProjectedPts: 0
   seasonProjectedPts: 52.1
-  seasonPts: 53.9
+  seasonPts: 58.6
   teamAbbr: 12
 ---------Week 11---------
   : 0
@@ -65428,7 +65428,7 @@
   : 0
   weekProjectedPts: 2.1
   seasonProjectedPts: 52.1
-  seasonPts: 53.9
+  seasonPts: 58.6
   teamAbbr: 12
 ---------Week 13---------
   : 0
@@ -65503,7 +65503,7 @@
   : 0
   weekProjectedPts: 0
   seasonProjectedPts: 56.8
-  seasonPts: 24.7
+  seasonPts: 32.1
   teamAbbr: 10
 ---------Week 2---------
   weekPts: 3.1
@@ -65539,7 +65539,7 @@
   : 0
   weekProjectedPts: 0
   seasonProjectedPts: 56.8
-  seasonPts: 24.7
+  seasonPts: 32.1
   teamAbbr: 10
 ---------Week 3---------
   weekPts: 3.5
@@ -65575,7 +65575,7 @@
   : 0
   weekProjectedPts: 2.4
   seasonProjectedPts: 56.8
-  seasonPts: 24.7
+  seasonPts: 32.1
   teamAbbr: 10
 ---------Week 4---------
   weekPts: 1.4
@@ -65611,7 +65611,7 @@
   : 0
   weekProjectedPts: 7.8
   seasonProjectedPts: 56.8
-  seasonPts: 24.7
+  seasonPts: 32.1
   teamAbbr: 10
 ---------Week 5---------
   : 0
@@ -65791,7 +65791,7 @@
   : 0
   weekProjectedPts: 2
   seasonProjectedPts: 56.8
-  seasonPts: 24.7
+  seasonPts: 32.1
   teamAbbr: 10
 ---------Week 10---------
   : 0
@@ -65863,7 +65863,7 @@
   : 0
   weekProjectedPts: 9.1
   seasonProjectedPts: 56.8
-  seasonPts: 24.7
+  seasonPts: 32.1
   teamAbbr: 10
 ---------Week 12---------
   weekPts: 1.9
@@ -65899,7 +65899,7 @@
   : 0
   weekProjectedPts: 3.8
   seasonProjectedPts: 56.8
-  seasonPts: 24.7
+  seasonPts: 32.1
   teamAbbr: 10
 ---------Week 13---------
   weekPts: 4
@@ -65935,7 +65935,7 @@
   : 0
   weekProjectedPts: 3.1
   seasonProjectedPts: 56.8
-  seasonPts: 24.7
+  seasonPts: 32.1
   teamAbbr: 10
 
 
@@ -66517,7 +66517,7 @@
   : 0
   weekProjectedPts: 1.3
   seasonProjectedPts: 27.2
-  seasonPts: 82.8
+  seasonPts: 97.6
   teamAbbr: 31
 ---------Week 4---------
   weekPts: 0.4
@@ -66553,7 +66553,7 @@
   : 0
   weekProjectedPts: 1.5
   seasonProjectedPts: 27.2
-  seasonPts: 82.8
+  seasonPts: 97.6
   teamAbbr: 31
 ---------Week 5---------
   weekPts: 1.8
@@ -66589,7 +66589,7 @@
   : 0
   weekProjectedPts: 0.9
   seasonProjectedPts: 27.2
-  seasonPts: 82.8
+  seasonPts: 97.6
   teamAbbr: 31
 ---------Week 6---------
   weekPts: 5.9
@@ -66625,7 +66625,7 @@
   : 0
   weekProjectedPts: 7.3
   seasonProjectedPts: 27.2
-  seasonPts: 82.8
+  seasonPts: 97.6
   teamAbbr: 31
 ---------Week 7---------
   weekPts: 7.6
@@ -66661,7 +66661,7 @@
   : 0
   weekProjectedPts: 1.4
   seasonProjectedPts: 27.2
-  seasonPts: 82.8
+  seasonPts: 97.6
   teamAbbr: 31
 ---------Week 8---------
   weekPts: 14.7
@@ -66697,7 +66697,7 @@
   : 0
   weekProjectedPts: 14.3
   seasonProjectedPts: 27.2
-  seasonPts: 82.8
+  seasonPts: 97.6
   teamAbbr: 31
 ---------Week 9---------
   : 0
@@ -66769,7 +66769,7 @@
   : 0
   weekProjectedPts: 6.4
   seasonProjectedPts: 27.2
-  seasonPts: 82.8
+  seasonPts: 97.6
   teamAbbr: 31
 ---------Week 11---------
   weekPts: 31.7
@@ -66805,7 +66805,7 @@
   : 0
   weekProjectedPts: 12.8
   seasonProjectedPts: 27.2
-  seasonPts: 82.8
+  seasonPts: 97.6
   teamAbbr: 31
 ---------Week 12---------
   weekPts: 4.2
@@ -66841,7 +66841,7 @@
   : 0
   weekProjectedPts: 11.7
   seasonProjectedPts: 27.2
-  seasonPts: 82.8
+  seasonPts: 97.6
   teamAbbr: 31
 ---------Week 13---------
   weekPts: 6.3
@@ -66877,7 +66877,7 @@
   : 0
   weekProjectedPts: 11.5
   seasonProjectedPts: 27.2
-  seasonPts: 82.8
+  seasonPts: 97.6
   teamAbbr: 31
 
 
@@ -68836,7 +68836,7 @@
   : 0
   weekProjectedPts: 0
   seasonProjectedPts: 32.4
-  seasonPts: 7.4
+  seasonPts: 15.2
   teamAbbr: 27
 ---------Week 3---------
   : 0
@@ -68980,7 +68980,7 @@
   : 0
   weekProjectedPts: 0.9
   seasonProjectedPts: 32.4
-  seasonPts: 7.4
+  seasonPts: 15.2
   teamAbbr: 27
 ---------Week 7---------
   weekPts: 1.3
@@ -69016,7 +69016,7 @@
   : 0
   weekProjectedPts: 1
   seasonProjectedPts: 32.4
-  seasonPts: 7.4
+  seasonPts: 15.2
   teamAbbr: 27
 ---------Week 8---------
   weekPts: 1.2
@@ -69052,7 +69052,7 @@
   : 0
   weekProjectedPts: 0.9
   seasonProjectedPts: 32.4
-  seasonPts: 7.4
+  seasonPts: 15.2
   teamAbbr: 27
 ---------Week 9---------
   weekPts: 1.9
@@ -69088,7 +69088,7 @@
   : 0
   weekProjectedPts: 1.1
   seasonProjectedPts: 32.4
-  seasonPts: 7.4
+  seasonPts: 15.2
   teamAbbr: 27
 ---------Week 10---------
   weekPts: 0
@@ -69124,7 +69124,7 @@
   : 0
   weekProjectedPts: 1.8
   seasonProjectedPts: 32.4
-  seasonPts: 7.4
+  seasonPts: 15.2
   teamAbbr: 27
 ---------Week 11---------
   : 0
@@ -69196,7 +69196,7 @@
   : 0
   weekProjectedPts: 0.9
   seasonProjectedPts: 32.4
-  seasonPts: 7.4
+  seasonPts: 15.2
   teamAbbr: 27
 ---------Week 13---------
   weekPts: 1.5
@@ -69232,7 +69232,7 @@
   : 0
   weekProjectedPts: 1.1
   seasonProjectedPts: 32.4
-  seasonPts: 7.4
+  seasonPts: 15.2
   teamAbbr: 27
 
 
@@ -69958,7 +69958,7 @@
   : 0
   weekProjectedPts: 1.1
   seasonProjectedPts: 42.5
-  seasonPts: 3.7
+  seasonPts: 4.9
   teamAbbr: 29
 ---------Week 8---------
   : 0
@@ -70102,7 +70102,7 @@
   : 0
   weekProjectedPts: 0
   seasonProjectedPts: 42.5
-  seasonPts: 3.7
+  seasonPts: 4.9
   teamAbbr: 29
 ---------Week 12---------
   : 0
@@ -70174,7 +70174,7 @@
   : 0
   weekProjectedPts: 0
   seasonProjectedPts: 42.5
-  seasonPts: 3.7
+  seasonPts: 4.9
   teamAbbr: 29
 
 

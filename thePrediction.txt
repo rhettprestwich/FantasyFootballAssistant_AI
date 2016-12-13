@@ -1,500 +1,151 @@
-0--8.99305e-005-Jerome Felton--0.000133808
-1--9.14945e-005-Matt Forte--0.996563
-2--9.14945e-005-Matt Forte--0.989793
-3--0.000102443-Chris Johnson--6.87889e-007
-4--0.000102443-Chris Johnson--7.57032e-009
-5--0.000102443-Chris Johnson--7.3068e-007
-6--0.000102443-Chris Johnson--0.000160652
-7--0.000361677-Jamaal Charles--2.17178e-007
-8--0.000361677-Jamaal Charles--0.00239005
-9--0.000361677-Jamaal Charles--4.34216e-014
-10--0.000361677-Jamaal Charles--1.9817e-008
-11--0.000362459-Justin Forsett--1.88369e-007
-12--0.000362459-Justin Forsett--9.91925e-008
-13--0.000362459-Justin Forsett--6.08448e-008
-14--0.000362459-Justin Forsett--5.44963e-007
-15--0.000371061-Jonathan Stewart--0.0013197
-16--0.000371061-Jonathan Stewart--0.983919
-17--0.000371061-Jonathan Stewart--0.00270902
-18--0.000371061-Jonathan Stewart--0.98876
-19--0.00169187-Danny Woodhead--1.39328e-010
-20--0.00169187-Danny Woodhead--3.17554e-007
-21--0.00171376-Tim Hightower--0.00125902
-22--0.00171376-Tim Hightower--0.000113134
-23--0.00171376-Tim Hightower--8.28842e-005
-24--0.00171376-Tim Hightower--2.08655e-005
-25--0.027896-Rashad Jennings--0.0132725
-26--0.027896-Rashad Jennings--0.00832155
-27--0.027896-Rashad Jennings--5.28367e-005
-28--0.027896-Rashad Jennings--5.2222e-009
-29--0.0311062-Arian Foster--2.04865e-006
-30--0.0311062-Arian Foster--1.05305e-005
-31--0.0311062-Arian Foster--2.32412e-007
-32--0.0311062-Arian Foster--1.77907e-006
-33--0.0311265-LeSean McCoy--0.985826
-34--0.0311265-LeSean McCoy--0.998195
-35--0.0311265-LeSean McCoy--0.0097683
-36--0.0311265-LeSean McCoy--0.00251928
-37--0.0351112-Antone Smith--1.86244e-009
-38--0.194385-Joique Bell--2.29496e-007
-39--0.194385-Joique Bell--0.00039552
-40--0.194385-Joique Bell--9.29501e-007
-41--0.194385-Joique Bell--7.99198e-007
-42--0.194386-LeGarrette Blount--0.00895654
-43--0.194386-LeGarrette Blount--0.013956
-44--0.194386-LeGarrette Blount--0.9955
-45--0.194386-LeGarrette Blount--0.00185383
-46--0.194402-Ryan Mathews--8.26337e-007
-47--0.194402-Ryan Mathews--2.60787e-005
-48--0.194402-Ryan Mathews--1.69376e-007
-49--0.194402-Ryan Mathews--0.0109625
-50--0.194402-Dexter McCluster--1.034e-006
-51--0.194402-Dexter McCluster--9.46398e-008
-52--0.194402-Dexter McCluster--3.65041e-008
-53--0.194402-Dexter McCluster--6.87003e-008
-54--0.194408-C.J. Spiller--4.4921e-005
-55--0.194408-C.J. Spiller--0.00370525
-56--0.194408-C.J. Spiller--7.84529e-011
-57--0.194408-C.J. Spiller--9.18511e-006
-58--0.194409-James Starks--1.30108e-005
-59--0.194409-James Starks--6.55494e-008
-60--0.194409-James Starks--0.00800698
-61--0.194409-James Starks--0.000257695
-62--0.975631-DeMarco Murray--0.00377235
-63--0.975631-DeMarco Murray--0.0175498
-64--0.975631-DeMarco Murray--0.968624
-65--0.975631-DeMarco Murray--0.999967
-66--0.975651-Matt Asiata--0.963121
-67--0.975651-Matt Asiata--0.000797629
-68--0.975651-Matt Asiata--0.00287899
-69--0.975651-Matt Asiata--3.12168e-006
-70--0.975678-Bilal Powell--0.0144435
-71--0.975678-Bilal Powell--0.0197961
-72--0.975678-Bilal Powell--0.00184487
-73--0.975678-Bilal Powell--1.74336e-006
-74--0.975683-Anthony Sherman--2.57737e-006
-75--0.975683-Anthony Sherman--0.000120453
-76--0.975683-Anthony Sherman--4.58073e-006
-77--0.975683-Anthony Sherman--5.8689e-005
-78--0.97573-Shaun Draughn--2.55577e-005
-79--0.97573-Shaun Draughn--0.00499809
-80--0.97573-Shaun Draughn--7.30691e-005
-81--0.97573-Shaun Draughn--1.9446e-006
-82--0.975732-Mark Ingram--0.00594444
-83--0.975732-Mark Ingram--0.00062951
-84--0.975732-Mark Ingram--0.00258842
-85--0.975732-Mark Ingram--0.0137753
-86--0.975733-Taiwan Jones--1.77352e-006
-87--0.975733-Taiwan Jones--4.39079e-008
-88--0.975733-Taiwan Jones--3.32541e-007
-89--0.975734-Jacquizz Rodgers--1.74304e-005
-90--0.975734-Jacquizz Rodgers--1.72445e-008
-91--0.975734-Jacquizz Rodgers--0.98381
-92--0.975734-Jacquizz Rodgers--8.47822e-006
-93--0.975735-Jordan Todman--0.000104942
-94--0.975735-Jordan Todman--3.98985e-005
-95--0.975735-Jordan Todman--4.89625e-006
-96--0.975735-Jordan Todman--2.61913e-006
-97--0.975735-Shane Vereen--4.67306e-006
-98--0.975735-Shane Vereen--0.001326
-99--0.975735-Shane Vereen--1.74945e-008
-100--0.975933-DeAngelo Williams--4.69058e-009
-101--0.975933-DeAngelo Williams--4.57409e-008
-102--0.975933-DeAngelo Williams--2.00326e-005
-103--0.975933-DeAngelo Williams--3.36191e-008
-104--0.979909-John Kuhn--0.000932397
-105--0.979909-John Kuhn--1.14129e-005
-106--0.979909-John Kuhn--8.80846e-006
-107--0.979909-John Kuhn--9.57085e-012
-108--0.980009-Frank Gore--0.00390165
-109--0.980009-Frank Gore--0.00387459
-110--0.980009-Frank Gore--0.000890471
-111--0.980009-Frank Gore--0.0173365
-112--0.980034-Darren Sproles--0.0165884
-113--0.980034-Darren Sproles--1.2738e-006
-114--0.980034-Darren Sproles--9.04953e-007
-115--0.980034-Darren Sproles--1.17649e-006
-116--0.980193-Reggie Bush--2.20259e-006
-117--0.980193-Reggie Bush--8.88227e-005
-118--0.980193-Reggie Bush--0.00444364
-119--0.980193-Reggie Bush--2.12931e-006
-120--0.980306-Adrian Peterson--8.04475e-005
-121--0.980306-Adrian Peterson--7.3442e-007
-122--0.98041-Mike Tolbert--1.68759e-006
-123--0.98041-Mike Tolbert--1.83074e-005
-124--0.98041-Mike Tolbert--8.03822e-007
-125--0.98041-Mike Tolbert--2.33442e-006
-126--0.980633-Chris Ivory--0.00653582
-127--0.980633-Chris Ivory--1.07749e-005
-128--0.980633-Chris Ivory--0.00151045
-129--0.980633-Chris Ivory--0.000664208
-130--0.980673-James Develin--2.12732e-005
-131--0.980673-James Develin--1.4933e-006
-132--0.980673-James Develin--0.000196247
-133--0.989505-DuJuan Harris--1.1446e-006
-134--0.989534-Patrick DiMarco--3.28627e-005
-135--0.989534-Patrick DiMarco--0.00198063
-136--0.989534-Patrick DiMarco--5.72473e-005
-137--0.989534-Patrick DiMarco--7.59508e-008
-138--0.990329-Brandon Bolden--4.96859e-005
-139--0.990329-Brandon Bolden--1.73851e-006
-140--0.990329-Brandon Bolden--2.64553e-007
-141--0.990329-Brandon Bolden--3.31325e-007
-142--0.990369-Doug Martin--0.000826583
-143--0.990369-Doug Martin--0.000352572
-144--0.990379-Isaiah Pead--0.00264674
-145--0.990379-Isaiah Pead--1.61134e-005
-146--0.990379-Isaiah Pead--1.19222e-008
-147--0.990379-Isaiah Pead--9.39716e-008
-148--0.990422-Lamar Miller--0.00980798
-149--0.990422-Lamar Miller--0.982149
-150--0.990422-Lamar Miller--1.30006e-006
-151--0.990422-Lamar Miller--0.0129034
-152--0.990579-Ronnie Hillman--1.06873e-006
-153--0.990587-Alfred Morris--0.000113898
-154--0.990587-Alfred Morris--1.36124e-006
-155--0.990587-Alfred Morris--2.25976e-005
-156--0.990587-Alfred Morris--0.000349875
-157--0.990588-Robert Turbin--0.0237106
-158--0.990588-Robert Turbin--3.25673e-005
-159--0.990588-Robert Turbin--5.75573e-007
-160--0.990588-Robert Turbin--0.00535087
-161--0.991023-Bobby Rainey--6.33342e-005
-162--0.991023-Bobby Rainey--1.12314e-005
-163--0.991023-Bobby Rainey--6.83822e-007
-164--0.991023-Bobby Rainey--4.71754e-008
-165--0.9911-Jonathan Grimes--2.75856e-006
-166--0.9911-Jonathan Grimes--1.08623e-007
-167--0.9911-Jonathan Grimes--1.22745e-007
-168--0.991108-Daryl Richardson--1.88983e-006
-169--0.991108-Daryl Richardson--8.22771e-007
-170--0.991108-Daryl Richardson--3.82665e-007
-171--0.991467-Lance Dunbar--8.00226e-006
-172--0.991467-Lance Dunbar--5.21668e-006
-173--0.991467-Lance Dunbar--7.2383e-007
-174--0.991467-Lance Dunbar--5.1479e-007
-175--0.991538-Travaris Cadet--9.23361e-006
-176--0.991538-Travaris Cadet--5.35939e-006
-177--0.991538-Travaris Cadet--4.60608e-007
-178--0.991538-Travaris Cadet--0.00210584
-179--0.991599-Jamize Olawale--0.000926284
-180--0.991599-Jamize Olawale--1.93068e-005
-181--0.991599-Jamize Olawale--6.48849e-005
-182--0.991599-Jamize Olawale--4.49835e-006
-183--0.992839-Andre Ellington--1.05437e-007
-184--0.992839-Andre Ellington--2.24009e-008
-185--0.992839-Andre Ellington--2.8019e-008
-186--0.992839-Andre Ellington--4.11741e-007
-187--0.992856-Denard Robinson--6.29301e-007
-188--0.992856-Denard Robinson--4.29748e-006
-189--0.992856-Denard Robinson--2.3162e-006
-190--0.992856-Denard Robinson--6.16811e-005
-191--0.992858-Rex Burkhead--7.56903e-006
-192--0.992858-Rex Burkhead--1.70567e-007
-193--0.992858-Rex Burkhead--0.000117337
-194--0.992858-Rex Burkhead--3.18016e-005
-195--0.992867-Kenjon Barner--6.30774e-007
-196--0.992867-Kenjon Barner--5.21736e-005
-197--0.992867-Kenjon Barner--4.5748e-009
-198--0.992867-Kenjon Barner--3.0041e-006
-199--0.992873-Zach Line--1.40605e-005
-200--0.992873-Zach Line--5.25189e-005
-201--0.992873-Zach Line--4.18967e-006
-202--0.992873-Zach Line--6.55175e-009
-203--0.992878-Stepfan Taylor--0.000112578
-204--0.992878-Stepfan Taylor--0.00033345
-205--0.992878-Stepfan Taylor--5.04243e-006
-206--0.99288-Christine Michael--0.0171726
-207--0.99288-Christine Michael--0.999818
-208--0.99288-Christine Michael--7.53843e-007
-209--0.99288-Christine Michael--3.72258e-005
-210--0.993014-Mike Gillislee--0.0026314
-211--0.993014-Mike Gillislee--0.00139623
-212--0.993014-Mike Gillislee--0.00296962
-213--0.993014-Mike Gillislee--0.960697
-214--0.99315-Chris Thompson--5.20462e-008
-215--0.99315-Chris Thompson--1.71014e-006
-216--0.99315-Chris Thompson--0.000832514
-217--0.99315-Chris Thompson--2.46781e-007
-218--0.993153-Theo Riddick--0.983728
-219--0.993153-Theo Riddick--2.18445e-006
-220--0.993153-Theo Riddick--0.00105727
-221--0.993153-Theo Riddick--0.977028
-222--0.99316-Fozzy Whittaker--0.00103961
-223--0.99316-Fozzy Whittaker--2.4548e-008
-224--0.99316-Fozzy Whittaker--4.29251e-006
-225--0.99316-Fozzy Whittaker--6.42776e-005
-226--0.993206-Giovani Bernard--4.3461e-005
-227--0.993206-Giovani Bernard--6.19224e-006
-228--0.993206-Giovani Bernard--0.000757803
-229--0.993206-Giovani Bernard--4.77734e-005
-230--0.993211-Eddie Lacy--4.21456e-005
-231--0.993211-Eddie Lacy--6.39068e-006
-232--0.993211-Eddie Lacy--5.84976e-007
-233--0.993211-Eddie Lacy--0.000114313
-234--0.993214-Le'Veon Bell--0.984773
-235--0.993214-Le'Veon Bell--7.66367e-005
-236--0.993214-Le'Veon Bell--0.00857277
-237--0.993214-Le'Veon Bell--0.000271
-238--0.993215-Knile Davis--1.50445e-005
-239--0.993215-Knile Davis--3.19008e-005
-240--0.993215-Knile Davis--0.00018762
-241--0.993215-Knile Davis--4.88622e-006
-242--0.993225-Spencer Ware--0.00576673
-243--0.993225-Spencer Ware--0.992083
-244--0.993225-Spencer Ware--0.998967
-245--0.993225-Spencer Ware--0.000123244
-246--0.993235-Kyle Juszczyk--2.6736e-007
-247--0.993235-Kyle Juszczyk--1.36501e-007
-248--0.993235-Kyle Juszczyk--6.10348e-008
-249--0.993235-Kyle Juszczyk--1.11627e-006
-250--0.993251-C.J. Anderson--1.2812e-005
-251--0.993251-C.J. Anderson--0.00255465
-252--0.993251-C.J. Anderson--0.986755
-253--0.993251-C.J. Anderson--5.68152e-006
-254--0.993599-Latavius Murray--0.0137546
-255--0.993599-Latavius Murray--0.00473641
-256--0.993599-Latavius Murray--0.999973
-257--0.993599-Latavius Murray--0.0151365
-258--0.993749-Benny Cunningham--4.00776e-007
-259--0.993749-Benny Cunningham--2.13453e-006
-260--0.993749-Benny Cunningham--6.1261e-008
-261--0.993749-Benny Cunningham--0.000241169
-262--0.994534-Ka'Deem Carey--4.26038e-007
-263--0.994534-Ka'Deem Carey--0.000339131
-264--0.994534-Ka'Deem Carey--0.000603796
-265--0.994534-Ka'Deem Carey--1.39065e-007
-266--0.994546-Devonta Freeman--0.996324
-267--0.994546-Devonta Freeman--2.89529e-006
-268--0.994546-Devonta Freeman--0.0156941
-269--0.994546-Devonta Freeman--0.999954
-270--0.994553-Alfred Blue--0.00134437
-271--0.994553-Alfred Blue--5.57821e-005
-272--0.994553-Alfred Blue--4.88426e-006
-273--0.994553-Alfred Blue--5.28825e-005
-274--0.994554-Jeremy Hill--0.0113551
-275--0.994554-Jeremy Hill--0.0248842
-276--0.994554-Jeremy Hill--0.977905
-277--0.994554-Jeremy Hill--0.00545688
-278--0.994578-Terrance West--0.000633342
-279--0.994578-Terrance West--0.958167
-280--0.994578-Terrance West--0.00032336
-281--0.994578-Terrance West--0.0141867
-282--0.99459-Jay Prosch--1.49353e-005
-283--0.99459-Jay Prosch--5.59302e-006
-284--0.99459-Jay Prosch--2.0792e-005
-285--0.99459-Jay Prosch--5.09583e-005
-286--0.994594-Lorenzo Taliaferro--0.000115901
-287--0.994598-Jerick McKinnon--6.871e-007
-288--0.994598-Jerick McKinnon--1.21326e-005
-289--0.994598-Jerick McKinnon--0.00400035
-290--0.994598-Jerick McKinnon--4.49156e-008
-291--0.994609-Carlos Hyde--0.997973
-292--0.994609-Carlos Hyde--1.12604e-007
-293--0.994609-Carlos Hyde--0.00353311
-294--0.994609-Carlos Hyde--0.000112091
-295--0.994619-Charles Sims--7.84877e-007
-296--0.994619-Charles Sims--3.27605e-007
-297--0.994619-Charles Sims--5.79624e-005
-298--0.994619-Charles Sims--2.34388e-005
-299--0.994621-James White--0.0616901
-300--0.994621-James White--0.906213
-301--0.994621-James White--0.0258975
-302--0.994621-James White--0.0240117
-303--0.997129-Isaiah Crowell--1.1244e-005
-304--0.997129-Isaiah Crowell--5.44881e-006
-305--0.997129-Isaiah Crowell--0.000857237
-306--0.997129-Isaiah Crowell--0.013476
-307--0.99716-Charcandrick West--0.000186732
-308--0.99716-Charcandrick West--0.000557194
-309--0.99716-Charcandrick West--0.000223451
-310--0.99716-Charcandrick West--0.0130139
-311--0.997241-Antonio Andrews--4.39425e-005
-312--0.997241-Antonio Andrews--1.33183e-006
-313--0.997241-Antonio Andrews--3.06168e-008
-314--0.997241-Antonio Andrews--1.37905e-005
-315--0.997243-Orleans Darkwa--6.33946e-006
-316--0.997243-Orleans Darkwa--6.31493e-005
-317--0.997243-Orleans Darkwa--1.93784e-005
-318--0.997243-Orleans Darkwa--8.79543e-008
-319--0.997256-Damien Williams--0.000308658
-320--0.997256-Damien Williams--2.2259e-005
-321--0.997256-Damien Williams--0.000940322
-322--0.997256-Damien Williams--0.00827513
-323--0.997267-George Atkinson--3.8385e-005
-324--0.997267-George Atkinson--2.17626e-007
-325--0.997267-George Atkinson--1.94092e-007
-326--0.997267-George Atkinson--5.51594e-007
-327--0.997267-Kapri Bibbs--5.16284e-005
-328--0.997267-Kapri Bibbs--1.62441e-005
-329--0.997267-Kapri Bibbs--3.08206e-006
-330--0.997267-Kapri Bibbs--1.50375e-006
-331--0.997344-Fitzgerald Toussaint--2.74438e-007
-332--0.997344-Fitzgerald Toussaint--7.18383e-006
-333--0.997344-Fitzgerald Toussaint--6.64452e-007
-334--0.997344-Fitzgerald Toussaint--9.33524e-006
-335--0.997984-Ameer Abdullah--2.71378e-006
-336--0.997984-Ameer Abdullah--1.02991e-006
-337--0.997984-Cameron Artis-Payne--0.968769
-338--0.997984-Cameron Artis-Payne--1.62061e-006
-339--0.997984-Cameron Artis-Payne--0.00182592
-340--0.997984-Cameron Artis-Payne--4.0506e-005
-341--0.997986-Jeremy Langford--1.0662e-006
-342--0.997986-Jeremy Langford--0.00170283
-343--0.997986-Jeremy Langford--5.34371e-005
-344--0.997987-Malcolm Brown--1.04914e-005
-345--0.997987-Malcolm Brown--0.0012886
-346--0.997987-Malcolm Brown--4.3776e-006
-347--0.997987-Malcolm Brown--3.07297e-008
-348--0.998014-Tevin Coleman--0.978465
-349--0.998014-Tevin Coleman--2.61025e-007
-350--0.998014-Tevin Coleman--0.00151429
-351--0.998014-Tevin Coleman--2.35172e-005
-352--0.998018-Duke Johnson--0.0186098
-353--0.998018-Duke Johnson--0.00943779
-354--0.998018-Duke Johnson--3.30781e-005
-355--0.998018-Duke Johnson--0.0371764
-356--0.998019-Jalston Fowler--4.52565e-006
-357--0.998019-Jalston Fowler--6.48661e-005
-358--0.998019-Jalston Fowler--3.48379e-006
-359--0.998019-Jalston Fowler--4.13796e-006
-360--0.998021-Melvin Gordon--0.0156924
-361--0.998021-Melvin Gordon--0.0126948
-362--0.998021-Melvin Gordon--0.984487
-363--0.998021-Melvin Gordon--0.986795
-364--0.998022-T.J. Yeldon--1.13656e-005
-365--0.998022-T.J. Yeldon--9.41095e-005
-366--0.998022-T.J. Yeldon--0.0144423
-367--0.998022-T.J. Yeldon--0.000213458
-368--0.998023-Todd Gurley--0.00678874
-369--0.998023-Todd Gurley--5.92835e-005
-370--0.998023-Todd Gurley--7.73284e-007
-371--0.998023-Todd Gurley--0.00161008
-372--0.998024-Aaron Ripkowski--6.95005e-005
-373--0.998024-Aaron Ripkowski--0.00169156
-374--0.998024-Aaron Ripkowski--0.000366376
-375--0.998065-Jay Ajayi--0.0121715
-376--0.998065-Jay Ajayi--0.974183
-377--0.998065-Jay Ajayi--0.987092
-378--0.998065-Jay Ajayi--0.0141538
-379--0.998084-Javorius Allen--3.60425e-008
-380--0.998084-Javorius Allen--0.000445566
-381--0.998084-Javorius Allen--2.44026e-006
-382--0.998084-Javorius Allen--0.000103629
-383--0.998086-Matt Jones--8.02749e-007
-384--0.998086-Matt Jones--0.978598
-385--0.998086-Matt Jones--4.82924e-010
-386--0.998086-Matt Jones--0.000955776
-387--0.99809-Marcus Murphy--2.89089e-007
-388--0.998398-David Johnson--1
-389--0.998398-David Johnson--1
-390--0.998398-David Johnson--0.999586
-391--0.998398-David Johnson--0.00721177
-392--0.9984-Mike Davis--7.26564e-006
-393--0.9984-Mike Davis--5.38842e-005
-394--0.9984-Mike Davis--7.56083e-006
-395--0.9984-Mike Davis--1.02876e-007
-396--0.998403-Malcolm Johnson--1.45203e-005
-397--0.998403-Malcolm Johnson--1.73065e-005
-398--0.998403-Malcolm Johnson--2.4021e-008
-399--0.998403-Malcolm Johnson--7.90232e-008
-400--0.998475-Zach Zenner--5.05433e-005
-401--0.998475-Zach Zenner--0.00644522
-402--0.998475-Zach Zenner--7.41229e-009
-403--0.998475-Zach Zenner--5.43373e-007
-404--0.998483-Corey Grant--2.10353e-005
-405--0.998483-Corey Grant--2.36167e-007
-406--0.998483-Corey Grant--4.73146e-007
-407--0.998483-Corey Grant--6.73646e-007
-408--0.998515-Thomas Rawls--0.00347937
-409--0.998515-Thomas Rawls--0.00101316
-410--0.998519-Rod Smith--3.23658e-006
-411--0.998519-Rod Smith--2.19404e-008
-412--0.998519-Rod Smith--4.4708e-006
-413--0.998519-Rod Smith--3.72063e-005
-414--0.999096-Daniel Lasco--3.70099e-006
-415--0.999096-Daniel Lasco--1.1783e-005
-416--0.999096-Daniel Lasco--1.74907e-005
-417--0.999096-Daniel Lasco--5.55554e-006
-418--0.999098-Devontae Booker--0.0499296
-419--0.999098-Devontae Booker--0.0303175
-420--0.999098-Devontae Booker--0.031526
-421--0.999098-Devontae Booker--0.0179248
-422--0.999098-Ezekiel Elliott--1
-423--0.999098-Ezekiel Elliott--0.999967
-424--0.999098-Ezekiel Elliott--0.00226439
-425--0.999098-Ezekiel Elliott--0.00783
-426--0.999099-Jonathan Williams--5.63633e-005
-427--0.999099-Jonathan Williams--9.60909e-005
-428--0.999099-Jonathan Williams--0.000345675
-429--0.999099-Jonathan Williams--0.000309711
-430--0.9991-Kenneth Dixon--0.000446547
-431--0.9991-Kenneth Dixon--0.0221689
-432--0.9991-Kenneth Dixon--1.93025e-005
-433--0.9991-Kenyan Drake--3.36793e-005
-434--0.9991-Kenyan Drake--3.01344e-005
-435--0.9991-Kenyan Drake--1.90904e-005
-436--0.9991-Kenyan Drake--1.70471e-005
-437--0.999102-Tyler Ervin--2.89103e-006
-438--0.999102-Tyler Ervin--4.49257e-006
-439--0.999102-Tyler Ervin--6.39088e-006
-440--0.999102-Tyler Ervin--2.7549e-006
-441--0.999173-C.J. Prosise--3.15737e-005
-442--0.999173-C.J. Prosise--4.17899e-005
-443--0.999174-Jordan Howard--0.996743
-444--0.999174-Jordan Howard--0.0119597
-445--0.999174-Jordan Howard--4.91628e-005
-446--0.999174-Jordan Howard--0.985331
-447--0.999179-Alex Collins--7.84652e-006
-448--0.999179-Alex Collins--5.60889e-006
-449--0.999179-Alex Collins--7.01002e-010
-450--0.999179-Alex Collins--2.3829e-005
-451--0.999179-Andy Janovich--1.61006e-006
-452--0.999179-Andy Janovich--3.8317e-006
-453--0.999179-Andy Janovich--1.90689e-006
-454--0.999179-Andy Janovich--1.65244e-007
-455--0.99919-Paul Perkins--5.00489e-006
-456--0.99919-Paul Perkins--0.000517626
-457--0.99919-Paul Perkins--8.03218e-005
-458--0.99919-Paul Perkins--8.61909e-006
-459--0.999191-Wendell Smallwood--2.23634e-005
-460--0.999191-Wendell Smallwood--0.00807884
-461--0.999191-Wendell Smallwood--1.07417e-009
-462--0.999191-Wendell Smallwood--0.000621591
-463--0.999192-DeAndre Washington--0.00274572
-464--0.999192-DeAndre Washington--3.99601e-005
-465--0.999192-DeAndre Washington--1.57182e-007
-466--0.999192-DeAndre Washington--0.000763599
-467--0.999431-Derrick Henry--0.0458512
-468--0.999431-Derrick Henry--0.0135236
-469--0.999431-Derrick Henry--0.0186052
-470--0.999431-Derrick Henry--0.927809
-471--0.999448-Dwayne Washington--1.60029e-007
-472--0.999448-Dwayne Washington--0.000292537
-473--0.999448-Dwayne Washington--1.48163e-005
-474--0.999448-Dwayne Washington--7.57022e-006
-475--0.999562-Josh Ferguson--3.70847e-005
-476--0.999562-Josh Ferguson--4.73313e-009
-477--0.999562-Josh Ferguson--1.22361e-007
-478--0.999562-Josh Ferguson--5.07169e-006
-479--0.999563-Rob Kelley--0.000527236
-480--0.999563-Rob Kelley--8.5923e-005
-481--0.999563-Rob Kelley--0.0190914
-482--0.999563-Rob Kelley--0.0309387
-483--0.999584-Peyton Barber--4.51459e-006
-484--0.999584-Peyton Barber--2.28243e-006
-485--0.999584-Peyton Barber--8.98365e-008
-486--0.999608-D.J. Foster--0.000193022
-487--0.999608-D.J. Foster--1.38449e-006
-488--0.999608-D.J. Foster--7.82858e-005
-489--0.999608-D.J. Foster--1.05488e-005
-490--0.999622-Don Jackson--3.56455e-010
-491--0.999715-Kenneth Farrow--0.00268036
-492--0.999715-Kenneth Farrow--1.02504e-006
-493--0.999715-Kenneth Farrow--3.99244e-006
-494--0.999715-Kenneth Farrow--1.41964e-005
-495--0.999747-Jalen Richard--0.00546842
-496--0.999747-Jalen Richard--5.52794e-006
-497--0.999747-Jalen Richard--0.00169604
-498--0.999747-Jalen Richard--0.0116091
-499--1-Troymaine Pope--3.59836e-006
+WEEK 14 Predictions:
+
+0 - 230--Jerome Felton -- sit
+1 - 234--Matt Forte --  ** START **
+2 - 262--Chris Johnson -- sit
+3 - 925--Jamaal Charles -- sit
+4 - 927--Justin Forsett -- sit
+5 - 949--Jonathan Stewart -- sit
+6 - 4327--Danny Woodhead -- sit
+7 - 4383--Tim Hightower -- sit
+8 - 71345--Rashad Jennings -- sit
+9 - 79555--Arian Foster -- sit
+10 - 79607--LeSean McCoy --  ** START **
+11 - 79629--Cedric Peerman -- sit
+12 - 89798--Antone Smith -- sit
+13 - 497145--Joique Bell -- sit
+14 - 497149--LeGarrette Blount -- sit
+15 - 497188--Ryan Mathews -- sit
+16 - 497190--Dexter McCluster -- sit
+17 - 497204--C.J. Spiller -- sit
+18 - 497206--James Starks -- sit
+19 - 2495207--DeMarco Murray -- sit
+20 - 2495258--Matt Asiata -- sit
+21 - 2495328--Bilal Powell -- sit
+22 - 2495340--Anthony Sherman -- sit
+23 - 2495461--Shaun Draughn -- sit
+24 - 2495466--Mark Ingram -- sit
+25 - 2495467--Taiwan Jones -- sit
+26 - 2495469--Dion Lewis -- sit
+27 - 2495470--Stevan Ridley -- sit
+28 - 2495471--Jacquizz Rodgers -- sit
+29 - 2495472--Jordan Todman -- sit
+30 - 2495473--Shane Vereen -- sit
+31 - 2495979--DeAngelo Williams -- sit
+32 - 2506147--John Kuhn -- sit
+33 - 2506404--Frank Gore -- sit
+34 - 2506467--Darren Sproles -- sit
+35 - 2506874--Reggie Bush -- sit
+36 - 2507164--Adrian Peterson -- sit
+37 - 2507428--Mike Tolbert -- sit
+38 - 2507999--Chris Ivory -- sit
+39 - 2508101--James Develin -- sit
+40 - 2530690--DuJuan Harris -- sit
+41 - 2530763--Patrick DiMarco -- sit
+42 - 2532797--Brandon Bolden -- sit
+43 - 2532899--Doug Martin -- sit
+44 - 2532926--Isaiah Pead -- sit
+45 - 2533034--Lamar Miller -- sit
+46 - 2533437--Ronnie Hillman -- sit
+47 - 2533457--Alfred Morris -- sit
+48 - 2533460--Robert Turbin -- sit
+49 - 2534571--Bobby Rainey -- sit
+50 - 2534770--Jonathan Grimes -- sit
+51 - 2534789--Daryl Richardson -- sit
+52 - 2535708--Lance Dunbar -- sit
+53 - 2535890--Travaris Cadet -- sit
+54 - 2536044--Jamize Olawale -- sit
+55 - 2539217--Andre Ellington -- sit
+56 - 2539260--Denard Robinson -- sit
+57 - 2539265--Rex Burkhead -- sit
+58 - 2539289--Kenjon Barner -- sit
+59 - 2539303--Zach Line -- sit
+60 - 2539315--Stepfan Taylor -- sit
+61 - 2539322--Christine Michael -- sit
+62 - 2539663--Mike Gillislee -- sit
+63 - 2539980--Kerwynn Williams -- sit
+64 - 2540011--Chris Thompson -- sit
+65 - 2540020--Theo Riddick -- sit
+66 - 2540037--Fozzy Whittaker -- sit
+67 - 2540156--Giovani Bernard -- sit
+68 - 2540168--Eddie Lacy -- sit
+69 - 2540175--Le'Veon Bell -- sit
+70 - 2540178--Knile Davis -- sit
+71 - 2540204--Spencer Ware -- sit
+72 - 2540224--Mike James -- sit
+73 - 2540230--Kyle Juszczyk -- sit
+74 - 2540269--C.J. Anderson -- sit
+75 - 2541161--Latavius Murray -- sit
+76 - 2541544--Benny Cunningham -- sit
+77 - 2543551--Ka'Deem Carey -- sit
+78 - 2543583--Devonta Freeman -- sit
+79 - 2543600--Alfred Blue -- sit
+80 - 2543603--Jeremy Hill -- sit
+81 - 2543664--Terrance West -- sit
+82 - 2543695--Jay Prosch -- sit
+83 - 2543704--Lorenzo Taliaferro -- sit
+84 - 2543715--Jerick McKinnon -- sit
+85 - 2543743--Carlos Hyde --  ** START **
+86 - 2543770--Charles Sims -- sit
+87 - 2543773--James White -- sit
+88 - 2550189--Isaiah Crowell -- sit
+89 - 2550263--Juwan Thompson -- sit
+90 - 2550268--Charcandrick West -- sit
+91 - 2550474--Antonio Andrews -- sit
+92 - 2550481--Orleans Darkwa -- sit
+93 - 2550512--Damien Williams -- sit
+94 - 2550540--George Atkinson -- sit
+95 - 2550542--Kapri Bibbs -- sit
+96 - 2550738--Fitzgerald Toussaint -- sit
+97 - 2552374--Ameer Abdullah -- sit
+98 - 2552375--Cameron Artis-Payne -- sit
+99 - 2552379--Jeremy Langford -- sit
+100 - 2552382--Malcolm Brown -- sit
+101 - 2552453--Tevin Coleman -- sit
+102 - 2552461--Duke Johnson -- sit
+103 - 2552464--Jalston Fowler -- sit
+104 - 2552469--Melvin Gordon --  ** START **
+105 - 2552471--T.J. Yeldon --  ** START **
+106 - 2552475--Todd Gurley -- sit
+107 - 2552477--Aaron Ripkowski -- sit
+108 - 2552582--Jay Ajayi -- sit
+109 - 2552631--Javorius Allen -- sit
+110 - 2552635--Matt Jones -- sit
+111 - 2552636--Michael Burton -- sit
+112 - 2552647--Marcus Murphy -- sit
+113 - 2553435--David Johnson -- sit
+114 - 2553439--Mike Davis -- sit
+115 - 2553446--Malcolm Johnson -- sit
+116 - 2553631--Zach Zenner -- sit
+117 - 2553650--Corey Grant -- sit
+118 - 2553660--Akeem Hunt -- sit
+119 - 2553733--Thomas Rawls -- sit
+120 - 2553743--Rod Smith -- sit
+121 - 2553762--Terron Ward -- sit
+122 - 2555218--Danny Vitale -- sit
+123 - 2555219--Daniel Lasco -- sit
+124 - 2555220--Derek Watt -- sit
+125 - 2555223--Devontae Booker -- sit
+126 - 2555224--Ezekiel Elliott --  ** START **
+127 - 2555227--Jonathan Williams -- sit
+128 - 2555229--Kenneth Dixon -- sit
+129 - 2555230--Kenyan Drake -- sit
+130 - 2555234--Tyler Ervin -- sit
+131 - 2555417--C.J. Prosise -- sit
+132 - 2555418--Jordan Howard -- sit
+133 - 2555430--Alex Collins -- sit
+134 - 2555432--Andy Janovich -- sit
+135 - 2555460--Paul Perkins -- sit
+136 - 2555461--Wendell Smallwood -- sit
+137 - 2555464--DeAndre Washington -- sit
+138 - 2556075--Derrick Henry --  ** START **
+139 - 2556118--Dwayne Washington -- sit
+140 - 2556411--Josh Ferguson -- sit
+141 - 2556414--Rob Kelley -- sit
+142 - 2556466--Peyton Barber -- sit
+143 - 2556508--Alan Cross -- sit
+144 - 2556528--D.J. Foster -- sit
+145 - 2556563--Don Jackson -- sit
+146 - 2556801--Kenneth Farrow -- sit
+147 - 2556885--Jalen Richard -- sit
+148 - 2557531--Troymaine Pope -- sit
